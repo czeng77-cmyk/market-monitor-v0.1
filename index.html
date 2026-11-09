@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>S&amp;P 500 Daily Market Monitor</title>
+<style>
+:root{
+  --bg:#f4f6f9;--card:#ffffff;--text:#1b2330;--muted:#667085;--line:#e3e8ef;--accent:#2563eb;
+  --up:46,157,91;--down:214,69,69;--chip:#eef2f7;--shadow:0 1px 3px rgba(16,24,40,.08);
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0f1420;--card:#171e2d;--text:#e7ecf4;--muted:#93a0b5;--line:#2a3448;--accent:#6ea0ff;--chip:#222c40;--shadow:none}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 "Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding:18px 24px 8px}
+h1{margin:0;font-size:22px}
+.sub{color:var(--muted);font-size:13px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+select,input[type=search],input[type=text],button{font:inherit;color:var(--text);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+button{cursor:pointer}
+button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+nav{display:flex;gap:6px;padding:4px 24px 12px}
+main{padding:0 24px 40px;max-width:1400px;margin:auto}
+.grid{display:grid;gap:16px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.two{grid-template-columns:repeat(auto-fit,minmax(380px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);min-width:0}
+.card h2{margin:0 0 10px;font-size:15px}
+.kpi .label{color:var(--muted);font-size:12px}
+.kpi .val{font-size:24px;font-weight:650;margin-top:2px}
+.up{color:rgb(var(--up))}.down{color:rgb(var(--down))}
+section{margin-top:16px}
+table{width:100%;border-collapse:collapse}
+th,td{padding:6px 8px;text-align:start;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-size:12px;color:var(--muted);font-weight:600}
+td.n,th.n{text-align:end;font-variant-numeric:tabular-nums}
+th.sortable{cursor:pointer;user-select:none}
+.tablewrap{overflow:auto;max-height:640px}
+#tree{position:relative;height:380px;border-radius:8px;overflow:hidden}
+.tile{position:absolute;border:2px solid var(--card);padding:6px 8px;overflow:hidden;cursor:pointer;border-radius:6px}
+.tile b{display:block;font-size:12px}
+.tile span{font-size:12px}
+.tile.sel{outline:3px solid var(--accent);outline-offset:-3px}
+.segs{display:flex;gap:4px;margin-bottom:10px}
+.barrow{display:grid;grid-template-columns:190px 1fr 64px;gap:8px;align-items:center;padding:3px 0;cursor:pointer}
+.barrow .name{font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.barrow.sel .name{font-weight:700;color:var(--accent)}
+.track{position:relative;height:14px}
+.track i{position:absolute;top:0;bottom:0;border-radius:3px}
+.track:before{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--line)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:8px}
+.legend label{display:flex;gap:5px;align-items:center;font-size:12px;cursor:pointer}
+.legend i{width:10px;height:10px;border-radius:2px;display:inline-block}
+#tip{position:fixed;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.2);display:none;z-index:5;max-width:240px}
+.msg{color:var(--muted);padding:24px;text-align:center}
+.hidden{display:none}
+svg text{fill:var(--muted);font-size:11px}
+@media (max-width:640px){.barrow{grid-template-columns:110px 1fr 56px}.two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>S&amp;P 500 Market Monitor</h1>
+    <div class="sub" id="asof">Loading…</div>
+  </div>
+  <div class="controls">
+    <label class="sub">Sector <select id="sector"></select></label>
+    <label class="sub">Colours <select id="conv"><option value="gu">Green up / Red down</option><option value="ru">Red up / Green down</option></select></label>
+  </div>
+</header>
+<nav id="tabs">
+  <button data-tab="overview" class="on">Overview</button>
+  <button data-tab="trends">Trends</button>
+  <button data-tab="detail">All stocks</button>
+</nav>
+<main>
+  <div id="error" class="card msg hidden"></div>
+
+  <div id="tab-overview">
+    <div class="grid kpis" id="kpis"></div>
+    <section class="grid two">
+      <div class="card"><h2>Top 10 gainers (1 day)</h2><div class="tablewrap"><table id="gainers"></table></div></div>
+      <div class="card"><h2>Top 10 losers (1 day)</h2><div class="tablewrap"><table id="losers"></table></div></div>
+    </section>
+    <section class="grid two">
+      <div class="card"><h2>Sector heatmap <span class="sub">size = market cap, colour = average 1-day change · click to filter</span></h2><div id="tree"></div></div>
+      <div class="card"><h2>Sector performance</h2>
+        <div class="segs" id="metricSegs">
+          <button data-m="chg_1d" class="on">1 day</button><button data-m="chg_3m">3 months</button><button data-m="chg_ytd">Year to date</button>
+        </div>
+        <div id="bars"></div>
+      </div>
+    </section>
+  </div>
+
+  <div id="tab-trends" class="hidden">
+    <section class="card">
+      <h2>Sector trend</h2>
+      <div class="segs" id="trendSegs">
+        <button data-t="cum" class="on">Cumulative (start = 100)</button><button data-t="daily">Average daily change</button>
+      </div>
+      <div id="sectorChart"></div>
+      <div class="legend" id="sectorLegend"></div>
+    </section>
+    <section class="card">
+      <h2>Single stock price</h2>
+      <input type="text" id="tick" list="ticklist" placeholder="Type a ticker, e.g. AAPL" value="AAPL">
+      <datalist id="ticklist"></datalist>
+      <div id="stockChart"></div>
+    </section>
+  </div>
+
+  <div id="tab-detail" class="hidden">
+    <section class="card">
+      <div class="controls" style="margin-bottom:10px">
+        <input type="search" id="q" placeholder="Search ticker, company or industry">
+        <label class="sub"><input type="checkbox" id="bigOnly"> Big movers only</label>
+        <span class="sub" id="count"></span>
+      </div>
+      <div class="tablewrap"><table id="detail"></table></div>
+    </section>
+  </div>
+</main>
+<div id="tip"></div>
+
+<script>
+(function(){
+"use strict";
+const S={latest:[],hist:[],sector:"",metric:"chg_1d",trend:"cum",tab:"overview",sort:{k:"chg_1d",dir:-1}};
+const $=s=>document.querySelector(s);
+const PALETTE=["#2563eb","#e11d48","#059669","#d97706","#7c3aed","#0891b2","#db2777","#65a30d","#ea580c","#475569","#0d9488"];
+
+/* ---------- helpers ---------- */
+function parseCSV(text){
+  const rows=[];let row=[],f="",q=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(q){ if(c==='"'){ if(text[i+1]==='"'){f+='"';i++;} else q=false; } else f+=c; }
+    else if(c==='"') q=true;
+    else if(c===","){row.push(f);f="";}
+    else if(c==="\n"){row.push(f);rows.push(row);row=[];f="";}
+    else if(c!=="\r") f+=c;
+  }
+  if(f!==""||row.length){row.push(f);rows.push(row);}
+  const head=rows.shift();
+  return rows.filter(r=>r.length>1).map(r=>{const o={};head.forEach((h,i)=>o[h.trim()]=r[i]);return o;});
+}
+const NUM=["market_cap_bn","price","chg_1d","chg_3m","chg_ytd","volume"];
+function clean(r){
+  NUM.forEach(k=>{const v=r[k];r[k]=(v===undefined||v===""||v==="nan")?null:parseFloat(v);});
+  r.is_big_move=String(r.is_big_move).toLowerCase()==="true";
+  return r;
+}
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pct=v=>v==null?"–":(v>0?"+":"")+(v*100).toFixed(2)+"%";
+const num=(v,d=2)=>v==null?"–":v.toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d});
+const cls=v=>v==null?"":v>0?"up":v<0?"down":"";
+function tint(v,range){
+  if(v==null)return "transparent";
+  const t=Math.max(-1,Math.min(1,v/range)),c=t>=0?"var(--up)":"var(--down)";
+  return `rgba(${c},${(0.12+0.68*Math.abs(t)).toFixed(2)})`;
+}
+const avg=a=>{a=a.filter(x=>x!=null);return a.length?a.reduce((s,x)=>s+x,0)/a.length:null;};
+const filtered=()=>S.sector?S.latest.filter(r=>r.sector===S.sector):S.latest;
+function sectors(){return [...new Set(S.latest.map(r=>r.sector).filter(Boolean))].sort();}
+function sectorStats(){
+  return sectors().map(s=>{
+    const rs=S.latest.filter(r=>r.sector===s);
+    return {sector:s,n:rs.length,cap:rs.reduce((a,r)=>a+(r.market_cap_bn||0),0),
+      chg_1d:avg(rs.map(r=>r.chg_1d)),chg_3m:avg(rs.map(r=>r.chg_3m)),chg_ytd:avg(rs.map(r=>r.chg_ytd))};
+  });
+}
+
+/* ---------- overview ---------- */
+function renderKpis(){
+  const rs=filtered(),a=avg(rs.map(r=>r.chg_1d));
+  const adv=rs.filter(r=>r.chg_1d>0).length,dec=rs.filter(r=>r.chg_1d<0).length,big=rs.filter(r=>r.is_big_move).length;
+  const items=[["Stocks",rs.length,""],["Average 1-day change",pct(a),cls(a)],["Advancers",adv,"up"],["Decliners",dec,"down"],["Big movers",big,""]];
+  $("#kpis").innerHTML=items.map(i=>`<div class="card kpi"><div class="label">${i[0]}</div><div class="val ${i[2]}">${i[1]}</div></div>`).join("");
+}
+function moverTable(el,rows){
+  el.innerHTML="<tr><th>Ticker</th><th>Company</th><th class='n'>Price</th><th class='n'>1D</th></tr>"+
+    rows.map(r=>`<tr><td><b>${esc(r.ticker)}</b></td><td title="${esc(r.sector)}">${esc((r.company||"").slice(0,32))}</td><td class="n">${num(r.price)}</td><td class="n ${cls(r.chg_1d)}" style="background:${tint(r.chg_1d,.08)}">${pct(r.chg_1d)}</td></tr>`).join("");
+}
+function renderMovers(){
+  const rs=filtered().filter(r=>r.chg_1d!=null).slice().sort((a,b)=>b.chg_1d-a.chg_1d);
+  moverTable($("#gainers"),rs.slice(0,10));
+  moverTable($("#losers"),rs.slice(-10).reverse());
+}
+function layout(items,x,y,w,h){
+  const total=items.reduce((s,i)=>s+i.v,0),out=[];
+  let rest=items.map(i=>Object.assign({},i,{a:i.v/total*w*h}));
+  while(rest.length){
+    const side=Math.min(w,h);let row=[rest[0]],i=1;
+    const worst=r=>{const s=r.reduce((a,b)=>a+b.a,0),mx=Math.max(...r.map(b=>b.a)),mn=Math.min(...r.map(b=>b.a));return Math.max(side*side*mx/(s*s),s*s/(side*side*mn));};
+    while(i<rest.length&&worst(row.concat(rest[i]))<=worst(row)){row.push(rest[i]);i++;}
+    const s=row.reduce((a,b)=>a+b.a,0);
+    if(w>=h){const rw=s/h;let cy=y;row.forEach(r=>{const rh=r.a/rw;out.push(Object.assign({},r,{x:x,y:cy,w:rw,h:rh}));cy+=rh;});x+=rw;w-=rw;}
+    else{const rh=s/w;let cx=x;row.forEach(r=>{const rw=r.a/rh;out.push(Object.assign({},r,{x:cx,y:y,w:rw,h:rh}));cx+=rw;});y+=rh;h-=rh;}
+    rest=rest.slice(row.length);
+  }
+  return out;
+}
+function renderTree(){
+  const el=$("#tree"),W=el.clientWidth||600,H=el.clientHeight;
+  const items=sectorStats().filter(s=>s.cap>0).sort((a,b)=>b.cap-a.cap).map(s=>Object.assign({v:s.cap},s));
+  if(!items.length){el.innerHTML="<div class='msg'>No market-cap data</div>";return;}
+  el.innerHTML=layout(items,0,0,W,H).map(t=>
+    `<div class="tile${S.sector===t.sector?" sel":""}" data-sector="${esc(t.sector)}" style="left:${t.x}px;top:${t.y}px;width:${t.w}px;height:${t.h}px;background:${tint(t.chg_1d,.02)}">
+      <b>${esc(t.sector)}</b><span class="${cls(t.chg_1d)}">${pct(t.chg_1d)}</span></div>`).join("");
+}
+function renderBars(){
+  const m=S.metric,st=sectorStats().filter(s=>s[m]!=null).sort((a,b)=>b[m]-a[m]);
+  const mx=Math.max(0.0001,...st.map(s=>Math.abs(s[m])));
+  $("#bars").innerHTML=st.map(s=>{
+    const w=Math.abs(s[m])/mx*50,left=s[m]>=0?50:50-w,col=s[m]>=0?"var(--up)":"var(--down)";
+    return `<div class="barrow${S.sector===s.sector?" sel":""}" data-sector="${esc(s.sector)}"><div class="name" title="${esc(s.sector)}">${esc(s.sector)}</div>
+      <div class="track"><i style="left:${left}%;width:${w}%;background:rgb(${col})"></i></div><div class="n ${cls(s[m])}" style="text-align:end">${pct(s[m])}</div></div>`;
+  }).join("");
+}
+
+/* ---------- trends ---------- */
+function lineChart(el,series,opts){
+  const dates=[...new Set(series.flatMap(s=>s.points.map(p=>p.x)))].sort();
+  if(dates.length<2){el.innerHTML=`<div class="msg">History builds up one day at a time. ${dates.length} day${dates.length===1?"":"s"} stored so far – this chart appears once there are at least 2.</div>`;return;}
+  const W=900,H=300,L=56,R=12,T=10,B=26;
+  const ys=series.flatMap(s=>s.points.map(p=>p.y)).filter(v=>v!=null);
+  let lo=Math.min(...ys),hi=Math.max(...ys);if(lo===hi){lo-=1;hi+=1;}const pad=(hi-lo)*.08;lo-=pad;hi+=pad;
+  const X=i=>L+(W-L-R)*i/(dates.length-1),Y=v=>T+(H-T-B)*(1-(v-lo)/(hi-lo));
+  let g="";
+  for(let i=0;i<=4;i++){const v=lo+(hi-lo)*i/4;g+=`<line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)"/><text x="${L-6}" y="${Y(v)+4}" text-anchor="end">${opts.fmt(v)}</text>`;}
+  const step=Math.max(1,Math.ceil(dates.length/8));
+  dates.forEach((d,i)=>{if(i%step===0||i===dates.length-1)g+=`<text x="${X(i)}" y="${H-6}" text-anchor="middle">${d.slice(5)}</text>`;});
+  const idx=new Map(dates.map((d,i)=>[d,i]));
+  series.forEach(s=>{
+    const pts=s.points.filter(p=>p.y!=null).map(p=>`${X(idx.get(p.x)).toFixed(1)},${Y(p.y).toFixed(1)}`).join(" ");
+    g+=`<polyline points="${pts}" fill="none" stroke="${s.color}" stroke-width="2" stroke-linejoin="round"/>`;
+  });
+  el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="display:block">${g}<line id="vl" y1="${T}" y2="${H-B}" stroke="var(--muted)" stroke-dasharray="3 3" style="display:none"/></svg>`;
+  const svg=el.querySelector("svg"),vl=svg.querySelector("#vl"),tip=$("#tip");
+  svg.addEventListener("mousemove",e=>{
+    const r=svg.getBoundingClientRect(),px=(e.clientX-r.left)/r.width*W;
+    const i=Math.max(0,Math.min(dates.length-1,Math.round((px-L)/(W-L-R)*(dates.length-1))));
+    vl.setAttribute("x1",X(i));vl.setAttribute("x2",X(i));vl.style.display="";
+    const rows=series.map(s=>{const p=s.points.find(p=>p.x===dates[i]);return p&&p.y!=null?[s.name,p.y,s.color]:null;}).filter(Boolean).sort((a,b)=>b[1]-a[1]);
+    tip.innerHTML=`<b>${dates[i]}</b><br>`+rows.map(r=>`<span style="color:${r[2]}">●</span> ${esc(r[0])}: ${opts.fmt(r[1])}`).join("<br>");
+    tip.style.display="block";tip.style.left=Math.min(e.clientX+14,window.innerWidth-250)+"px";tip.style.top=(e.clientY+14)+"px";
+  });
+  svg.addEventListener("mouseleave",()=>{tip.style.display="none";vl.style.display="none";});
+}
+const hidden=new Set();
+function renderTrends(){
+  const all=sectors(),byKey=new Map();
+  S.hist.forEach(r=>{if(r.chg_1d==null)return;const k=r.sector+"|"+r.date;if(!byKey.has(k))byKey.set(k,[]);byKey.get(k).push(r.chg_1d);});
+  const dates=[...new Set(S.hist.map(r=>r.date))].sort();
+  const show=S.sector?[S.sector]:all.filter(s=>!hidden.has(s));
+  const series=all.map((s,i)=>{
+    let idx=100,pts=dates.map(d=>{const a=avg(byKey.get(s+"|"+d)||[]);
+      if(S.trend==="cum"){if(a!=null)idx*=1+a;return {x:d,y:a==null?null:idx};}
+      return {x:d,y:a};});
+    if(S.trend==="cum"&&pts.length)pts=[{x:pts[0].x,y:pts[0].y}].concat(pts.slice(1)); /* first day = start */
+    return {name:s,color:PALETTE[i%PALETTE.length],points:pts};
+  }).filter(s=>show.includes(s.name));
+  lineChart($("#sectorChart"),series,{fmt:v=>S.trend==="cum"?v.toFixed(1):pct(v)});
+  $("#sectorLegend").innerHTML=all.map((s,i)=>`<label><input type="checkbox" data-sec="${esc(s)}" ${hidden.has(s)?"":"checked"}><i style="background:${PALETTE[i%PALETTE.length]}"></i>${esc(s)}</label>`).join("");
+  renderStock();
+}
+function renderStock(){
+  const t=$("#tick").value.trim().toUpperCase();
+  const pts=S.hist.filter(r=>r.ticker===t&&r.price!=null).sort((a,b)=>a.date<b.date?-1:1).map(r=>({x:r.date,y:r.price}));
+  if(!pts.length){$("#stockChart").innerHTML=`<div class="msg">No history for “${esc(t)}”.</div>`;return;}
+  lineChart($("#stockChart"),[{name:t,color:PALETTE[0],points:pts}],{fmt:v=>num(v)});
+}
+
+/* ---------- detail table ---------- */
+const COLS=[["ticker","Ticker"],["company","Company"],["sector","Sector"],["industry","Industry"],["market_cap_bn","Mkt cap ($B)","n"],["price","Price","n"],["chg_1d","1D","n",.05],["chg_3m","3M","n",.3],["chg_ytd","YTD","n",.6]];
+function renderDetail(){
+  const q=$("#q").value.trim().toLowerCase(),big=$("#bigOnly").checked;
+  let rs=filtered().filter(r=>(!q||[r.ticker,r.company,r.industry].join(" ").toLowerCase().includes(q))&&(!big||r.is_big_move));
+  const k=S.sort.k,d=S.sort.dir;
+  rs=rs.slice().sort((a,b)=>{const x=a[k],y=b[k];if(x==null)return 1;if(y==null)return -1;return (x>y?1:x<y?-1:0)*d;});
+  $("#count").textContent=rs.length+" stocks";
+  $("#detail").innerHTML="<tr>"+COLS.map(c=>`<th class="sortable ${c[2]||""}" data-k="${c[0]}">${c[1]}${S.sort.k===c[0]?(S.sort.dir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr>"+
+    rs.map(r=>"<tr>"+COLS.map(c=>{
+      const v=r[c[0]];
+      if(c[3])return `<td class="n ${cls(v)}" style="background:${tint(v,c[3])}">${pct(v)}</td>`;
+      if(c[0]==="market_cap_bn")return `<td class="n">${num(v,1)}</td>`;
+      if(c[0]==="price")return `<td class="n">${num(v)}</td>`;
+      return `<td>${esc(v)}</td>`;}).join("")+"</tr>").join("");
+}
+
+/* ---------- wiring ---------- */
+function renderAll(){
+  renderKpis();renderMovers();renderTree();renderBars();renderDetail();
+  if(S.tab==="trends")renderTrends();
+}
+function setSectorOptions(){
+  $("#sector").innerHTML='<option value="">All sectors</option>'+sectors().map(s=>`<option ${s===S.sector?"selected":""}>${esc(s)}</option>`).join("");
+}
+function pickSector(s){S.sector=(S.sector===s)?"":s;setSectorOptions();renderAll();}
+document.addEventListener("click",e=>{
+  const t=e.target.closest("[data-sector]");if(t&&(t.classList.contains("tile")||t.classList.contains("barrow")))pickSector(t.dataset.sector);
+  const tab=e.target.closest("#tabs button");
+  if(tab){S.tab=tab.dataset.tab;document.querySelectorAll("#tabs button").forEach(b=>b.classList.toggle("on",b===tab));
+    ["overview","trends","detail"].forEach(n=>$("#tab-"+n).classList.toggle("hidden",n!==S.tab));
+    if(S.tab==="overview"){renderTree();}if(S.tab==="trends")renderTrends();}
+  const ms=e.target.closest("#metricSegs button");
+  if(ms){S.metric=ms.dataset.m;document.querySelectorAll("#metricSegs button").forEach(b=>b.classList.toggle("on",b===ms));renderBars();}
+  const ts=e.target.closest("#trendSegs button");
+  if(ts){S.trend=ts.dataset.t;document.querySelectorAll("#trendSegs button").forEach(b=>b.classList.toggle("on",b===ts));renderTrends();}
+  const th=e.target.closest("th.sortable");
+  if(th){const k=th.dataset.k;S.sort=S.sort.k===k?{k:k,dir:-S.sort.dir}:{k:k,dir:(k==="ticker"||k==="company"||k==="sector"||k==="industry")?1:-1};renderDetail();}
+});
+document.addEventListener("change",e=>{
+  if(e.target.id==="sector"){S.sector=e.target.value;renderAll();}
+  if(e.target.id==="conv"){document.documentElement.style.setProperty("--up",e.target.value==="gu"?"46,157,91":"214,69,69");document.documentElement.style.setProperty("--down",e.target.value==="gu"?"214,69,69":"46,157,91");try{localStorage.setItem("conv",e.target.value);}catch(_){}}
+  if(e.target.dataset&&e.target.dataset.sec){if(e.target.checked)hidden.delete(e.target.dataset.sec);else hidden.add(e.target.dataset.sec);renderTrends();}
+  if(e.target.id==="bigOnly")renderDetail();
+  if(e.target.id==="tick")renderStock();
+});
+document.addEventListener("input",e=>{if(e.target.id==="q")renderDetail();if(e.target.id==="tick")renderStock();});
+window.addEventListener("resize",()=>{if(S.tab==="overview")renderTree();});
+
+function fail(msg){const e=$("#error");e.textContent=msg;e.classList.remove("hidden");$("#asof").textContent="Data unavailable";}
+async function load(){
+  try{
+    const [a,b]=await Promise.all([fetch("data/latest.csv",{cache:"no-store"}),fetch("data/history.csv",{cache:"no-store"})]);
+    if(!a.ok)throw new Error("latest.csv not found ("+a.status+")");
+    S.latest=parseCSV(await a.text()).map(clean);
+    S.hist=b.ok?parseCSV(await b.text()).map(clean):S.latest.slice();
+  }catch(err){fail("Could not load data. Run the “Daily stock update” workflow once, then reload. ("+err.message+")");return;}
+  const d=S.latest.reduce((m,r)=>r.date>m?r.date:m,"");
+  const u=S.latest[0]&&S.latest[0].updated_utc;
+  $("#asof").textContent="Market data as of "+d+(u?" · refreshed "+u+" UTC":"")+" · "+S.latest.length+" stocks";
+  $("#ticklist").innerHTML=S.latest.map(r=>`<option value="${esc(r.ticker)}">`).join("");
+  try{const c=localStorage.getItem("conv");if(c){$("#conv").value=c;$("#conv").dispatchEvent(new Event("change",{bubbles:true}));}}catch(_){}
+  setSectorOptions();renderAll();
+}
+load();
+})();
+</script>
+</body>
+</html>
