@@ -1,8 +1,8 @@
 {
   "tickers_file": "tickers.csv",
   "output_latest": "data/latest.csv",
-  "output_history": "data/history.csv",
-  "lookback_days": 130,
+  "output_prices": "data/prices.csv",
   "big_move_threshold": 0.05,
-  "history_keep_days": 730
+  "history_keep_days": 1460,
+  "refresh_recent_days": 10
 }
