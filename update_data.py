@@ -1,7 +1,7 @@
-"""Daily S&P 500 data update (hardened version).
+"""Daily S&P 500 data update.
 Reads tickers.csv, downloads prices from Yahoo Finance in small batches with retries,
 and writes data/latest.csv (today's snapshot) and data/history.csv (appended daily).
-Settings live in config.json.
+Changes calculated: 1D, 5D, 1M, 3M and year-to-date. Settings live in config.json.
 """
 import json, os, sys, time
 from datetime import datetime, timezone
@@ -30,6 +30,10 @@ def download_batch(batch):
 def pct(now, then):
     return None if then is None or pd.isna(then) or then == 0 or pd.isna(now) else float(now / then - 1)
 
+def base_before(close, cutoff):
+    s = close[close.index <= cutoff]
+    return s.iloc[-1] if len(s) else None
+
 year_start = pd.Timestamp(datetime.now().year, 1, 1)
 rows, failed = [], []
 for i in range(0, len(tickers), BATCH):
@@ -46,14 +50,15 @@ for i in range(0, len(tickers), BATCH):
             if len(close) < 2:
                 raise ValueError("not enough price data")
             last_date, price = close.index[-1], close.iloc[-1]
-            three_m = close[close.index <= last_date - pd.DateOffset(months=3)]
             ytd_base = close[close.index < year_start]
             vol = data["Volume"].dropna()
             rows.append({
                 "date": last_date.date().isoformat(), "ticker": t,
                 "price": round(float(price), 4),
                 "chg_1d": pct(price, close.iloc[-2]),
-                "chg_3m": pct(price, three_m.iloc[-1]) if len(three_m) else None,
+                "chg_5d": pct(price, close.iloc[-6]) if len(close) >= 6 else None,
+                "chg_1m": pct(price, base_before(close, last_date - pd.DateOffset(months=1))),
+                "chg_3m": pct(price, base_before(close, last_date - pd.DateOffset(months=3))),
                 "chg_ytd": pct(price, ytd_base.iloc[-1]) if len(ytd_base) else None,
                 "volume": int(vol.iloc[-1]) if len(vol) else None,
             })
@@ -69,7 +74,7 @@ df = pd.DataFrame(rows).merge(meta, on="ticker", how="left")
 df["is_big_move"] = df["chg_1d"].abs() >= cfg["big_move_threshold"]
 df["updated_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
 cols = ["date", "ticker", "company", "sector", "industry", "market_cap_bn", "price",
-        "chg_1d", "chg_3m", "chg_ytd", "volume", "is_big_move", "updated_utc"]
+        "chg_1d", "chg_5d", "chg_1m", "chg_3m", "chg_ytd", "volume", "is_big_move", "updated_utc"]
 df = df[cols]
 df.to_csv(cfg["output_latest"], index=False)
 
