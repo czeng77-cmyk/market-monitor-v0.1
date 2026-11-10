@@ -401,9 +401,36 @@ document.addEventListener("change",e=>{
 document.addEventListener("input",e=>{if(e.target.id==="q")renderDetail();if(e.target.id==="tick")renderStock();});
 window.addEventListener("resize",()=>{if(S.tab==="overview")renderTree();});
 
+/* prices.csv holds only prices; daily % changes are calculated here from consecutive days */
+function buildHistory(rows){
+  const info=new Map(S.latest.map(r=>[r.ticker,r]));
+  rows.sort((a,b)=>a.ticker<b.ticker?-1:a.ticker>b.ticker?1:a.date<b.date?-1:a.date>b.date?1:0);
+  let prev=null;
+  rows.forEach(r=>{
+    const i=info.get(r.ticker)||{};r.sector=i.sector||"";r.company=i.company||"";
+    r.chg_1d=(prev&&prev.ticker===r.ticker&&prev.price)?r.price/prev.price-1:null;
+    prev=r;
+  });
+  return rows;
+}
 function fail(msg){const e=$("#error");e.textContent=msg;e.classList.remove("hidden");$("#asof").textContent="Data unavailable";}
 async function load(){
   try{
-    const [a,b,c]=await Promise.all([fetch("data/latest.csv",{cache:"no-store"}),fetch("data/history.csv",{cache:"no-store"}),fetch("data/news.json",{cache:"no-store"}).catch(()=>null)]);
+    const [a,b,c]=await Promise.all([fetch("data/latest.csv",{cache:"no-store"}),fetch("data/prices.csv",{cache:"no-store"}),fetch("data/news.json",{cache:"no-store"}).catch(()=>null)]);
     if(c&&c.ok){try{S.news=await c.json();}catch(_){}}
-    if(!a.ok)throw new Error("latest.csv not fo
+    if(!a.ok)throw new Error("latest.csv not found ("+a.status+")");
+    S.latest=parseCSV(await a.text()).map(clean);
+    S.hist=b.ok?buildHistory(parseCSV(await b.text()).map(clean)):S.latest.slice();
+  }catch(err){fail("Could not load data. Run the “Daily stock update” workflow once, then reload. ("+err.message+")");return;}
+  const d=S.latest.reduce((m,r)=>r.date>m?r.date:m,"");
+  const u=S.latest[0]&&S.latest[0].updated_utc;
+  $("#asof").textContent="Market data as of "+d+(u?" · refreshed "+u+" UTC":"")+" · "+S.latest.length+" stocks";
+  $("#ticklist").innerHTML=S.latest.map(r=>`<option value="${esc(r.ticker)}">`).join("");
+  try{const c=localStorage.getItem("conv");if(c){$("#conv").value=c;applyConv(c);}}catch(_){}
+  setSectorOptions();renderAll();
+}
+load();
+})();
+</script>
+</body>
+</html>
