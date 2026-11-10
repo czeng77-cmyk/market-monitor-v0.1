@@ -70,6 +70,13 @@ td.heat{font-weight:600}
 .msg{color:var(--muted);padding:24px;text-align:center}
 .hidden{display:none}
 svg text{fill:var(--muted);font-size:11px}
+#detail{table-layout:fixed;width:100%;font-size:12.5px}
+#detail th,#detail td{white-space:normal;word-break:break-word;padding:5px 6px;vertical-align:middle;line-height:1.25}
+#detail td.n,#detail th.n{white-space:nowrap}
+#detail th{vertical-align:bottom}
+#tab-detail .tablewrap{overflow-x:hidden;max-height:none}
+#tab-detail .card{padding:12px}
+@media (max-width:900px){#detail{font-size:11px}#detail th,#detail td{padding:4px 3px}.hide-sm{display:none}}
 @media (max-width:640px){.barrow{grid-template-columns:110px 1fr 56px}.two{grid-template-columns:1fr}}
 </style>
 </head>
@@ -308,20 +315,21 @@ function renderStock(){
 }
 
 /* ---------- detail table ---------- */
-const COLS=[["ticker","Ticker"],["company","Company"],["sector","Sector"],["industry","Industry"],["market_cap_bn","Mkt cap ($B)","n"],["price","Price","n"],["chg_1d","1D","n",.05],["chg_5d","5D","n",.10],["chg_1m","1M","n",.15],["chg_3m","3M","n",.3],["chg_ytd","YTD","n",.6]];
+/* [field, title, align, heat range, width %, extra class] - widths add up to 100 so the table always fits the page */
+const COLS=[["ticker","Ticker",,,6],["company","Company",,,17],["sector","Sector",,,12],["industry","Industry",,,15,"hide-sm"],["market_cap_bn","Mkt cap $B","n",,7],["price","Price","n",,7],["chg_1d","1D","n",.05,6],["chg_5d","5D","n",.10,6],["chg_1m","1M","n",.15,6],["chg_3m","3M","n",.3,6],["chg_ytd","YTD","n",.6,6]];
 function renderDetail(){
   const q=$("#q").value.trim().toLowerCase(),big=$("#bigOnly").checked;
   let rs=filtered().filter(r=>(!q||[r.ticker,r.company,r.industry].join(" ").toLowerCase().includes(q))&&(!big||r.is_big_move));
   const k=S.sort.k,d=S.sort.dir;
   rs=rs.slice().sort((a,b)=>{const x=a[k],y=b[k];if(x==null)return 1;if(y==null)return -1;return (x>y?1:x<y?-1:0)*d;});
   $("#count").textContent=rs.length+" stocks";
-  $("#detail").innerHTML="<tr>"+COLS.map(c=>`<th class="sortable ${c[2]||""}" data-k="${c[0]}">${c[1]}${S.sort.k===c[0]?(S.sort.dir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr>"+
+  $("#detail").innerHTML="<colgroup>"+COLS.map(c=>`<col style="width:${c[4]}%" class="${c[5]||""}">`).join("")+"</colgroup><tr>"+COLS.map(c=>`<th class="sortable ${c[2]||""} ${c[5]||""}" data-k="${c[0]}">${c[1]}${S.sort.k===c[0]?(S.sort.dir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr>"+
     rs.map(r=>"<tr>"+COLS.map(c=>{
       const v=r[c[0]];
       if(c[3])return `<td class="n heat" style="${hs(v,c[3])}">${pct(v)}</td>`;
       if(c[0]==="market_cap_bn")return `<td class="n">${num(v,1)}</td>`;
       if(c[0]==="price")return `<td class="n">${num(v)}</td>`;
-      return `<td>${esc(v)}</td>`;}).join("")+"</tr>").join("");
+      return `<td class="${c[5]||""}">${esc(v)}</td>`;}).join("")+"</tr>").join("");
 }
 
 function applyConv(v){
@@ -398,19 +406,4 @@ async function load(){
   try{
     const [a,b,c]=await Promise.all([fetch("data/latest.csv",{cache:"no-store"}),fetch("data/history.csv",{cache:"no-store"}),fetch("data/news.json",{cache:"no-store"}).catch(()=>null)]);
     if(c&&c.ok){try{S.news=await c.json();}catch(_){}}
-    if(!a.ok)throw new Error("latest.csv not found ("+a.status+")");
-    S.latest=parseCSV(await a.text()).map(clean);
-    S.hist=b.ok?parseCSV(await b.text()).map(clean):S.latest.slice();
-  }catch(err){fail("Could not load data. Run the “Daily stock update” workflow once, then reload. ("+err.message+")");return;}
-  const d=S.latest.reduce((m,r)=>r.date>m?r.date:m,"");
-  const u=S.latest[0]&&S.latest[0].updated_utc;
-  $("#asof").textContent="Market data as of "+d+(u?" · refreshed "+u+" UTC":"")+" · "+S.latest.length+" stocks";
-  $("#ticklist").innerHTML=S.latest.map(r=>`<option value="${esc(r.ticker)}">`).join("");
-  try{const c=localStorage.getItem("conv");if(c){$("#conv").value=c;applyConv(c);}}catch(_){}
-  setSectorOptions();renderAll();
-}
-load();
-})();
-</script>
-</body>
-</html>
+    if(!a.ok)throw new Error("latest.csv not fo
