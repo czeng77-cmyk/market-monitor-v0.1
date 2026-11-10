@@ -1,0 +1,728 @@
+{
+ "generated_utc": "2026-11-10 06:21",
+ "data_date": "2026-11-09",
+ "items": [
+  {
+   "ticker": "COHR",
+   "company": "Coherent Corp.",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "chg_1d": 0.16793737509888418,
+   "price": 225.19,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Coherent Corp. (COHR) is Surging This Much \u2014 Here\u2019s Why",
+     "publisher": "Insider Monkey",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-corp-cohr-surging-much-032916398.html",
+     "time": "2026-11-10 03:29 UTC"
+    },
+    {
+     "title": "Stock Market Today: Dow Jumps, These Stocks Test Entries; Warren Buffett Play Clears Buy Zone",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-stock-nvda-jensen-huang-probe/?src=A00220&yptr=yahoo",
+     "time": "2026-11-09 21:41 UTC"
+    },
+    {
+     "title": "Nvidia, AMD, CoreWeave, Coherent, First Solar, Trade Desk, and More Stocks That Explain Today\u2019s Market",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/stock-movers-d80c8da0?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-09 21:25 UTC"
+    },
+    {
+     "title": "US Equity Markets End Higher as Oil Drops; Industrials, Consumer Discretionary Lead Gains",
+     "publisher": "MT Newswires",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-higher-211754273.html",
+     "time": "2026-11-09 21:17 UTC"
+    }
+   ],
+   "earnings": "2027-02-03"
+  },
+  {
+   "ticker": "MPWR",
+   "company": "Monolithic Power Systems, Inc.",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "chg_1d": 0.16599754472992645,
+   "price": 1388.05,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Monolithic Power Systems and Photronics shares skyrocket, what you need to know",
+     "publisher": "StockStory",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/monolithic-power-systems-photronics-shares-030936110.html",
+     "time": "2026-11-10 03:09 UTC"
+    },
+    {
+     "title": "Stock Market Today: Dow Jumps, These Stocks Test Entries; Warren Buffett Play Clears Buy Zone",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-stock-nvda-jensen-huang-probe/?src=A00220&yptr=yahoo",
+     "time": "2026-11-09 21:41 UTC"
+    },
+    {
+     "title": "This AI-Adjacent Company Doesn\u2019t See Much Delay or Pause in Data-Center Projects",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/ferguson-enterprises-earnings-stock-price-87840ac8?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-09 17:28 UTC"
+    }
+   ],
+   "earnings": "2026-10-29"
+  },
+  {
+   "ticker": "AMD",
+   "company": "Advanced Micro Devices",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "chg_1d": 0.13259392680905702,
+   "price": 508.58,
+   "tags": [
+    "Earnings",
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "AMD Stock Clocks Best Day In 6 Months \u2014  But Michael Burry Won\u2019t Touch The Nvidia Headline Trade",
+     "publisher": "Stocktwits",
+     "url": "https://stocktwits.com/news-articles/markets/equity/amd-stock-michael-burry-wont-touch-nvidia-headline-trade/cNGu40nR97l",
+     "time": "2026-11-10 05:59 UTC"
+    },
+    {
+     "title": "3 Growth Stocks To Watch With Up To 58% Earnings Growth",
+     "publisher": "Simply Wall St.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-watch-58-052025265.html",
+     "time": "2026-11-10 05:20 UTC"
+    },
+    {
+     "title": "Amtech, Intel, Applied Materials, AMD, and KLA Corporation shares are soaring, what you need to know",
+     "publisher": "StockStory",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/amtech-intel-applied-materials-amd-023736161.html",
+     "time": "2026-11-10 02:37 UTC"
+    },
+    {
+     "title": "Sanmina Q4 Earnings Call Highlights",
+     "publisher": "MarketBeat",
+     "url": "https://www.marketbeat.com/instant-alerts/transcript-sanmina-q4-earnings-call-highlights-2026-11-09/?utm_source=yahoofinance&utm_medium=yahoofinance",
+     "time": "2026-11-10 02:14 UTC"
+    }
+   ],
+   "earnings": "2027-02-02"
+  },
+  {
+   "ticker": "TER",
+   "company": "Teradyne, Inc. Common Stock",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "chg_1d": 0.12730271571761542,
+   "price": 246.0,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Micron, FormFactor, Amkor, Teradyne, and Nvidia shares skyrocket, what you need to know",
+     "publisher": "StockStory",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/micron-formfactor-amkor-teradyne-nvidia-024536276.html",
+     "time": "2026-11-10 02:45 UTC"
+    },
+    {
+     "title": "Teradyne (TER) Upgraded to Strong Buy: Here's Why",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/teradyne-ter-upgraded-strong-buy-160003881.html",
+     "time": "2026-11-09 16:00 UTC"
+    },
+    {
+     "title": "FormFactor\u2019s $300 Million Vote of Confidence from Teradyne Suggests Billionaires Are Right",
+     "publisher": "Insider Monkey",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-300-million-vote-confidence-191822668.html",
+     "time": "2026-11-07 19:18 UTC"
+    },
+    {
+     "title": "What Just Lifted Lam Research Stock?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/lrcx/articles/623747/what-just-lifted-lam-research-stock/2026-11-07",
+     "time": "2026-11-07 12:49 UTC"
+    }
+   ],
+   "earnings": "2027-01-27"
+  },
+  {
+   "ticker": "FLEX",
+   "company": "Flex Ltd. Ordinary Shares",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "chg_1d": 0.12023501771882628,
+   "price": 78.17,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "This AI-Adjacent Company Doesn\u2019t See Much Delay or Pause in Data-Center Projects",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/ferguson-enterprises-earnings-stock-price-87840ac8?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-09 17:28 UTC"
+    },
+    {
+     "title": "What Makes Celestica a Buy Despite the Recent Stock Price Slump?",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/makes-celestica-buy-despite-recent-141000376.html",
+     "time": "2026-11-09 14:10 UTC"
+    },
+    {
+     "title": "What Makes Jabil a Buy Despite the Recent Stock Price Slump?",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/makes-jabil-buy-despite-recent-112400975.html",
+     "time": "2026-11-06 11:24 UTC"
+    }
+   ],
+   "earnings": "2027-01-27"
+  },
+  {
+   "ticker": "BE",
+   "company": "Bloom Energy Corporation",
+   "sector": "Industrials",
+   "side": "gainer",
+   "chg_1d": 0.11914106866305119,
+   "price": 193.88,
+   "tags": [
+    "Earnings",
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Stock Market Today, Nov. 9: Plug Power Rises 3.45% on Positioning Ahead of Q3 Report",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-plug-power-rises-3-45-on-positioning-ahead-of-q3-report/",
+     "time": "2026-11-09 22:24 UTC"
+    },
+    {
+     "title": "Is Bloom Energy Really Worth $200 Right Now? Here's the Math.",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/09/is-bloom-energy-really-worth-usd200-right-now-here-s-the-math/",
+     "time": "2026-11-09 21:35 UTC"
+    },
+    {
+     "title": "CoreWeave left one thing out of its friendly letter to Texas",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/investing/coreweave-crwv-stock-texas-freeze-unbuilt-capacity",
+     "time": "2026-11-09 18:17 UTC"
+    },
+    {
+     "title": "This AI-Adjacent Company Doesn\u2019t See Much Delay or Pause in Data-Center Projects",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/ferguson-enterprises-earnings-stock-price-87840ac8?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-09 17:28 UTC"
+    }
+   ],
+   "earnings": "2026-10-22"
+  },
+  {
+   "ticker": "AMAT",
+   "company": "Applied Materials Inc",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "chg_1d": 0.11369916576542649,
+   "price": 370.55,
+   "tags": [
+    "Earnings",
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Applied Materials vs. Dell Technologies: Comparing Stable vs. Accelerating Revenue Between These Artificial Intelligence Companies",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/coverage/charts/2026/11/09/applied-materials-vs-dell-technologies-comparing-stable-vs-accelerating-revenue-between-these-artificial-intelligence-companies/",
+     "time": "2026-11-10 03:45 UTC"
+    },
+    {
+     "title": "Amtech, Intel, Applied Materials, AMD, and KLA Corporation shares are soaring, what you need to know",
+     "publisher": "StockStory",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/amtech-intel-applied-materials-amd-023736161.html",
+     "time": "2026-11-10 02:37 UTC"
+    },
+    {
+     "title": "U.S. stock futures steady after tech-led rebound; CPI in focus",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/news/u-stock-futures-steady-tech-004342905.html",
+     "time": "2026-11-10 00:43 UTC"
+    },
+    {
+     "title": "4 Overlooked Tech Stocks That Pay Dividends and Have Room to Grow",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/09/4-overlooked-tech-stocks-that-pay-dividends-and-have-room-to-grow/",
+     "time": "2026-11-09 20:27 UTC"
+    }
+   ],
+   "earnings": "2026-11-12"
+  },
+  {
+   "ticker": "FERG",
+   "company": "Ferguson Enterprises Inc.",
+   "sector": "Industrials",
+   "side": "gainer",
+   "chg_1d": 0.1122378950366365,
+   "price": 259.93,
+   "tags": [
+    "Earnings"
+   ],
+   "headlines": [
+    {
+     "title": "Ferguson plc Q3 2026 Earnings Call Summary",
+     "publisher": "Moby",
+     "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-ferguson-plc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+     "time": "2026-11-09 21:53 UTC"
+    },
+    {
+     "title": "Ferguson (FERG) Q3 2026 Earnings Call Transcript",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/09/ferguson-ferg-q3-2026-earnings-call-transcript/",
+     "time": "2026-11-09 21:14 UTC"
+    },
+    {
+     "title": "Ferguson Enterprises Inc (FERG) (Q3 2026) Earnings Call Highlights: Sales Up 9. ...",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ferguson-enterprises-inc-ferg-q3-210625075.html",
+     "time": "2026-11-09 21:06 UTC"
+    },
+    {
+     "title": "Ferguson Beats Earnings Estimates. Why the HVAC Supplier Is Optimistic as Business Headwinds Persist.",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/ferguson-earnings-stock-price-0cd7f16d?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-09 19:27 UTC"
+    }
+   ],
+   "earnings": "2026-11-09"
+  },
+  {
+   "ticker": "LITE",
+   "company": "Lumentum Holdings Inc. Common Stock",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "chg_1d": 0.10689010827991341,
+   "price": 596.16,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Review & Preview: Dip Buyers Unite",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/stocks-today-indexes-rise-investors-buy-tech-ai-dip-73965a23?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-10 00:55 UTC"
+    },
+    {
+     "title": "Alphabet Almost Sets a Record No One Wants",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/09/alphabet-almost-sets-a-record-no-one-wants/",
+     "time": "2026-11-10 00:43 UTC"
+    },
+    {
+     "title": "Nvidia, AMD, CoreWeave, Coherent, First Solar, Trade Desk, and More Stocks That Explain Today\u2019s Market",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/stock-movers-d80c8da0?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-09 21:25 UTC"
+    },
+    {
+     "title": "Why Marvell Technology Stock Fell Hard in October",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/09/why-marvell-technology-stock-fell-hard-in-october/",
+     "time": "2026-11-09 20:17 UTC"
+    }
+   ],
+   "earnings": "2027-02-02"
+  },
+  {
+   "ticker": "CIEN",
+   "company": "Ciena Corporation",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "chg_1d": 0.1065778678157161,
+   "price": 269.33,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Nvidia, AMD, CoreWeave, Coherent, First Solar, Trade Desk, and More Stocks That Explain Today\u2019s Market",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/stock-movers-d80c8da0?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-09 21:25 UTC"
+    },
+    {
+     "title": "Coherent Jumps 13% as Optical Stocks Extend AI Rebound; Lumentum Surges 11%, Applied Optoelectronics Rises 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/09/coherent-jumps-13-as-optical-stocks-extend-ai-rebound-lumentum-surges-11-applied-optoelectronics-rises-4/",
+     "time": "2026-11-09 15:58 UTC"
+    },
+    {
+     "title": "Ciena\u2019s Growth Rides on the Same Cloud Buyers as Arista. Arista Just Reported.",
+     "publisher": "TIKR",
+     "url": "https://www.tikr.com/blog/ciena-stock-arista-earnings-cloud-spending-outlook?ref=yahoofinance&tlnk=yf-261109-jf98x529",
+     "time": "2026-11-09 14:06 UTC"
+    },
+    {
+     "title": "What Is Behind The Move In Arista Stock?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/anet/articles/623737/what-is-behind-the-move-in-arista-stock/2026-11-07",
+     "time": "2026-11-07 12:49 UTC"
+    }
+   ],
+   "earnings": "2026-12-10"
+  },
+  {
+   "ticker": "FSLR",
+   "company": "First Solar, Inc.",
+   "sector": "Information Technology",
+   "side": "loser",
+   "chg_1d": -0.047379928448917585,
+   "price": 191.61,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Nvidia, AMD, CoreWeave, Coherent, First Solar, Trade Desk, and More Stocks That Explain Today\u2019s Market",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/stock-movers-d80c8da0?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-09 21:25 UTC"
+    },
+    {
+     "title": "Enphase and Other Solar Stocks Are Up After Democrats Sweep Congress, But I Wouldn\u2019t Chase ENPH Here",
+     "publisher": "Barchart",
+     "url": "https://www.barchart.com/story/news/8742105/enphase-and-other-solar-stocks-are-up-after-democrats-sweep-congress-but-i-wouldnt-chase-enph-here",
+     "time": "2026-11-09 21:06 UTC"
+    },
+    {
+     "title": "First Solar Stock Is the Worst in the S&P 500 Today. Was Blue Wave Optimism Premature?",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/first-solar-stock-price-9bf61d5f?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-09 18:47 UTC"
+    },
+    {
+     "title": "ETFs Bought $10.9 Million of First Solar (FSLR) on Thursday",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-10-9-million-110222583.html",
+     "time": "2026-11-09 11:02 UTC"
+    }
+   ],
+   "earnings": "2026-10-29"
+  },
+  {
+   "ticker": "NVDA",
+   "company": "Nvidia Corp",
+   "sector": "Information Technology",
+   "side": "loser",
+   "chg_1d": -0.04270253561276616,
+   "price": 178.67,
+   "tags": [
+    "AI / semis",
+    "Management"
+   ],
+   "headlines": [
+    {
+     "title": "AMD Stock Clocks Best Day In 6 Months \u2014  But Michael Burry Won\u2019t Touch The Nvidia Headline Trade",
+     "publisher": "Stocktwits",
+     "url": "https://stocktwits.com/news-articles/markets/equity/amd-stock-michael-burry-wont-touch-nvidia-headline-trade/cNGu40nR97l",
+     "time": "2026-11-10 05:59 UTC"
+    },
+    {
+     "title": "Moonshot AI rents Nvidia\u2019s top chips in China, Bloomberg reports",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/technology/ai/articles/moonshot-ai-rents-nvidia-top-054313159.html",
+     "time": "2026-11-10 05:43 UTC"
+    },
+    {
+     "title": "Alice Huang, Chinese businesswoman tied to Nvidia CEO, went from finance to chips",
+     "publisher": "Reuters",
+     "url": "https://uk.finance.yahoo.com/news/alice-huang-chinese-businesswoman-tied-051432956.html",
+     "time": "2026-11-10 05:33 UTC"
+    },
+    {
+     "title": "Nvidia scandal could help China long-term, and risks in the AI trade",
+     "publisher": "Yahoo Finance Video",
+     "url": "https://finance.yahoo.com/video/nvidia-scandal-could-help-china-long-term-and-risks-in-the-ai-trade-221407013.html",
+     "time": "2026-11-09 22:14 UTC"
+    }
+   ],
+   "earnings": "2026-11-17"
+  },
+  {
+   "ticker": "TTWO",
+   "company": "Take-Two Interactive Software Inc",
+   "sector": "Communication Services",
+   "side": "loser",
+   "chg_1d": -0.034765213340415824,
+   "price": 207.4,
+   "tags": [
+    "Earnings",
+    "Guidance",
+    "Analyst call",
+    "Management"
+   ],
+   "headlines": [
+    {
+     "title": "What Take-Two Interactive Software (TTWO) Said on Its Q2 Earnings Call",
+     "publisher": "MarketBeat",
+     "url": "https://www.marketbeat.com/instant-alerts/transcript-what-take-two-interactive-software-ttwo-said-on-its-q2-earnings-call-2026-11-09/?utm_source=yahoofinance&utm_medium=yahoofinance",
+     "time": "2026-11-10 03:14 UTC"
+    },
+    {
+     "title": "GTA VI Launches in 10 Days, and Take-Two's Forecast Might Be Too Low. Is the Stock a Buy Before Nov. 19?",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/09/gta-vi-launches-in-10-days-and-take-two-s-forecast-might-be-too-low-is-the-stock-a-buy-before-nov-19/",
+     "time": "2026-11-09 22:37 UTC"
+    },
+    {
+     "title": "Take-Two (NASDAQ:TTWO) reports sales below analyst estimates in Q3 CY2026 earnings",
+     "publisher": "StockStory",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/two-nasdaq-ttwo-reports-sales-222639488.html",
+     "time": "2026-11-09 22:26 UTC"
+    },
+    {
+     "title": "Earnings live updates: 'Grand Theft Auto VI' preorders hit 'unprecedented levels,' Take-Two CEO says",
+     "publisher": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-november-9-2026-take-two-coreweave-220550675.html",
+     "time": "2026-11-09 22:05 UTC"
+    }
+   ],
+   "earnings": "2026-11-09"
+  },
+  {
+   "ticker": "AKAM",
+   "company": "Akamai Technologies Inc",
+   "sector": "Information Technology",
+   "side": "loser",
+   "chg_1d": -0.03369834571874242,
+   "price": 80.29,
+   "tags": [
+    "Earnings",
+    "Guidance",
+    "Analyst call",
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Moody\u2019s and S&P downgrade Akamai on debt-fueled AI infrastructure buildout",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/moody-p-downgrade-akamai-debt-162412289.html",
+     "time": "2026-11-09 16:24 UTC"
+    },
+    {
+     "title": "AKAM Stock Slides: Akamai Plans $2.2B Convertible Debt Offering To Fund Cloud Expansion, Repay Debt",
+     "publisher": "Stocktwits",
+     "url": "https://stocktwits.com/news-articles/markets/equity/akam-stock-slides-akamai-plans-2-2-b-convertible-debt-offering-to-fund-cloud-expansion-repay-debt/cNGraYpR9eu",
+     "time": "2026-11-09 13:04 UTC"
+    },
+    {
+     "title": "AKAM Q3 2026 deep dive: cloud infrastructure contracts expand as near-term guidance softens",
+     "publisher": "StockStory",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/akam-q3-2026-deep-dive-042936806.html",
+     "time": "2026-11-09 04:29 UTC"
+    },
+    {
+     "title": "What Cloudflare (NET) Said on Its Q3 Earnings Call",
+     "publisher": "MarketBeat",
+     "url": "https://www.marketbeat.com/instant-alerts/transcript-what-cloudflare-net-said-on-its-q3-earnings-call-2026-11-08/?utm_source=yahoofinance&utm_medium=yahoofinance",
+     "time": "2026-11-08 08:14 UTC"
+    }
+   ],
+   "earnings": "2026-11-05"
+  },
+  {
+   "ticker": "AXON",
+   "company": "Axon Enterprise, Inc. Common Stock",
+   "sector": "Industrials",
+   "side": "loser",
+   "chg_1d": -0.03137382531699284,
+   "price": 303.18,
+   "tags": [
+    "Earnings",
+    "Guidance",
+    "M&A / deals",
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "Axon Enterprise: 3 Key Takeaways for Long-Term Investors",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/earnings/takeaways/2026/11/09/axon-3-key-takeaways-for-long-term-investors/",
+     "time": "2026-11-10 00:50 UTC"
+    },
+    {
+     "title": "Axon's Connected Devices Unit Gains Momentum: Can It Sustain?",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/axons-connected-devices-unit-gains-142500634.html",
+     "time": "2026-11-09 14:25 UTC"
+    },
+    {
+     "title": "US Stock Market Today: S&P 500 Futures Nudge Higher On Jobs Strength Fed Uncertainty",
+     "publisher": "Simply Wall St.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-130935908.html",
+     "time": "2026-11-09 13:09 UTC"
+    },
+    {
+     "title": "AXON Q3 2026 deep dive: large drone investment and federal deal delays shape outlook",
+     "publisher": "StockStory",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/axon-q3-2026-deep-dive-093336625.html",
+     "time": "2026-11-09 09:33 UTC"
+    }
+   ],
+   "earnings": "2026-11-05"
+  },
+  {
+   "ticker": "DVA",
+   "company": "DaVita Inc.",
+   "sector": "Health Care",
+   "side": "loser",
+   "chg_1d": -0.03036327479519252,
+   "price": 185.54,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2026-10-29"
+  },
+  {
+   "ticker": "HSY",
+   "company": "The Hershey Company",
+   "sector": "Consumer Staples",
+   "side": "loser",
+   "chg_1d": -0.02583112116025066,
+   "price": 173.48,
+   "tags": [
+    "Capital return"
+   ],
+   "headlines": [
+    {
+     "title": "3 Beaten-Down Consumer Stocks to Hold for the Next 10 Years",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/09/3-beaten-down-consumer-stocks-hold-next-10-years/",
+     "time": "2026-11-09 17:23 UTC"
+    },
+    {
+     "title": "3 Dividend Stocks I'd Buy With $5,000 Before the End of November",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/07/3-dividend-stocks-buy-5000-november/",
+     "time": "2026-11-07 18:35 UTC"
+    },
+    {
+     "title": "Hershey is making the 2026 holiday season sweeter with a fresh lineup of new and returning treats",
+     "publisher": "FastCompany",
+     "url": "https://www.fastcompany.com/91636549/hershey-holiday-candy-lineup-includes-grinch-cindy-lou-who-more",
+     "time": "2026-11-07 12:01 UTC"
+    },
+    {
+     "title": "Why Is Everyone Ignoring Kraft Heinz Stock's High Cash Yield?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/khc/articles/623229/why-is-everyone-ignoring-kraft-heinz-stocks-high-cash-yield/2026-11-06",
+     "time": "2026-11-06 22:11 UTC"
+    }
+   ],
+   "earnings": "2026-10-29"
+  },
+  {
+   "ticker": "HUM",
+   "company": "Humana Inc.",
+   "sector": "Health Care",
+   "side": "loser",
+   "chg_1d": -0.02425413669601295,
+   "price": 423.22,
+   "tags": [
+    "Earnings"
+   ],
+   "headlines": [
+    {
+     "title": "Company News for Nov 9, 2026",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-nov-9-2026-102100919.html",
+     "time": "2026-11-09 10:21 UTC"
+    },
+    {
+     "title": "Medicare Just Locked In Most of Your 2027 Costs. One Big Number Is Still Missing",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/07/medicare-open-enrollment-closes-dec-7-after-that-part-d-plans-are-locked/",
+     "time": "2026-11-08 02:34 UTC"
+    },
+    {
+     "title": "What Humana (HUM) Said on Its Q3 Earnings Call",
+     "publisher": "MarketBeat",
+     "url": "https://www.marketbeat.com/instant-alerts/transcript-what-humana-hum-said-on-its-q3-earnings-call-2026-11-07/?utm_source=yahoofinance&utm_medium=yahoofinance",
+     "time": "2026-11-08 01:14 UTC"
+    },
+    {
+     "title": "What Did CVS Health's Quarter Change For Its Stock?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/cvs/articles/623635/what-did-cvs-healths-quarter-change-for-its-stock/2026-11-07",
+     "time": "2026-11-07 10:09 UTC"
+    }
+   ],
+   "earnings": "2026-11-06"
+  },
+  {
+   "ticker": "PM",
+   "company": "Philip Morris International Inc.",
+   "sector": "Consumer Staples",
+   "side": "loser",
+   "chg_1d": -0.024055031575544783,
+   "price": 193.12,
+   "tags": [
+    "Earnings"
+   ],
+   "headlines": [
+    {
+     "title": "Can Altria's 64.5% Smokeable Margin Sustain Profit Growth Ahead?",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/altrias-64-5-smokeable-margin-125600647.html",
+     "time": "2026-11-09 12:56 UTC"
+    },
+    {
+     "title": "State Street Consumer Staples SPDR (XLP) Sells $44.1 Million of Walmart on Nov. 5",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-staples-spdr-110530593.html",
+     "time": "2026-11-09 11:05 UTC"
+    }
+   ],
+   "earnings": "2026-10-21"
+  },
+  {
+   "ticker": "ACN",
+   "company": "Accenture PLC",
+   "sector": "Information Technology",
+   "side": "loser",
+   "chg_1d": -0.02353168860964494,
+   "price": 254.37,
+   "tags": [
+    "M&A / deals"
+   ],
+   "headlines": [
+    {
+     "title": "Australia's Qantas to axe 850 jobs in offshoring deal with Accenture",
+     "publisher": "Reuters",
+     "url": "https://finance.yahoo.com/technology/ai/articles/australias-qantas-axe-850-jobs-012757322.html",
+     "time": "2026-11-10 01:30 UTC"
+    },
+    {
+     "title": "Can Innodata Sustain 42% Growth After a $12 Million Program Wind-Down?",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-sustain-42-growth-12-145000409.html",
+     "time": "2026-11-09 14:50 UTC"
+    },
+    {
+     "title": "Invesco S&P 500 Equal Weight (RSP) Adds Vylor and Moderna on Nov. 5",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110453969.html",
+     "time": "2026-11-09 11:04 UTC"
+    },
+    {
+     "title": "Take the Zacks Approach to Beat the Markets: Ulta Beauty, Accenture, HCA in Focus",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-approach-beat-markets-ulta-110300678.html",
+     "time": "2026-11-09 11:03 UTC"
+    }
+   ],
+   "earnings": "2026-12-17"
+  }
+ ]
+}
