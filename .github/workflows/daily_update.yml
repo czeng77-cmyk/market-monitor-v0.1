@@ -13,6 +13,9 @@ jobs:
       - uses: actions/setup-python@v6
         with: { python-version: "3.12", cache: pip }
       - run: pip install -r requirements.txt
+      - name: Update market caps for Asia list
+        run: python update_caps.py
+        continue-on-error: true
       - run: python update_data.py
       - name: Collect news for top movers
         run: python news_update.py
