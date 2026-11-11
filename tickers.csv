@@ -1,0 +1,625 @@
+ticker,company,sector,industry,market_cap_bn,watchlist,currency
+A,Agilent Technologies Inc.,Health Care,Healthcare Equipment & Supplies,49.95,sp500,USD
+AAPL,Apple Inc.,Information Technology,"Computers, Phones & Household Electronics",5079.17,sp500,USD
+ABBV,ABBVIE INC.,Health Care,Pharmaceuticals,521.0,sp500,USD
+ABNB,"Airbnb, Inc. Class A Common Stock",Consumer Discretionary,Software & IT Services,103.99,sp500,USD
+ABT,Abbott Laboratories,Health Care,Healthcare Equipment & Supplies,199.88,sp500,USD
+ACGL,Arch Capital Group Ltd,Financials,Insurance,36.13,sp500,USD
+ACN,Accenture PLC,Information Technology,Software & IT Services,156.11,sp500,USD
+ADBE,Adobe Inc.,Information Technology,Software & IT Services,96.71,sp500,USD
+ADI,"Analog Devices, Inc.",Information Technology,Semiconductors & Semiconductor Equipment,196.85,sp500,USD
+ADM,Archer Daniels Midland Company,Consumer Staples,Food & Tobacco,34.14,sp500,USD
+ADP,Automatic Data Processing,Industrials,Professional & Commercial Services,119.83,sp500,USD
+ADSK,Autodesk Inc,Information Technology,Software & IT Services,56.45,sp500,USD
+AEE,Ameren Corporation,Utilities,Multiline Utilities,31.31,sp500,USD
+AEP,"American Electric Power Company, Inc.",Utilities,Electrical Utilities & IPPs,70.37,sp500,USD
+AES,AES Corporation,Utilities,Electrical Utilities & IPPs,10.63,sp500,USD
+AFL,Aflac Inc.,Financials,Insurance,62.82,sp500,USD
+AIG,"American International Group, Inc.",Financials,Insurance,42.75,sp500,USD
+AIZ,"Assurant, Inc.",Financials,Insurance,15.22,sp500,USD
+AJG,Arthur J. Gallagher & Co.,Financials,Insurance,73.94,sp500,USD
+AKAM,Akamai Technologies Inc,Information Technology,Software & IT Services,12.35,sp500,USD
+ALB,Albemarle Corporation,Materials,Chemicals,11.21,sp500,USD
+ALGN,Align Technology Inc,Health Care,Healthcare Equipment & Supplies,11.71,sp500,USD
+ALL,The Allstate Corporation,Financials,Insurance,68.03,sp500,USD
+ALLE,Allegion Public Limited Company,Industrials,Communications & Networking,16.25,sp500,USD
+AMAT,Applied Materials Inc,Information Technology,Semiconductors & Semiconductor Equipment,293.15,sp500,USD
+AMCR,Amcor plc Ordinary Shares,Materials,Containers & Packaging,22.42,sp500,USD
+AMD,Advanced Micro Devices,Information Technology,Semiconductors & Semiconductor Equipment,797.92,sp500,USD
+AME,"Ametek, Inc.",Industrials,"Machinery, Equipment & Components",54.36,sp500,USD
+AMGN,Amgen Inc,Health Care,Pharmaceuticals,258.68,sp500,USD
+AMP,"Ameriprise Financial, Inc.",Financials,Investment Banking & Investment Services,45.79,sp500,USD
+AMT,American Tower Corporation,Real Estate,Residential & Commercial REIT,90.37,sp500,USD
+AMZN,Amazon.Com Inc,Consumer Discretionary,Diversified Retail,2876.62,sp500,USD
+ANET,Arista Networks,Information Technology,Communications & Networking,225.1,sp500,USD
+AON,Aon plc Class A,Financials,Insurance,73.12,sp500,USD
+AOS,A.O. Smith Corporation,Industrials,"Machinery, Equipment & Components",9.01,sp500,USD
+APA,APA Corporation Common Stock,Energy,Oil & Gas,15.59,sp500,USD
+APD,"Air Products & Chemicals, Inc.",Materials,Chemicals,71.01,sp500,USD
+APH,Amphenol Corporation,Information Technology,Electronic Equipment & Parts,195.1,sp500,USD
+APO,"Apollo Global Management, Inc.",Financials,Investment Banking & Investment Services,72.5,sp500,USD
+APP,Applovin Corporation Class A Common Stock,Information Technology,Software & IT Services,90.94,sp500,USD
+APTV,Aptiv PLC,Consumer Discretionary,Automobiles & Auto Parts,8.98,sp500,USD
+ARE,"Alexandria Real Estate Equities, Inc.",Real Estate,Residential & Commercial REIT,8.01,sp500,USD
+ARES,Ares Management Corporation Class A Common Stock,Financials,Investment Banking & Investment Services,45.2,sp500,USD
+ATO,Atmos Energy Corporation,Utilities,Natural Gas Utilities,29.82,sp500,USD
+AVGO,Broadcom Inc. Common Stock,Information Technology,Semiconductors & Semiconductor Equipment,1553.72,sp500,USD
+AVY,Avery Dennison Corp.,Materials,Containers & Packaging,14.6,sp500,USD
+AWK,"American Water Works Company, Inc",Utilities,Water Utilities,29.79,sp500,USD
+AXON,"Axon Enterprise, Inc. Common Stock",Industrials,Aerospace & Defense,34.46,sp500,USD
+AXP,American Express Company,Financials,Banking Services,223.02,sp500,USD
+AZO,"AutoZone, Inc.",Consumer Discretionary,Specialty Retailers,53.52,sp500,USD
+BA,Boeing Company,Industrials,Aerospace & Defense,140.26,sp500,USD
+BAC,Bank of America Corporation,Financials,Banking Services,356.26,sp500,USD
+BALL,Ball Corporation,Materials,Containers & Packaging,17.84,sp500,USD
+BAX,Baxter International Inc.,Health Care,Healthcare Equipment & Supplies,13.71,sp500,USD
+BBY,"Best Buy Company, Inc.",Consumer Discretionary,Specialty Retailers,21.26,sp500,USD
+BDX,"Becton, Dickinson and Co.",Health Care,Healthcare Equipment & Supplies,56.98,sp500,USD
+BE,Bloom Energy Corporation,Industrials,"Machinery, Equipment & Components",59.25,sp500,USD
+BEN,"Franklin Templeton, Inc.",Financials,Investment Banking & Investment Services,17.21,sp500,USD
+BF-B,Brown-Forman Corporation Class B,Consumer Staples,Beverages,14.08,sp500,USD
+BG,Bunge Global SA,Consumer Staples,Food & Tobacco,18.64,sp500,USD
+BIIB,Biogen Inc. Common Stock,Health Care,Pharmaceuticals,37.61,sp500,USD
+BKNG,Booking Holdings Inc. Common Stock,Consumer Discretionary,Hotels & Entertainment Services,128.46,sp500,USD
+BKR,Baker Hughes Company,Energy,Oil & Gas Related Equipment and Services,49.52,sp500,USD
+BLK,"Blackrock, Inc.",Financials,Investment Banking & Investment Services,198.59,sp500,USD
+BMY,Bristol-Myers Squibb Co.,Health Care,Pharmaceuticals,131.21,sp500,USD
+BNY,Bank of New York Mellon Corporation,Financials,Investment Banking & Investment Services,102.77,sp500,USD
+BR,Broadridge Financial Solutions Inc,Industrials,Professional & Commercial Services,21.37,sp500,USD
+BRK-B,BERKSHIRE HATHAWAY Class B,Financials,Consumer Goods Conglomerates,1192.94,sp500,USD
+BRO,"Brown & Brown, Inc.",Financials,Insurance,24.51,sp500,USD
+BSX,Boston Scientific Corp.,Health Care,Healthcare Equipment & Supplies,66.41,sp500,USD
+BX,Blackstone Inc.,Financials,Investment Banking & Investment Services,151.16,sp500,USD
+BXP,"BXP, Inc.",Real Estate,Residential & Commercial REIT,10.53,sp500,USD
+C,Citigroup Inc.,Financials,Investment Banking & Investment Services,206.47,sp500,USD
+CAH,"Cardinal Health, Inc.",Health Care,Pharmaceuticals,60.67,sp500,USD
+CARR,Carrier Global Corporation,Industrials,"Machinery, Equipment & Components",45.54,sp500,USD
+CASY,Casey's General Stores Inc,Consumer Staples,Food & Drug Retailing,24.94,sp500,USD
+CAT,Caterpillar Inc.,Industrials,"Machinery, Equipment & Components",271.81,sp500,USD
+CB,Chubb Limited,Financials,Insurance,142.96,sp500,USD
+CBOE,"Cboe Global Markets, Inc.",Financials,Investment Banking & Investment Services,36.02,sp500,USD
+CBRE,"CBRE GROUP, INC.",Real Estate,Real Estate Operations,40.67,sp500,USD
+CCI,Crown Castle Inc.,Real Estate,Residential & Commercial REIT,39.26,sp500,USD
+CCL,Carnival Corporation Ltd.,Consumer Discretionary,Hotels & Entertainment Services,42.11,sp500,USD
+CDNS,Cadence Design Systems,Information Technology,Software & IT Services,90.41,sp500,USD
+CDW,CDW Corporation,Information Technology,Integrated Hardware & Software,21.1,sp500,USD
+CEG,Constellation Energy Corporation Common Stock,Utilities,Electrical Utilities & IPPs,87.06,sp500,USD
+CF,"CF Industries Holding, Inc.",Materials,Chemicals,16.9,sp500,USD
+CFG,"Citizens Financial Group, Inc.",Financials,Banking Services,27.62,sp500,USD
+CHD,"Church & Dwight Co., Inc.",Consumer Staples,Personal & Household Products & Services,26.44,sp500,USD
+CHRW,"C.H. Robinson Worldwide, Inc.",Industrials,Freight & Logistics Services,15.52,sp500,USD
+CHTR,Charter Comm Inc Del CL A New,Communication Services,Telecommunications Services,13.78,sp500,USD
+CI,The Cigna Group,Health Care,Healthcare Providers & Services,80.7,sp500,USD
+CIEN,Ciena Corporation,Information Technology,Communications & Networking,38.61,sp500,USD
+CINF,Cincinnati Financial Corp,Financials,Insurance,29.24,sp500,USD
+CL,Colgate-Palmolive Company,Consumer Staples,Personal & Household Products & Services,78.51,sp500,USD
+CLX,Clorox Company,Consumer Staples,Personal & Household Products & Services,12.01,sp500,USD
+CMCSA,Comcast Corp,Communication Services,Telecommunications Services,88.24,sp500,USD
+CME,CME Group Inc.,Financials,Investment Banking & Investment Services,110.34,sp500,USD
+CMG,"Chipotle Mexican Grill, Inc.",Consumer Discretionary,Hotels & Entertainment Services,44.53,sp500,USD
+CMI,Cummins Inc.,Consumer Discretionary,Automobiles & Auto Parts,64.96,sp500,USD
+CMS,CMS Energy Corporation,Utilities,Multiline Utilities,22.26,sp500,USD
+CNC,Centene Corporation,Health Care,Healthcare Providers & Services,37.63,sp500,USD
+CNP,"CenterPoint Energy, Inc.",Utilities,Multiline Utilities,27.2,sp500,USD
+COF,Capital One Financial,Financials,Banking Services,124.1,sp500,USD
+COHR,Coherent Corp.,Information Technology,Electronic Equipment & Parts,38.42,sp500,USD
+COIN,"Coinbase Global, Inc. Class A Common Stock",Financials,Financial Technology (Fintech) & Infrastructure,40.11,sp500,USD
+COO,"The Cooper Companies, Inc. Common Stock",Health Care,Healthcare Equipment & Supplies,12.25,sp500,USD
+COP,ConocoPhillips,Energy,Oil & Gas,164.51,sp500,USD
+COR,"Cencora, Inc.",Health Care,Healthcare Equipment & Supplies,67.55,sp500,USD
+COST,Costco Wholesale Corp,Consumer Staples,Diversified Retail,463.72,sp500,USD
+CPAY,"Corpay, Inc.",Financials,Professional & Commercial Services,27.49,sp500,USD
+CPRT,Copart Inc,Industrials,Software & IT Services,30.22,sp500,USD
+CPT,Camden Property Trust,Real Estate,Residential & Commercial REIT,10.5,sp500,USD
+CRH,CRH Public Limited Company,Materials,Construction Materials,65.72,sp500,USD
+CRL,"Charles River Laboratories International, Inc.",Health Care,Biotechnology & Medical Research,15.58,sp500,USD
+CRM,"Salesforce, Inc.",Information Technology,Software & IT Services,186.95,sp500,USD
+CRWD,"CrowdStrike Holdings, Inc. Class A Common Stock",Information Technology,Software & IT Services,246.77,sp500,USD
+CSCO,"Cisco Systems, Inc. Common Stock (DE)",Information Technology,Communications & Networking,407.91,sp500,USD
+CSGP,CoStar Group Inc,Real Estate,Software & IT Services,13.11,sp500,USD
+CSX,CSX Corporation,Industrials,Freight & Logistics Services,95.95,sp500,USD
+CTAS,Cintas Corp,Industrials,Professional & Commercial Services,90.94,sp500,USD
+CTSH,Cognizant Technology Solutions,Information Technology,Software & IT Services,29.41,sp500,USD
+CVNA,Carvana Co.,Consumer Discretionary,Specialty Retailers,85.55,sp500,USD
+CVS,CVS HEALTH CORPORATION,Health Care,Healthcare Providers & Services,102.27,sp500,USD
+CVX,Chevron Corporation,Energy,Oil & Gas,423.29,sp500,USD
+D,"Dominion Energy, Inc Common Stock",Utilities,Electrical Utilities & IPPs,61.35,sp500,USD
+DAL,"Delta Air Lines, Inc.",Industrials,Passenger Transportation Services,58.71,sp500,USD
+DASH,"DoorDash, Inc. Class A Common Stock",Consumer Discretionary,Software & IT Services,86.58,sp500,USD
+DD,"DuPont de Nemours, Inc. Common Stock",Materials,Chemicals,20.36,sp500,USD
+DDOG,"Datadog, Inc. Class A Common Stock",Information Technology,Software & IT Services,67.76,sp500,USD
+DE,Deere & Company,Industrials,"Machinery, Equipment & Components",182.4,sp500,USD
+DECK,Deckers Outdoor Corp,Consumer Discretionary,Textiles & Apparel,11.89,sp500,USD
+DELL,Dell Technologies Inc.,Information Technology,"Computers, Phones & Household Electronics",236.75,sp500,USD
+DG,Dollar General Corp.,Consumer Staples,Diversified Retail,31.25,sp500,USD
+DGX,Quest Diagnostics Inc.,Health Care,Healthcare Providers & Services,28.12,sp500,USD
+DHI,D.R. Horton Inc.,Consumer Discretionary,Homebuilding & Construction Supplies,42.61,sp500,USD
+DHR,Danaher Corporation,Health Care,Healthcare Equipment & Supplies,165.28,sp500,USD
+DIS,The Walt Disney Company,Communication Services,Media & Publishing,205.39,sp500,USD
+DLR,"Digital Realty Trust, Inc.",Real Estate,Residential & Commercial REIT,69.94,sp500,USD
+DLTR,Dollar Tree Inc.,Consumer Staples,Diversified Retail,27.58,sp500,USD
+DOC,"Healthpeak Properties, Inc.",Real Estate,Residential & Commercial REIT,13.91,sp500,USD
+DOV,Dover Corporation,Industrials,"Machinery, Equipment & Components",28.29,sp500,USD
+DOW,Dow Inc.,Materials,Chemicals,23.67,sp500,USD
+DPZ,Domino's Pizza Inc.,Consumer Discretionary,Hotels & Entertainment Services,11.21,sp500,USD
+DRI,"Darden Restaurants, Inc.",Consumer Discretionary,Hotels & Entertainment Services,26.09,sp500,USD
+DTE,DTE Energy Company,Utilities,Electrical Utilities & IPPs,28.62,sp500,USD
+DUK,Duke Energy Corporation,Utilities,Electrical Utilities & IPPs,101.04,sp500,USD
+DVA,DaVita Inc.,Health Care,Healthcare Providers & Services,12.12,sp500,USD
+DVN,Devon Energy Corporation,Energy,Oil & Gas,48.53,sp500,USD
+DXCM,"DexCom, Inc.",Health Care,Healthcare Equipment & Supplies,33.0,sp500,USD
+EBAY,eBay Inc,Consumer Discretionary,Software & IT Services,54.94,sp500,USD
+ECHO,EchoStar Corporation,Communication Services,Telecommunications Services,28.68,sp500,USD
+ECL,"Ecolab, Inc.",Materials,Chemicals,88.38,sp500,USD
+ED,"Consolidated Edison, Inc.",Utilities,Electrical Utilities & IPPs,44.49,sp500,USD
+EFX,"Equifax, Incorporated",Industrials,Professional & Commercial Services,22.49,sp500,USD
+EG,"Everest Group, Ltd.",Financials,Insurance,15.61,sp500,USD
+EIX,Edison International,Utilities,Electrical Utilities & IPPs,23.66,sp500,USD
+EL,The Estee Lauder Companies Inc. Class A,Consumer Staples,Personal & Household Products & Services,40.6,sp500,USD
+ELV,"Elevance Health, Inc.",Health Care,Healthcare Providers & Services,93.81,sp500,USD
+EME,"EMCOR Group, Inc.",Industrials,Construction & Engineering,27.99,sp500,USD
+EMR,Emerson Electric Co.,Industrials,"Machinery, Equipment & Components",95.07,sp500,USD
+EOG,"EOG Resources, Inc.",Energy,Oil & Gas,77.14,sp500,USD
+EQIX,"Equinix, Inc. Common Stock REIT",Real Estate,Residential & Commercial REIT,104.34,sp500,USD
+EQT,EQT CORP,Energy,Oil & Gas,32.85,sp500,USD
+ERIE,Erie Indemnity Co,Financials,Insurance,14.64,sp500,USD
+ES,Eversource Energy,Utilities,Electrical Utilities & IPPs,26.54,sp500,USD
+ESS,"Essex Property Trust, Inc",Real Estate,Residential & Commercial REIT,17.47,sp500,USD
+ETN,"Eaton Corporation, plc Ordinary Shares",Industrials,"Machinery, Equipment & Components",137.14,sp500,USD
+ETR,Entergy Corporation,Utilities,Electrical Utilities & IPPs,53.47,sp500,USD
+EVRG,"Evergy, Inc.",Utilities,Electrical Utilities & IPPs,19.88,sp500,USD
+EW,Edwards Lifesciences Corp,Health Care,Healthcare Equipment & Supplies,57.28,sp500,USD
+EXC,Exelon Corporation,Utilities,Electrical Utilities & IPPs,47.85,sp500,USD
+EXE,Expand Energy Corporation Common Stock,Energy,Oil & Gas,20.16,sp500,USD
+EXPD,"Expeditors International of Washington, Inc.",Industrials,Freight & Logistics Services,25.7,sp500,USD
+EXPE,"Expedia Group, Inc. Common Stock",Consumer Discretionary,Hotels & Entertainment Services,37.91,sp500,USD
+EXR,"Extra Space Storage, Inc.",Real Estate,Residential & Commercial REIT,33.61,sp500,USD
+F,Ford Motor Company,Consumer Discretionary,Automobiles & Auto Parts,50.59,sp500,USD
+FANG,"Diamondback Energy, Inc.",Energy,Oil & Gas,51.07,sp500,USD
+FAST,Fastenal Co,Industrials,"Machinery, Equipment & Components",61.05,sp500,USD
+FCX,Freeport-McMoran Inc.,Materials,Metals & Mining,87.67,sp500,USD
+FDS,Factset Research Systems,Financials,Professional & Commercial Services,12.06,sp500,USD
+FDX,FedEx Corporation,Industrials,Freight & Logistics Services,77.15,sp500,USD
+FDXF,"FedEx Freight Holding Company, Inc.",Industrials,Freight & Logistics Services,19.35,sp500,USD
+FE,FirstEnergy Corp.,Utilities,Electrical Utilities & IPPs,27.31,sp500,USD
+FERG,Ferguson Enterprises Inc.,Industrials,Homebuilding & Construction Supplies,48.08,sp500,USD
+FFIV,"F5, Inc. Common Stock",Information Technology,Software & IT Services,18.73,sp500,USD
+FICO,Fair Isaac Corporation,Information Technology,Software & IT Services,15.14,sp500,USD
+FIS,"Fidelity National Information Services, Inc.",Financials,Financial Technology (Fintech) & Infrastructure,15.35,sp500,USD
+FISV,"Fiserv, Inc. Common Stock",Financials,Professional & Commercial Services,33.0,sp500,USD
+FITB,Fifth Third Bancorp,Financials,Banking Services,49.65,sp500,USD
+FIX,"Comfort Systems USA, Inc.",Industrials,Construction & Engineering,38.18,sp500,USD
+FLEX,Flex Ltd. Ordinary Shares,Information Technology,Electronic Equipment & Parts,28.54,sp500,USD
+FOX,Fox Corporation Class B Common Stock,Communication Services,Media & Publishing,25.99,sp500,USD
+FOXA,Fox Corporation Class A Common Stock,Communication Services,Media & Publishing,29.38,sp500,USD
+FRT,Federal Realty Investment Trust,Real Estate,Residential & Commercial REIT,9.86,sp500,USD
+FSLR,"First Solar, Inc.",Information Technology,Renewable Energy,20.91,sp500,USD
+FTNT,"Fortinet, Inc.",Information Technology,Software & IT Services,95.06,sp500,USD
+FTV,Fortive Corporation,Industrials,"Machinery, Equipment & Components",20.34,sp500,USD
+GD,General Dynamics Corporation,Industrials,Aerospace & Defense,98.6,sp500,USD
+GDDY,GoDaddy Inc,Information Technology,Software & IT Services,14.35,sp500,USD
+GE,GE Aerospace,Industrials,Aerospace & Defense,340.44,sp500,USD
+GEHC,GE HealthCare Technologies Inc. Common Stock,Health Care,Healthcare Equipment & Supplies,38.8,sp500,USD
+GEN,Gen Digital Inc. Common Stock,Information Technology,Software & IT Services,18.33,sp500,USD
+GEV,GE Vernova Inc.,Industrials,Electrical Utilities & IPPs,220.43,sp500,USD
+GILD,Gilead Sciences Inc,Health Care,Pharmaceuticals,216.41,sp500,USD
+GIS,"General Mills, Inc.",Consumer Staples,Food & Tobacco,19.17,sp500,USD
+GL,Globe Life Inc.,Financials,Insurance,12.43,sp500,USD
+GLW,Corning Incorporated,Information Technology,Electronic Equipment & Parts,102.33,sp500,USD
+GM,General Motors Company,Consumer Discretionary,Automobiles & Auto Parts,77.97,sp500,USD
+GNRC,GENERAC HOLDINGS INC,Industrials,"Machinery, Equipment & Components",11.17,sp500,USD
+GOOG,Alphabet Inc. Class C Capital Stock,Communication Services,Software & IT Services,3532.07,sp500,USD
+GOOGL,Alphabet Inc. Class A Common Stock,Communication Services,Software & IT Services,3552.11,sp500,USD
+GPC,Genuine Parts Company,Consumer Discretionary,Automobiles & Auto Parts,17.43,sp500,USD
+GPN,"Global Payments, Inc.",Financials,Professional & Commercial Services,25.43,sp500,USD
+GRMN,Garmin Ltd,Consumer Discretionary,Communications & Networking,55.72,sp500,USD
+GS,Goldman Sachs Group Inc.,Financials,Investment Banking & Investment Services,267.67,sp500,USD
+GWW,"W.W. Grainger, Inc.",Industrials,"Machinery, Equipment & Components",70.15,sp500,USD
+HAL,Halliburton Company,Energy,Oil & Gas Related Equipment and Services,27.3,sp500,USD
+HAS,"Hasbro, Inc.",Consumer Discretionary,Leisure Products,17.0,sp500,USD
+HBAN,Huntington Bancshares Inc,Financials,Banking Services,32.37,sp500,USD
+HCA,"HCA Healthcare, Inc.",Health Care,Healthcare Providers & Services,106.68,sp500,USD
+HD,"Home Depot, Inc.",Consumer Discretionary,Specialty Retailers,354.62,sp500,USD
+HIG,"The Hartford Insurance Group, Inc.",Financials,Insurance,36.93,sp500,USD
+HII,"Huntington Ingalls Industries, Inc.",Industrials,Aerospace & Defense,11.98,sp500,USD
+HLT,Hilton Worldwide Holdings Inc.,Consumer Discretionary,Hotels & Entertainment Services,83.78,sp500,USD
+HON,"Honeywell International, Inc.",Industrials,Consumer Goods Conglomerates,72.51,sp500,USD
+HONA,Honeywell Aerospace Inc. Common Stock,Industrials,Aerospace & Defense,49.58,sp500,USD
+HOOD,"Robinhood Markets, Inc. Class A Common Stock",Financials,Financial Technology (Fintech) & Infrastructure,78.71,sp500,USD
+HPE,Hewlett Packard Enterprise Company,Information Technology,"Computers, Phones & Household Electronics",66.47,sp500,USD
+HPQ,HP Inc.,Information Technology,"Computers, Phones & Household Electronics",26.99,sp500,USD
+HRL,Hormel Foods Corporation,Consumer Staples,Food & Tobacco,12.53,sp500,USD
+HSIC,Henry Schein Inc,Health Care,Healthcare Equipment & Supplies,9.83,sp500,USD
+HST,"Host Hotels & Resorts, Inc.",Real Estate,Residential & Commercial REIT,17.89,sp500,USD
+HSY,The Hershey Company,Consumer Staples,Food & Tobacco,35.07,sp500,USD
+HUBB,Hubbell Incorporated,Industrials,"Machinery, Equipment & Components",23.16,sp500,USD
+HUM,Humana Inc.,Health Care,Healthcare Providers & Services,50.12,sp500,USD
+HWM,Howmet Aerospace Inc.,Industrials,Aerospace & Defense,84.92,sp500,USD
+IBKR,"Interactive Brokers Group, Inc. Class A Common Stock",Financials,Investment Banking & Investment Services,132.69,sp500,USD
+IBM,International Business Machines Corporation,Information Technology,Software & IT Services,240.36,sp500,USD
+ICE,Intercontinental Exchange Inc.,Financials,Investment Banking & Investment Services,97.76,sp500,USD
+IDXX,Idexx Laboratories Inc,Health Care,Healthcare Equipment & Supplies,55.04,sp500,USD
+IEX,IDEX Corporation,Industrials,"Machinery, Equipment & Components",17.17,sp500,USD
+IFF,International Flavors & Fragrances Inc.,Consumer Staples,Food & Tobacco,22.37,sp500,USD
+ILMN,Illumina Inc,Health Care,Healthcare Equipment & Supplies,34.25,sp500,USD
+INCY,Incyte Genomics Inc,Health Care,Pharmaceuticals,25.04,sp500,USD
+INTC,Intel Corp,Information Technology,Semiconductors & Semiconductor Equipment,309.71,sp500,USD
+INTU,Intuit Inc,Information Technology,Financial Technology (Fintech) & Infrastructure,95.31,sp500,USD
+INVH,Invitation Homes Inc. Common Stock,Real Estate,Residential & Commercial REIT,15.88,sp500,USD
+IP,International Paper Co.,Materials,Containers & Packaging,18.88,sp500,USD
+IQV,IQVIA Holdings Inc.,Health Care,Biotechnology & Medical Research,43.47,sp500,USD
+IR,Ingersoll Rand Inc. Common Stock,Industrials,"Machinery, Equipment & Components",32.33,sp500,USD
+IRM,Iron Mountain Inc.,Real Estate,Residential & Commercial REIT,35.33,sp500,USD
+ISRG,Intuitive Surgical Inc.,Health Care,Healthcare Equipment & Supplies,167.12,sp500,USD
+IT,"Gartner, Inc.",Information Technology,Software & IT Services,13.08,sp500,USD
+ITW,Illinois Tool Works Inc.,Industrials,Consumer Goods Conglomerates,83.4,sp500,USD
+IVZ,Invesco LTD,Financials,Investment Banking & Investment Services,12.94,sp500,USD
+J,Jacobs Solutions Inc.,Industrials,Professional & Commercial Services,18.74,sp500,USD
+JBHT,JB Hunt Transport Services Inc,Industrials,Freight & Logistics Services,21.17,sp500,USD
+JBL,Jabil Inc.,Information Technology,Electronic Equipment & Parts,26.63,sp500,USD
+JCI,Johnson Controls International plc,Industrials,"Machinery, Equipment & Components",85.11,sp500,USD
+JKHY,Henry (Jack) & Associates,Financials,Software & IT Services,12.56,sp500,USD
+JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,665.19,sp500,USD
+JPM,JPMorgan Chase & Co.,Financials,Banking Services,935.97,sp500,USD
+KDP,Keurig Dr Pepper Inc.,Consumer Staples,Beverages,50.06,sp500,USD
+KEY,KeyCorp,Financials,Banking Services,22.8,sp500,USD
+KEYS,"Keysight Technologies, Inc.",Information Technology,"Machinery, Equipment & Components",48.67,sp500,USD
+KHC,The Kraft Heinz Company,Consumer Staples,Food & Tobacco,30.17,sp500,USD
+KIM,Kimco Realty Corp.,Real Estate,Residential & Commercial REIT,17.2,sp500,USD
+KKR,KKR & Co. Inc.,Financials,Investment Banking & Investment Services,90.97,sp500,USD
+KLAC,KLA Corporation Common Stock,Information Technology,Semiconductors & Semiconductor Equipment,195.17,sp500,USD
+KMB,Kimberly-Clark Corp.,Consumer Staples,Personal & Household Products & Services,66.76,sp500,USD
+KMI,"Kinder Morgan, Inc.",Energy,Oil & Gas Related Equipment and Services,70.22,sp500,USD
+KO,Coca-Cola Company,Consumer Staples,Beverages,412.12,sp500,USD
+KR,The Kroger Co.,Consumer Staples,Food & Drug Retailing,40.73,sp500,USD
+KVUE,Kenvue Inc.,Consumer Staples,Personal & Household Products & Services,37.09,sp500,USD
+L,Loews Corporation,Financials,Insurance,22.58,sp500,USD
+LDOS,"Leidos Holdings, Inc.",Industrials,Software & IT Services,17.03,sp500,USD
+LEN,Lennar Corporation Class A,Consumer Discretionary,Homebuilding & Construction Supplies,21.93,sp500,USD
+LH,Labcorp Holdings Inc.,Health Care,Healthcare Providers & Services,29.86,sp500,USD
+LHX,"L3Harris Technologies, Inc.",Industrials,Aerospace & Defense,48.36,sp500,USD
+LII,Lennox International Inc.,Industrials,"Machinery, Equipment & Components",12.28,sp500,USD
+LIN,Linde plc Ordinary Share,Materials,Chemicals,215.31,sp500,USD
+LITE,Lumentum Holdings Inc. Common Stock,Information Technology,Communications & Networking,56.84,sp500,USD
+LLY,Eli Lilly & Co.,Health Care,Pharmaceuticals,1333.97,sp500,USD
+LMT,Lockheed Martin Corp.,Industrials,Aerospace & Defense,137.46,sp500,USD
+LNT,Alliant Energy Corporation Common Stock,Utilities,Electrical Utilities & IPPs,19.13,sp500,USD
+LOW,Lowe's Companies Inc.,Consumer Discretionary,Specialty Retailers,128.69,sp500,USD
+LRCX,Lam Research Corp,Information Technology,Semiconductors & Semiconductor Equipment,276.6,sp500,USD
+LULU,lululemon athletica inc.,Consumer Discretionary,Textiles & Apparel,12.41,sp500,USD
+LUV,Southwest Airlines Co.,Industrials,Passenger Transportation Services,22.73,sp500,USD
+LVS,Las Vegas Sands Corp.,Consumer Discretionary,Hotels & Entertainment Services,25.54,sp500,USD
+LYB,LyondellBasell Industries N.V. Class A,Materials,Chemicals,20.35,sp500,USD
+LYV,Live Nation Entertainment Inc.,Communication Services,Media & Publishing,42.67,sp500,USD
+MA,Mastercard Incorporated,Financials,Software & IT Services,586.02,sp500,USD
+MAA,"Mid-America Apartment Communities, Inc.",Real Estate,Residential & Commercial REIT,14.17,sp500,USD
+MAR,Marriott International Class A Common Stock,Consumer Discretionary,Hotels & Entertainment Services,109.41,sp500,USD
+MAS,Masco Corporation,Industrials,Homebuilding & Construction Supplies,16.74,sp500,USD
+MCD,McDonald's Corporation,Consumer Discretionary,Hotels & Entertainment Services,198.3,sp500,USD
+MCHP,Microchip Technology Inc,Information Technology,Semiconductors & Semiconductor Equipment,40.91,sp500,USD
+MCK,McKesson Corporation,Health Care,Pharmaceuticals,124.69,sp500,USD
+MCO,Moody's Corporation,Financials,Professional & Commercial Services,91.09,sp500,USD
+MDLZ,"Mondelez International, Inc. Class A",Consumer Staples,Food & Tobacco,85.29,sp500,USD
+MDT,Medtronic plc,Health Care,Healthcare Equipment & Supplies,134.26,sp500,USD
+MET,"MetLife, Inc.",Financials,Insurance,65.38,sp500,USD
+META,"Meta Platforms, Inc. Class A Common Stock",Communication Services,Software & IT Services,1635.62,sp500,USD
+MGM,MGM RESORTS INTERNATIONAL,Consumer Discretionary,Hotels & Entertainment Services,8.3,sp500,USD
+MKC,"McCormick & Company, Incorporated Non-VTG CS",Consumer Staples,Food & Tobacco,13.59,sp500,USD
+MLM,Martin Marietta Materials,Materials,Construction Materials,39.53,sp500,USD
+MMM,3M Company,Industrials,Consumer Goods Conglomerates,100.22,sp500,USD
+MNST,Monster Beverage Corporation,Consumer Staples,Beverages,95.36,sp500,USD
+MO,"Altria Group, Inc.",Consumer Staples,Food & Tobacco,129.76,sp500,USD
+MOS,The Mosaic Company,Materials,Chemicals,6.87,sp500,USD
+MPC,MARATHON PETROLEUM CORPORATION,Energy,Oil & Gas,110.27,sp500,USD
+MPWR,"Monolithic Power Systems, Inc.",Information Technology,Semiconductors & Semiconductor Equipment,61.53,sp500,USD
+MRK,"Merck & Co., Inc.",Health Care,Pharmaceuticals,371.01,sp500,USD
+MRNA,"Moderna, Inc. Common Stock",Health Care,Pharmaceuticals,103.15,sp500,USD
+MRSH,Marsh,Financials,Insurance,100.04,sp500,USD
+MRVL,"Marvell Technology, Inc. Common Stock",Information Technology,Semiconductors & Semiconductor Equipment,140.3,sp500,USD
+MS,Morgan Stanley,Financials,Investment Banking & Investment Services,303.56,sp500,USD
+MSCI,"MSCI, Inc.",Financials,Professional & Commercial Services,48.21,sp500,USD
+MSFT,Microsoft Corp,Information Technology,Software & IT Services,4127.48,sp500,USD
+MSI,"Motorola Solutions, Inc. New",Information Technology,Communications & Networking,82.25,sp500,USD
+MTB,M&T Bank Corp.,Financials,Banking Services,32.28,sp500,USD
+MTD,Mettler-Toledo International,Health Care,Office Equipment,34.53,sp500,USD
+MU,"Micron Technology, Inc.",Information Technology,Semiconductors & Semiconductor Equipment,899.74,sp500,USD
+NCLH,Norwegian Cruise Line Holdings Ltd. Ordinary Shares,Consumer Discretionary,Hotels & Entertainment Services,8.54,sp500,USD
+NDAQ,"Nasdaq, Inc. Common Stock",Financials,Investment Banking & Investment Services,60.88,sp500,USD
+NDSN,Nordson Corp,Industrials,"Machinery, Equipment & Components",18.42,sp500,USD
+NEE,"NextEra Energy, Inc.",Utilities,Electrical Utilities & IPPs,185.49,sp500,USD
+NEM,Newmont Corporation,Materials,Metals & Mining,122.74,sp500,USD
+NFLX,NetFlix Inc,Communication Services,Software & IT Services,272.62,sp500,USD
+NI,NiSource Inc.,Utilities,Multiline Utilities,21.72,sp500,USD
+NKE,"Nike, Inc.",Consumer Discretionary,Textiles & Apparel,60.14,sp500,USD
+NOC,Northrop Grumman Corp.,Industrials,Aerospace & Defense,74.63,sp500,USD
+NOW,"SERVICENOW, INC.",Information Technology,Software & IT Services,112.94,sp500,USD
+NRG,"NRG Energy, Inc.",Utilities,Electrical Utilities & IPPs,17.5,sp500,USD
+NSC,Norfolk Southern Corp.,Industrials,Freight & Logistics Services,77.31,sp500,USD
+NTAP,"NetApp, Inc",Information Technology,"Computers, Phones & Household Electronics",36.86,sp500,USD
+NTRS,Northern Trust Corp,Financials,Investment Banking & Investment Services,32.24,sp500,USD
+NUE,Nucor Corporation,Materials,Metals & Mining,60.78,sp500,USD
+NVDA,Nvidia Corp,Information Technology,Semiconductors & Semiconductor Equipment,4823.13,sp500,USD
+NVR,"NVR, Inc.",Consumer Discretionary,Homebuilding & Construction Supplies,16.86,sp500,USD
+NWS,News Corporation Class B Common Stock,Communication Services,Media & Publishing,18.05,sp500,USD
+NWSA,News Corporation Class A Common Stock,Communication Services,Media & Publishing,16.52,sp500,USD
+NXPI,NXP Semiconductors N.V.,Information Technology,Semiconductors & Semiconductor Equipment,66.8,sp500,USD
+O,Realty Income Corporation,Real Estate,Residential & Commercial REIT,56.3,sp500,USD
+ODFL,Old Dominion Freight Line,Industrials,Freight & Logistics Services,37.2,sp500,USD
+OKE,"Oneok, Inc.",Energy,Oil & Gas,55.86,sp500,USD
+OMC,Omnicom Group Inc.,Communication Services,Media & Publishing,23.87,sp500,USD
+ON,ON Semiconductor Corp,Information Technology,Semiconductors & Semiconductor Equipment,27.73,sp500,USD
+ORCL,Oracle Corp,Information Technology,Software & IT Services,375.09,sp500,USD
+ORLY,"O'Reilly Automotive, Inc.",Consumer Discretionary,Specialty Retailers,74.3,sp500,USD
+OTIS,Otis Worldwide Corporation,Industrials,"Machinery, Equipment & Components",30.38,sp500,USD
+OXY,Occidental Petroleum Corporation,Energy,Oil & Gas,57.3,sp500,USD
+P,"Everpure, Inc.",Information Technology,"Computers, Phones & Household Electronics",37.2,sp500,USD
+PANW,"Palo Alto Networks, Inc. Common Stock",Information Technology,Software & IT Services,284.85,sp500,USD
+PAYX,Paychex Inc,Industrials,Professional & Commercial Services,42.26,sp500,USD
+PCAR,Paccar Inc,Industrials,"Machinery, Equipment & Components",55.89,sp500,USD
+PCG,PG&E Corporation,Utilities,Electrical Utilities & IPPs,29.51,sp500,USD
+PEG,Public Service Enterprise Group Incorporated,Utilities,Multiline Utilities,36.5,sp500,USD
+PEP,"PepsiCo, Inc.",Consumer Staples,Beverages,194.08,sp500,USD
+PFE,Pfizer Inc.,Health Care,Pharmaceuticals,175.49,sp500,USD
+PFG,"Principal Financial Group, Inc.",Financials,Insurance,24.91,sp500,USD
+PG,Procter & Gamble Company,Consumer Staples,Personal & Household Products & Services,387.81,sp500,USD
+PGR,Progressive Corporation,Financials,Insurance,136.05,sp500,USD
+PH,Parker-Hannifin Corporation,Industrials,"Machinery, Equipment & Components",114.79,sp500,USD
+PHM,"Pultegroup, Inc.",Consumer Discretionary,Homebuilding & Construction Supplies,25.03,sp500,USD
+PKG,Packaging Corp of America,Materials,Containers & Packaging,23.09,sp500,USD
+PLD,"PROLOGIS, INC.",Real Estate,Residential & Commercial REIT,124.86,sp500,USD
+PLTR,Palantir Technologies Inc. Class A Common Stock,Information Technology,Software & IT Services,412.61,sp500,USD
+PM,Philip Morris International Inc.,Consumer Staples,Food & Tobacco,329.31,sp500,USD
+PNC,PNC Financial Services Group,Financials,Banking Services,92.74,sp500,USD
+PNR,Pentair plc,Industrials,"Machinery, Equipment & Components",11.5,sp500,USD
+PNW,Pinnacle West Capital Corporation,Utilities,Electrical Utilities & IPPs,12.79,sp500,USD
+PODD,Insulet Corporation,Health Care,Healthcare Equipment & Supplies,11.44,sp500,USD
+PPG,"PPG Industries, Inc.",Materials,Chemicals,28.11,sp500,USD
+PPL,PPL Corporation,Utilities,Multiline Utilities,26.88,sp500,USD
+PRU,"Prudential Financial, Inc.",Financials,Insurance,43.69,sp500,USD
+PSA,Public Storage,Real Estate,Residential & Commercial REIT,64.04,sp500,USD
+PSX,PHILLIPS 66,Energy,Oil & Gas,101.27,sp500,USD
+PTC,"PTC, INC",Information Technology,Software & IT Services,21.2,sp500,USD
+PWR,"Quanta Services, Inc.",Industrials,Construction & Engineering,87.46,sp500,USD
+PYPL,"PayPal Holdings, Inc. Common Stock",Financials,Professional & Commercial Services,50.01,sp500,USD
+Q,"Qnity Electronics, Inc.",Information Technology,Semiconductors & Semiconductor Equipment,24.85,sp500,USD
+QCOM,Qualcomm Inc,Information Technology,Semiconductors & Semiconductor Equipment,181.85,sp500,USD
+RCL,Royal Caribbean Group,Consumer Discretionary,Hotels & Entertainment Services,89.11,sp500,USD
+RDDT,"Reddit, Inc.",Communication Services,Software & IT Services,19.67,sp500,USD
+REG,Regency Centers Corporation,Real Estate,Residential & Commercial REIT,14.07,sp500,USD
+REGN,Regeneron Pharmaceuticals Inc,Health Care,Pharmaceuticals,96.28,sp500,USD
+RF,Regions Financial Corp.,Financials,Banking Services,24.68,sp500,USD
+RJF,"Raymond James Financial, Inc.",Financials,Investment Banking & Investment Services,32.39,sp500,USD
+RL,Ralph Lauren Corporation,Consumer Discretionary,Textiles & Apparel,24.55,sp500,USD
+RMD,ResMed Inc.,Health Care,Healthcare Equipment & Supplies,33.83,sp500,USD
+ROK,"Rockwell Automation, Inc.",Industrials,"Machinery, Equipment & Components",49.31,sp500,USD
+ROL,"Rollins, Inc.",Industrials,Professional & Commercial Services,18.35,sp500,USD
+ROP,"Roper Technologies, Inc. Common Stock",Information Technology,Software & IT Services,48.75,sp500,USD
+ROST,Ross Stores Inc,Consumer Discretionary,Specialty Retailers,78.5,sp500,USD
+RSG,Republic Services Inc.,Industrials,Professional & Commercial Services,74.76,sp500,USD
+RTX,RTX Corporation,Industrials,Aerospace & Defense,267.77,sp500,USD
+RVTY,"Revvity, Inc.",Health Care,Healthcare Equipment & Supplies,17.79,sp500,USD
+SBAC,SBA Communications Corp,Real Estate,Residential & Commercial REIT,20.41,sp500,USD
+SBUX,Starbucks Corp,Consumer Discretionary,Hotels & Entertainment Services,125.07,sp500,USD
+SCHW,The Charles Schwab Corporation,Financials,Investment Banking & Investment Services,161.47,sp500,USD
+SHW,The Sherwin-Williams Company,Materials,Chemicals,87.82,sp500,USD
+SJM,The J.M. Smucker Company,Consumer Staples,Food & Tobacco,14.15,sp500,USD
+SKYD,Skydance Corporation,Communication Services,Media & Publishing,9.43,sp500,USD
+SLB,SLB Limited,Energy,Oil & Gas Related Equipment and Services,76.1,sp500,USD
+SMCI,"Super Micro Computer, Inc. Common Stock",Information Technology,"Computers, Phones & Household Electronics",19.45,sp500,USD
+SNA,Snap-on Incorporated,Industrials,"Machinery, Equipment & Components",19.02,sp500,USD
+SNDK,Sandisk Corporation Common Stock,Information Technology,"Computers, Phones & Household Electronics",147.61,sp500,USD
+SNPS,Synopsys Inc,Information Technology,Software & IT Services,88.72,sp500,USD
+SO,The Southern Company,Utilities,Electrical Utilities & IPPs,107.12,sp500,USD
+SOLV,Solventum Corporation,Health Care,Healthcare Equipment & Supplies,15.2,sp500,USD
+SPG,"Simon Property Group, Inc.",Real Estate,Residential & Commercial REIT,73.93,sp500,USD
+SPGI,S&P Global Inc.,Financials,Professional & Commercial Services,139.64,sp500,USD
+SRE,Sempra,Utilities,Multiline Utilities,54.21,sp500,USD
+STE,STERIS plc,Health Care,Healthcare Equipment & Supplies,24.17,sp500,USD
+STLD,Steel Dynamics Inc,Materials,Metals & Mining,34.15,sp500,USD
+STT,State Street Corporation,Financials,Investment Banking & Investment Services,47.17,sp500,USD
+STX,Seagate Technology Holdings PLC Ordinary Shares (Ireland),Information Technology,"Computers, Phones & Household Electronics",127.88,sp500,USD
+STZ,"Constellation Brands, Inc.",Consumer Staples,Beverages,24.62,sp500,USD
+SW,Smurfit Westrock plc,Materials,Containers & Packaging,23.7,sp500,USD
+SWK,"Stanley Black & Decker, Inc.",Industrials,"Machinery, Equipment & Components",17.87,sp500,USD
+SWKS,Skyworks Solutions Inc,Information Technology,Semiconductors & Semiconductor Equipment,19.5,sp500,USD
+SYF,SYNCHRONY FINANCIAL,Financials,Banking Services,23.36,sp500,USD
+SYK,Stryker Corporation,Health Care,Healthcare Equipment & Supplies,129.3,sp500,USD
+SYY,Sysco Corporation,Consumer Staples,Food & Drug Retailing,37.85,sp500,USD
+T,AT&T Inc.,Communication Services,Telecommunications Services,147.06,sp500,USD
+TDG,TransDigm Group Incorporated,Industrials,Aerospace & Defense,67.26,sp500,USD
+TDY,Teledyne Technologies Incorporated,Information Technology,Electronic Equipment & Parts,29.1,sp500,USD
+TECH,Bio-Techne Corp.,Health Care,Biotechnology & Medical Research,11.42,sp500,USD
+TEL,TE Connectivity plc,Information Technology,Electronic Equipment & Parts,63.31,sp500,USD
+TER,"Teradyne, Inc. Common Stock",Information Technology,Semiconductors & Semiconductor Equipment,39.19,sp500,USD
+TFC,Truist Financial Corporation,Financials,Banking Services,60.97,sp500,USD
+TGT,Target Corporation,Consumer Staples,Diversified Retail,74.1,sp500,USD
+TJX,"TJX Companies, Inc. (The)",Consumer Discretionary,Diversified Retail,159.23,sp500,USD
+TKO,"TKO Group Holdings, Inc.",Communication Services,Media & Publishing,36.62,sp500,USD
+TMO,"Thermo Fisher Scientific, Inc.",Health Care,Healthcare Equipment & Supplies,261.7,sp500,USD
+TMUS,"T-Mobile US, Inc.",Communication Services,Telecommunications Services,168.6,sp500,USD
+TPL,Texas Pacific Land Corporation,Energy,Oil & Gas,19.84,sp500,USD
+TPR,"Tapestry, Inc. Common Stock",Consumer Discretionary,Specialty Retailers,24.87,sp500,USD
+TRGP,Targa Resources Corp.,Energy,Oil & Gas Related Equipment and Services,61.11,sp500,USD
+TRMB,Trimble Inc. Common Stock,Information Technology,Software & IT Services,12.65,sp500,USD
+TROW,T Rowe Price Group Inc,Financials,Investment Banking & Investment Services,24.01,sp500,USD
+TRV,"The Travelers Companies, Inc.",Financials,Insurance,83.87,sp500,USD
+TSCO,Tractor Supply Co,Consumer Discretionary,Specialty Retailers,19.06,sp500,USD
+TSLA,"Tesla, Inc. Common Stock",Consumer Discretionary,Automobiles & Auto Parts,1522.56,sp500,USD
+TSN,"Tyson Foods, Inc.",Consumer Staples,Food & Tobacco,21.12,sp500,USD
+TT,Trane Technologies plc,Industrials,"Machinery, Equipment & Components",89.85,sp500,USD
+TTWO,Take-Two Interactive Software Inc,Communication Services,Software & IT Services,39.06,sp500,USD
+TWLO,Twilio Inc.,Information Technology,Software & IT Services,33.02,sp500,USD
+TXN,Texas Instruments Incorporated,Information Technology,Semiconductors & Semiconductor Equipment,284.63,sp500,USD
+TXT,"Textron, Inc.",Industrials,Aerospace & Defense,14.68,sp500,USD
+TYL,"Tyler Technologies, Inc.",Information Technology,Software & IT Services,16.83,sp500,USD
+UAL,"United Airlines Holdings, Inc. Common Stock",Industrials,Passenger Transportation Services,37.61,sp500,USD
+UBER,"Uber Technologies, Inc.",Industrials,Software & IT Services,142.71,sp500,USD
+UDR,"UDR, Inc.",Real Estate,Residential & Commercial REIT,11.96,sp500,USD
+UHS,"Universal Health Services, Inc. Class B",Health Care,Healthcare Providers & Services,11.58,sp500,USD
+ULTA,"Ulta Beauty, Inc. Common Stock",Consumer Discretionary,Specialty Retailers,28.25,sp500,USD
+UNH,UNITEDHEALTH GROUP INCORPORATED (Delaware),Health Care,Healthcare Providers & Services,367.46,sp500,USD
+UNP,Union Pacific Corp.,Industrials,Freight & Logistics Services,183.34,sp500,USD
+UPS,"United Parcel Service, Inc. Class B",Industrials,Freight & Logistics Services,97.25,sp500,USD
+URI,"United Rentals, Inc.",Industrials,Professional & Commercial Services,69.58,sp500,USD
+USB,U.S. Bancorp,Financials,Banking Services,95.08,sp500,USD
+V,VISA Inc.,Financials,Professional & Commercial Services,811.45,sp500,USD
+VEEV,Veeva Systems Inc.,Health Care,Healthcare Equipment & Supplies,50.29,sp500,USD
+VICI,VICI Properties Inc. Common Stock,Real Estate,Residential & Commercial REIT,27.8,sp500,USD
+VLO,Valero Energy Corporation,Energy,Oil & Gas,101.87,sp500,USD
+VLTO,Veralto Corporation,Industrials,Professional & Commercial Services,28.45,sp500,USD
+VMC,Vulcan Materials Company(Holding Company),Materials,Construction Materials,38.21,sp500,USD
+VMRK,Vivmark Residential,Real Estate,Residential & Commercial REIT,49.31,sp500,USD
+VRSK,"Verisk Analytics, Inc. Common Stock",Industrials,Software & IT Services,25.75,sp500,USD
+VRSN,VeriSign Inc,Information Technology,Software & IT Services,28.53,sp500,USD
+VRT,Vertiv Holdings Co Class A Common Stock,Industrials,"Machinery, Equipment & Components",79.15,sp500,USD
+VRTX,Vertex Pharmaceuticals Inc,Health Care,Pharmaceuticals,139.18,sp500,USD
+VST,Vistra Corp.,Utilities,Electrical Utilities & IPPs,40.37,sp500,USD
+VTR,"Ventas, Inc.",Real Estate,Residential & Commercial REIT,47.17,sp500,USD
+VTRS,Viatris Inc. Common Stock,Health Care,Pharmaceuticals,22.08,sp500,USD
+VYLR,Vylor Inc.,Consumer Staples,Food & Tobacco,47.53,sp500,USD
+VZ,Verizon Communications,Communication Services,Telecommunications Services,191.36,sp500,USD
+WAB,Wabtec Inc.,Industrials,"Machinery, Equipment & Components",49.49,sp500,USD
+WAT,Waters Corp,Health Care,Healthcare Equipment & Supplies,45.94,sp500,USD
+WDAY,"Workday, Inc. Class A Common Stock",Information Technology,Software & IT Services,48.64,sp500,USD
+WDC,Western Digital Corp.,Information Technology,"Computers, Phones & Household Electronics",121.22,sp500,USD
+WEC,"WEC Energy Group, Inc.",Utilities,Electrical Utilities & IPPs,38.86,sp500,USD
+WELL,Welltower Inc.,Real Estate,Residential & Commercial REIT,181.93,sp500,USD
+WFC,Wells Fargo & Co.,Financials,Banking Services,262.45,sp500,USD
+WM,"Waste Management, Inc.",Industrials,Professional & Commercial Services,94.83,sp500,USD
+WMB,Williams Companies Inc.,Energy,Oil & Gas Related Equipment and Services,84.84,sp500,USD
+WMT,Walmart Inc. Common Stock,Consumer Staples,Food & Drug Retailing,1024.8,sp500,USD
+WRB,W.R. Berkley Corporation,Financials,Insurance,28.5,sp500,USD
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,Specialty Retailers,31.81,sp500,USD
+WST,"West Pharmaceutical Services, Inc.",Health Care,Healthcare Equipment & Supplies,28.48,sp500,USD
+WTW,Willis Towers Watson Public Limited Company Ordinary Shares,Financials,Insurance,31.11,sp500,USD
+WY,Weyerhaeuser Company,Real Estate,Residential & Commercial REIT,15.67,sp500,USD
+WYNN,Wynn Resorts Ltd,Consumer Discretionary,Hotels & Entertainment Services,8.48,sp500,USD
+XEL,"Xcel Energy, Inc.",Utilities,Electrical Utilities & IPPs,51.67,sp500,USD
+XOM,ExxonMobil Holdings Corporation,Energy,Oil & Gas,690.49,sp500,USD
+XYL,Xylem Inc,Industrials,"Machinery, Equipment & Components",23.17,sp500,USD
+XYZ,"Block, Inc.",Financials,Professional & Commercial Services,52.65,sp500,USD
+YUM,"Yum! Brands, Inc.",Consumer Discretionary,Hotels & Entertainment Services,45.39,sp500,USD
+ZBH,"Zimmer Biomet Holdings, Inc.",Health Care,Healthcare Equipment & Supplies,21.01,sp500,USD
+ZBRA,Zebra Technologies Corporation,Information Technology,Electronic Equipment & Parts,15.73,sp500,USD
+ZTS,ZOETIS INC.,Health Care,Pharmaceuticals,36.86,sp500,USD
+0001.HK,CKH HOLDINGS,Industrials,Hong Kong,,asia,HKD
+0002.HK,CLP HOLDINGS,Utilities,Hong Kong,,asia,HKD
+0003.HK,HK & CHINA GAS,Utilities,Hong Kong,,asia,HKD
+0005.HK,HSBC HOLDINGS,Financials,Hong Kong,,asia,HKD
+0006.HK,POWER ASSETS,Utilities,Hong Kong,,asia,HKD
+0012.HK,HENDERSON LAND,Real Estate,Hong Kong,,asia,HKD
+0016.HK,SHK PPT,Real Estate,Hong Kong,,asia,HKD
+0020.HK,SENSETIME - W,Information Technology,Hong Kong,,asia,HKD
+0027.HK,GALAXY ENT,Consumer Discretionary,Hong Kong,,asia,HKD
+0066.HK,MTR CORPORATION,Industrials,Hong Kong,,asia,HKD
+0100.HK,MINIMAX - W,Information Technology,Hong Kong,,asia,HKD
+0101.HK,HANG LUNG PPT,Real Estate,Hong Kong,,asia,HKD
+0175.HK,GEELY AUTO,Consumer Discretionary,Hong Kong,,asia,HKD
+0241.HK,ALI HEALTH,Consumer Staples,Hong Kong,,asia,HKD
+0267.HK,CITIC,Industrials,Hong Kong,,asia,HKD
+0285.HK,BYD ELECTRONIC,Information Technology,Hong Kong,,asia,HKD
+0288.HK,WH GROUP,Consumer Staples,Hong Kong,,asia,HKD
+0291.HK,CHINA RES BEER,Consumer Staples,Hong Kong,,asia,HKD
+0300.HK,MIDEA GROUP,Consumer Discretionary,Hong Kong,,asia,HKD
+0316.HK,OOIL,Industrials,Hong Kong,,asia,HKD
+0322.HK,TINGYI,Consumer Staples,Hong Kong,,asia,HKD
+0386.HK,SINOPEC CORP,Energy,Hong Kong,,asia,HKD
+0388.HK,HKEX,Financials,Hong Kong,,asia,HKD
+0669.HK,TECHTRONIC IND,Industrials,Hong Kong,,asia,HKD
+0688.HK,CHINA OVERSEAS,Real Estate,Hong Kong,,asia,HKD
+0700.HK,TENCENT,Communication Services,Hong Kong,,asia,HKD
+0728.HK,CHINA TELECOM,Communication Services,Hong Kong,,asia,HKD
+0762.HK,CHINA UNICOM,Communication Services,Hong Kong,,asia,HKD
+0823.HK,LINK REIT,Real Estate,Hong Kong,,asia,HKD
+0836.HK,CHINA RES POWER,Utilities,Hong Kong,,asia,HKD
+0857.HK,PETROCHINA,Energy,Hong Kong,,asia,HKD
+0868.HK,XINYI GLASS,Industrials,Hong Kong,,asia,HKD
+0883.HK,CNOOC,Energy,Hong Kong,,asia,HKD
+0939.HK,CCB,Financials,Hong Kong,,asia,HKD
+0941.HK,CHINA MOBILE,Communication Services,Hong Kong,,asia,HKD
+0960.HK,LONGFOR GROUP,Real Estate,Hong Kong,,asia,HKD
+0968.HK,XINYI SOLAR,Information Technology,Hong Kong,,asia,HKD
+0981.HK,SMIC,Information Technology,Hong Kong,,asia,HKD
+0992.HK,LENOVO GROUP,Information Technology,Hong Kong,,asia,HKD
+1024.HK,KUAISHOU - W,Communication Services,Hong Kong,,asia,HKD
+1038.HK,CKI HOLDINGS,Utilities,Hong Kong,,asia,HKD
+1044.HK,HENGAN INT'L,Consumer Staples,Hong Kong,,asia,HKD
+1088.HK,CHINA SHENHUA,Energy,Hong Kong,,asia,HKD
+1093.HK,CSPC PHARMA,Health Care,Hong Kong,,asia,HKD
+1099.HK,SINOPHARM,Health Care,Hong Kong,,asia,HKD
+1109.HK,CHINA RES LAND,Real Estate,Hong Kong,,asia,HKD
+1113.HK,CK ASSET,Real Estate,Hong Kong,,asia,HKD
+1177.HK,SBP GROUP,Health Care,Hong Kong,,asia,HKD
+1209.HK,CHINA RES MIXC,Real Estate,Hong Kong,,asia,HKD
+1211.HK,BYD COMPANY,Consumer Discretionary,Hong Kong,,asia,HKD
+1299.HK,AIA,Financials,Hong Kong,,asia,HKD
+1347.HK,HUA HONG GRACE,Information Technology,Hong Kong,,asia,HKD
+1378.HK,CHINAHONGQIAO,Materials,Hong Kong,,asia,HKD
+1398.HK,ICBC,Financials,Hong Kong,,asia,HKD
+1519.HK,J&T EXPRESS - W,Industrials,Hong Kong,,asia,HKD
+1698.HK,TME - SW,Communication Services,Hong Kong,,asia,HKD
+1801.HK,INNOVENT BIO,Health Care,Hong Kong,,asia,HKD
+1810.HK,XIAOMI - W,Information Technology,Hong Kong,,asia,HKD
+1876.HK,BUD APAC,Consumer Staples,Hong Kong,,asia,HKD
+1928.HK,SANDS CHINA LTD,Consumer Discretionary,Hong Kong,,asia,HKD
+1929.HK,CHOW TAI FOOK,Consumer Discretionary,Hong Kong,,asia,HKD
+1997.HK,WHARF REIC,Real Estate,Hong Kong,,asia,HKD
+2015.HK,LI AUTO - W,Consumer Discretionary,Hong Kong,,asia,HKD
+2020.HK,ANTA SPORTS,Consumer Discretionary,Hong Kong,,asia,HKD
+2057.HK,ZTO EXPRESS - W,Industrials,Hong Kong,,asia,HKD
+2269.HK,WUXI BIO,Health Care,Hong Kong,,asia,HKD
+2313.HK,SHENZHOU INTL,Consumer Discretionary,Hong Kong,,asia,HKD
+2318.HK,PING AN,Financials,Hong Kong,,asia,HKD
+2319.HK,MENGNIU DAIRY,Consumer Staples,Hong Kong,,asia,HKD
+2331.HK,LI NING,Consumer Discretionary,Hong Kong,,asia,HKD
+2338.HK,WEICHAI POWER,Industrials,Hong Kong,,asia,HKD
+2359.HK,WUXI APPTEC,Health Care,Hong Kong,,asia,HKD
+2382.HK,SUNNY OPTICAL,Information Technology,Hong Kong,,asia,HKD
+2388.HK,BOC HONG KONG,Financials,Hong Kong,,asia,HKD
+2513.HK,Z.AI,Information Technology,Hong Kong,,asia,HKD
+2600.HK,CHALCO,Materials,Hong Kong,,asia,HKD
+2618.HK,JD LOGISTICS,Industrials,Hong Kong,,asia,HKD
+2628.HK,CHINA LIFE,Financials,Hong Kong,,asia,HKD
+2688.HK,ENN ENERGY,Utilities,Hong Kong,,asia,HKD
+2899.HK,ZIJIN MINING,Materials,Hong Kong,,asia,HKD
+3690.HK,MEITUAN - W,Consumer Discretionary,Hong Kong,,asia,HKD
+3692.HK,HANSOH PHARMA,Health Care,Hong Kong,,asia,HKD
+3750.HK,CATL,Industrials,Hong Kong,,asia,HKD
+3968.HK,CM BANK,Financials,Hong Kong,,asia,HKD
+3988.HK,BANK OF CHINA,Financials,Hong Kong,,asia,HKD
+3993.HK,CMOC,Materials,Hong Kong,,asia,HKD
+6160.HK,BEONE MEDICINES,Health Care,Hong Kong,,asia,HKD
+6181.HK,LAOPU GOLD,Consumer Discretionary,Hong Kong,,asia,HKD
+6618.HK,JD HEALTH,Consumer Staples,Hong Kong,,asia,HKD
+6690.HK,HAIER SMARTHOME,Consumer Discretionary,Hong Kong,,asia,HKD
+6862.HK,HAIDILAO,Consumer Discretionary,Hong Kong,,asia,HKD
+9618.HK,JD - SW,Consumer Discretionary,Hong Kong,,asia,HKD
+9626.HK,BILIBILI - W,Communication Services,Hong Kong,,asia,HKD
+9633.HK,NONGFU SPRING,Consumer Staples,Hong Kong,,asia,HKD
+9660.HK,HORIZONROBOT - W,Information Technology,Hong Kong,,asia,HKD
+9863.HK,LEAPMOTOR,Consumer Discretionary,Hong Kong,,asia,HKD
+9866.HK,NIO - SW,Consumer Discretionary,Hong Kong,,asia,HKD
+9868.HK,XPENG - W,Consumer Discretionary,Hong Kong,,asia,HKD
+9888.HK,BIDU - W,Communication Services,Hong Kong,,asia,HKD
+9901.HK,NEW ORIENTAL - S,Consumer Discretionary,Hong Kong,,asia,HKD
+9903.HK,ILUVATAR COREX,Information Technology,Hong Kong,,asia,HKD
+9961.HK,TRIP.COM - S,Consumer Discretionary,Hong Kong,,asia,HKD
+9988.HK,BABA - W,Consumer Discretionary,Hong Kong,,asia,HKD
+9992.HK,POP MART,Consumer Discretionary,Hong Kong,,asia,HKD
+9999.HK,NTES,Communication Services,Hong Kong,,asia,HKD
+2330.TW,TSMC,Information Technology,Taiwan,,asia,TWD
+2308.TW,Delta,Information Technology,Taiwan,,asia,TWD
+2454.TW,Mediatek,Information Technology,Taiwan,,asia,TWD
+3008.TW,Largan,Information Technology,Taiwan,,asia,TWD
+2317.TW,Hon Hai,Information Technology,Taiwan,,asia,TWD
+6669.TW,Wiwynn,Information Technology,Taiwan,,asia,TWD
+005930.KS,Samsung,Information Technology,Korea,,asia,KRW
+000660.KS,SK Hynix,Information Technology,Korea,,asia,KRW
+373220.KS,LGES,Industrials,Korea,,asia,KRW
+005380.KS,Hyundai,Consumer Discretionary,Korea,,asia,KRW
+000270.KS,Kia,Consumer Discretionary,Korea,,asia,KRW
+034020.KS,Doosan Enerbility,Industrials,Korea,,asia,KRW
+3037.TW,Unimicron,Information Technology,Taiwan,,asia,TWD
+009150.KS,SEMCO,Information Technology,Korea,,asia,KRW
+3308.HK,Zhongji Innolight,Information Technology,Hong Kong,,asia,HKD
+9880.HK,UBTech,Information Technology,Hong Kong,,asia,HKD
