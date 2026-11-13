@@ -1,176 +1,201 @@
 {
- "generated_utc": "2026-11-12 22:20",
- "data_date": "2026-11-12",
+ "generated_utc": "2026-11-13 22:18",
+ "data_date": "2026-11-13",
  "items": [
   {
-   "ticker": "9903.HK",
-   "company": "ILUVATAR COREX",
+   "ticker": "2454.TW",
+   "company": "Mediatek",
    "sector": "Information Technology",
    "side": "gainer",
    "watchlist": "asia",
-   "chg_1d": 0.08852005532503471,
-   "price": 78.7,
-   "tags": [],
-   "headlines": [],
-   "earnings": null
+   "chg_1d": 0.07012987012987004,
+   "price": 4120.0,
+   "tags": [
+    "Analyst call",
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Nvidia succession uncertainty opens door for Google TPU and Broadcom, analyst says",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-succession-uncertainty-opens-door-182630689.html",
+     "time": "2026-11-12 18:26 UTC"
+    }
+   ],
+   "earnings": "2026-10-30"
   },
   {
-   "ticker": "0823.HK",
-   "company": "LINK REIT",
-   "sector": "Real Estate",
-   "side": "gainer",
-   "watchlist": "asia",
-   "chg_1d": 0.03233830845771135,
-   "price": 41.5,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2026-11-12"
-  },
-  {
-   "ticker": "1347.HK",
-   "company": "HUA HONG GRACE",
+   "ticker": "3008.TW",
+   "company": "Largan",
    "sector": "Information Technology",
    "side": "gainer",
    "watchlist": "asia",
-   "chg_1d": 0.02461743180306053,
-   "price": 77.0,
+   "chg_1d": 0.05044510385756684,
+   "price": 5310.0,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2027-01-27"
+  },
+  {
+   "ticker": "6669.TW",
+   "company": "Wiwynn",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "watchlist": "asia",
+   "chg_1d": 0.04140127388535042,
+   "price": 1635.0,
    "tags": [
     "AI / semis"
    ],
    "headlines": [
     {
-     "title": "U.S., Europe chip stocks dip as Nvidia board reportedly weighs ousting Huang",
-     "publisher": "Investing.com",
-     "url": "https://finance.yahoo.com/technology/ai/articles/china-chip-stocks-rally-u-063831379.html",
-     "time": "2026-11-12 06:38 UTC"
-    },
-    {
-     "title": "China Export Stocks Riding AI And Clean Energy Demand",
+     "title": "Anthropic IPO Puts Wiwynn Stock And AI Data Center Shares In Focus",
      "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/china-export-stocks-riding-ai-070812871.html",
-     "time": "2026-11-10 07:08 UTC"
+     "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-puts-wiwynn-stock-111416952.html",
+     "time": "2026-11-11 11:14 UTC"
     }
    ],
-   "earnings": "2026-11-05"
+   "earnings": "2026-11-06"
   },
   {
-   "ticker": "2359.HK",
-   "company": "WUXI APPTEC",
-   "sector": "Health Care",
+   "ticker": "0857.HK",
+   "company": "PETROCHINA",
+   "sector": "Energy",
    "side": "gainer",
    "watchlist": "asia",
-   "chg_1d": 0.024415055951169995,
-   "price": 201.4,
+   "chg_1d": 0.027860696517412853,
+   "price": 10.33,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2026-10-28"
+  },
+  {
+   "ticker": "2382.HK",
+   "company": "SUNNY OPTICAL",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "watchlist": "asia",
+   "chg_1d": 0.024105754276827263,
+   "price": 65.85,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2026-08-26"
+  },
+  {
+   "ticker": "0386.HK",
+   "company": "SINOPEC CORP",
+   "sector": "Energy",
+   "side": "gainer",
+   "watchlist": "asia",
+   "chg_1d": 0.017130620985010614,
+   "price": 4.75,
    "tags": [],
    "headlines": [
     {
-     "title": "Pentagon drops WuXi AppTec from Chinese military company list",
-     "publisher": "Pharmaceutical Technology",
-     "url": "https://www.pharmaceutical-technology.com/news/pentagon-drops-wuxi-apptec-from-chinese-military-company-list/",
-     "time": "2026-11-10 17:48 UTC"
-    },
-    {
-     "title": "WuXi AppTec Removed From Pentagon\u2019s List of Chinese Military Companies",
-     "publisher": "The Wall Street Journal",
-     "url": "https://www.wsj.com/business/wuxi-apptec-removed-from-pentagons-list-of-chinese-military-companies-275a6a36?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-10 05:18 UTC"
-    },
-    {
-     "title": "WuXi AppTec shares gain after U.S. removes company from military list",
-     "publisher": "Investing.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/wuxi-apptec-shares-gain-u-030611125.html",
-     "time": "2026-11-10 03:06 UTC"
-    }
-   ],
-   "earnings": "2026-10-26"
-  },
-  {
-   "ticker": "1876.HK",
-   "company": "BUD APAC",
-   "sector": "Consumer Staples",
-   "side": "gainer",
-   "watchlist": "asia",
-   "chg_1d": 0.0219780219780219,
-   "price": 6.51,
-   "tags": [
-    "Earnings"
-   ],
-   "headlines": [
-    {
-     "title": "Budweiser APAC (SEHK:1876) Stock May Be Above Fair Value On Earnings",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/budweiser-apac-sehk-1876-stock-201115965.html",
-     "time": "2026-11-09 20:11 UTC"
+     "title": "Asian Oil Buyers Turn to Africa and Brazil as Tanker Rates Plunge",
+     "publisher": "Oilprice.com",
+     "url": "https://finance.yahoo.com/energy/articles/asian-oil-buyers-turn-africa-083000421.html",
+     "time": "2026-11-12 08:30 UTC"
     }
    ],
    "earnings": "2026-10-29"
   },
   {
-   "ticker": "3692.HK",
-   "company": "HANSOH PHARMA",
-   "sector": "Health Care",
-   "side": "gainer",
-   "watchlist": "asia",
-   "chg_1d": 0.016880093131548257,
-   "price": 34.94,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2026-08-26"
-  },
-  {
-   "ticker": "6160.HK",
-   "company": "BEONE MEDICINES",
-   "sector": "Health Care",
-   "side": "gainer",
-   "watchlist": "asia",
-   "chg_1d": 0.015885623510722757,
-   "price": 255.8,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2026-11-05"
-  },
-  {
-   "ticker": "6862.HK",
-   "company": "HAIDILAO",
+   "ticker": "005380.KS",
+   "company": "Hyundai",
    "sector": "Consumer Discretionary",
    "side": "gainer",
    "watchlist": "asia",
-   "chg_1d": 0.01414141414141401,
-   "price": 10.04,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2026-08-25"
+   "chg_1d": 0.011257035647279645,
+   "price": 269500.0,
+   "tags": [
+    "Management"
+   ],
+   "headlines": [
+    {
+     "title": "Stellantis replaces sales chief, former Jeep CEO returns",
+     "publisher": "Detroit Free Press",
+     "url": "https://www.freep.com/story/money/cars/stellantis/2026/11/13/stellantis-tim-kuniskis-michael-orange/92756446007/",
+     "time": "2026-11-13 14:56 UTC"
+    },
+    {
+     "title": "Vietnam vehicle market plunges 24% in October",
+     "publisher": "Just Auto",
+     "url": "https://www.just-auto.com/news/vietnam-vehicle-market-plunges-24-in-october/",
+     "time": "2026-11-13 12:16 UTC"
+    },
+    {
+     "title": "South Korean import sales surge 29% in October",
+     "publisher": "Just Auto",
+     "url": "https://www.just-auto.com/news/south-korean-import-sales-surge-29-in-october/",
+     "time": "2026-11-11 10:49 UTC"
+    },
+    {
+     "title": "'I Lost Money\u2019: Billionaire Charlie Munger, 99, Said He Rode Out a Losing Bet Until He Got Back to Almost What He Paid \u2014 \u2018I Was Stubborn\u2019",
+     "publisher": "Benzinga",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/lost-money-billionaire-charlie-munger-123005193.html",
+     "time": "2026-11-10 12:30 UTC"
+    }
+   ],
+   "earnings": "2027-01-28"
   },
   {
-   "ticker": "0322.HK",
-   "company": "TINGYI",
-   "sector": "Consumer Staples",
+   "ticker": "0300.HK",
+   "company": "MIDEA GROUP",
+   "sector": "Consumer Discretionary",
    "side": "gainer",
    "watchlist": "asia",
-   "chg_1d": 0.014115898959881079,
-   "price": 13.65,
+   "chg_1d": 0.010945273631840724,
+   "price": 101.6,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2026-10-29"
+  },
+  {
+   "ticker": "1398.HK",
+   "company": "ICBC",
+   "sector": "Financials",
+   "side": "gainer",
+   "watchlist": "asia",
+   "chg_1d": 0.01084875558391829,
+   "price": 7.92,
    "tags": [],
    "headlines": [
     {
-     "title": "Tingyi (SEHK:322) Stock Looks Fully Valued After Its 64% Three Year Run",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/tingyi-sehk-322-stock-looks-171536847.html",
-     "time": "2026-11-12 17:15 UTC"
+     "title": "Is Industrial & Commercial Bank of China (IDCBY) a Great Value Stock Right Now?",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/industrial-commercial-bank-china-idcby-134002281.html",
+     "time": "2026-11-12 13:40 UTC"
     }
    ],
-   "earnings": null
+   "earnings": "2026-10-30"
   },
   {
-   "ticker": "2319.HK",
-   "company": "MENGNIU DAIRY",
-   "sector": "Consumer Staples",
+   "ticker": "000270.KS",
+   "company": "Kia",
+   "sector": "Consumer Discretionary",
    "side": "gainer",
    "watchlist": "asia",
-   "chg_1d": 0.013035381750465591,
-   "price": 21.76,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2026-08-26"
+   "chg_1d": 0.010683760683760646,
+   "price": 94600.0,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Kia plans second plant in India with $2bn investment",
+     "publisher": "Just Auto",
+     "url": "https://www.just-auto.com/news/kia-second-plant-india-2bn-investment/",
+     "time": "2026-11-13 10:26 UTC"
+    },
+    {
+     "title": "Kakao Mobility and Nvidia partner on L4 autonomous driving",
+     "publisher": "Just Auto",
+     "url": "https://www.just-auto.com/news/kakao-mobility-nvidia-partner-l4-autonomous-driving/",
+     "time": "2026-11-10 18:58 UTC"
+    }
+   ],
+   "earnings": "2027-01-27"
   },
   {
    "ticker": "2513.HK",
@@ -178,13 +203,19 @@
    "sector": "Information Technology",
    "side": "loser",
    "watchlist": "asia",
-   "chg_1d": -0.0905448717948718,
-   "price": 454.0,
+   "chg_1d": -0.10044052863436126,
+   "price": 408.4,
    "tags": [
     "AI / semis",
     "Management"
    ],
    "headlines": [
+    {
+     "title": "China AI stocks tumble as Nvidia fallout fuels fears of tighter U.S. chip curbs",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/technology/ai/articles/china-ai-stocks-tumble-nvidia-064035259.html",
+     "time": "2026-11-13 06:40 UTC"
+    },
     {
      "title": "Nvidia Fallout Hits Alibaba Stock Amid Fears of Chip Cutoff",
      "publisher": "The Wall Street Journal",
@@ -207,16 +238,31 @@
    "earnings": null
   },
   {
-   "ticker": "3037.TW",
-   "company": "Unimicron",
+   "ticker": "3308.HK",
+   "company": "Zhongji Innolight",
    "sector": "Information Technology",
    "side": "loser",
    "watchlist": "asia",
-   "chg_1d": -0.08333333333333337,
-   "price": 792.0,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2026-10-27"
+   "chg_1d": -0.09391839876828334,
+   "price": 588.5,
+   "tags": [
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "CK Hutchison Delays Planned Dual Listing of Retailer AS Watson",
+     "publisher": "The Wall Street Journal",
+     "url": "https://www.wsj.com/business/retail/ck-hutchison-delays-planned-dual-listing-of-retailer-as-watson-2b8f122b?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-11 07:16 UTC"
+    },
+    {
+     "title": "China optical stocks rally as Microsoft challenges proposed U.S. import curbs",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/china-optical-stocks-rally-microsoft-063031256.html",
+     "time": "2026-11-11 06:30 UTC"
+    }
+   ],
+   "earnings": null
   },
   {
    "ticker": "0100.HK",
@@ -224,12 +270,18 @@
    "sector": "Information Technology",
    "side": "loser",
    "watchlist": "asia",
-   "chg_1d": -0.0782898389783453,
-   "price": 166.0,
+   "chg_1d": -0.08192771084337347,
+   "price": 152.4,
    "tags": [
     "AI / semis"
    ],
    "headlines": [
+    {
+     "title": "China AI stocks tumble as Nvidia fallout fuels fears of tighter U.S. chip curbs",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/technology/ai/articles/china-ai-stocks-tumble-nvidia-064035259.html",
+     "time": "2026-11-13 06:40 UTC"
+    },
     {
      "title": "Nvidia Fallout Hits Alibaba Stock Amid Fears of Chip Cutoff",
      "publisher": "The Wall Street Journal",
@@ -246,109 +298,92 @@
    "earnings": "2026-08-26"
   },
   {
-   "ticker": "9988.HK",
-   "company": "BABA - W",
+   "ticker": "0960.HK",
+   "company": "LONGFOR GROUP",
+   "sector": "Real Estate",
+   "side": "loser",
+   "watchlist": "asia",
+   "chg_1d": -0.06428571428571428,
+   "price": 3.93,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2026-08-28"
+  },
+  {
+   "ticker": "0992.HK",
+   "company": "LENOVO GROUP",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "asia",
+   "chg_1d": -0.06326422115895791,
+   "price": 17.62,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2026-11-19"
+  },
+  {
+   "ticker": "1347.HK",
+   "company": "HUA HONG GRACE",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "asia",
+   "chg_1d": -0.061038961038961115,
+   "price": 72.3,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "U.S., Europe chip stocks dip as Nvidia board reportedly weighs ousting Huang",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/technology/ai/articles/china-chip-stocks-rally-u-063831379.html",
+     "time": "2026-11-12 06:38 UTC"
+    },
+    {
+     "title": "China Export Stocks Riding AI And Clean Energy Demand",
+     "publisher": "Simply Wall St.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/china-export-stocks-riding-ai-070812871.html",
+     "time": "2026-11-10 07:08 UTC"
+    }
+   ],
+   "earnings": "2026-11-05"
+  },
+  {
+   "ticker": "9866.HK",
+   "company": "NIO - SW",
    "sector": "Consumer Discretionary",
    "side": "loser",
    "watchlist": "asia",
-   "chg_1d": -0.06759443339960236,
-   "price": 93.8,
-   "tags": [
-    "AI / semis"
-   ],
-   "headlines": [
-    {
-     "title": "Alibaba (BABA) Risks A Cloud Setback From New US AI Chip Rules",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-baba-risks-cloud-setback-211319606.html",
-     "time": "2026-11-12 21:13 UTC"
-    },
-    {
-     "title": "Nvidia Fallout Hits Alibaba and Other China Stocks as Tighter Regulation Look Likely",
-     "publisher": "Barrons.com",
-     "url": "https://www.barrons.com/articles/nvidia-alibaba-tencent-china-stocks-462175ef?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-12 19:55 UTC"
-    },
-    {
-     "title": "Nvidia Chip Crackdown Fears Send Alibaba Shares Tumbling",
-     "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-chip-crackdown-fears-send-194349572.html",
-     "time": "2026-11-12 19:43 UTC"
-    },
-    {
-     "title": "Alibaba shares slide 7% as Nvidia crisis and US chip curbs threaten AI ambitions",
-     "publisher": "Proactive",
-     "url": "https://www.proactiveinvestors.com/companies/news/1101702/alibaba-shares-slide-7-as-nvidia-crisis-and-us-chip-curbs-threaten-ai-ambitions-1101702.html",
-     "time": "2026-11-12 18:22 UTC"
-    }
-   ],
-   "earnings": "2026-11-19"
-  },
-  {
-   "ticker": "6669.TW",
-   "company": "Wiwynn",
-   "sector": "Information Technology",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.06547619047619047,
-   "price": 1570.0,
-   "tags": [
-    "AI / semis"
-   ],
-   "headlines": [
-    {
-     "title": "Anthropic IPO Puts Wiwynn Stock And AI Data Center Shares In Focus",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-puts-wiwynn-stock-111416952.html",
-     "time": "2026-11-11 11:14 UTC"
-    }
-   ],
-   "earnings": "2026-11-06"
-  },
-  {
-   "ticker": "1024.HK",
-   "company": "KUAISHOU - W",
-   "sector": "Communication Services",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.053035589672016714,
-   "price": 27.14,
-   "tags": [
-    "AI / semis"
-   ],
-   "headlines": [
-    {
-     "title": "China\u2019s Singles\u2019 Day Trades Discounts for AI, Livestream Innovation",
-     "publisher": "WWD",
-     "url": "https://wwd.com/business-news/retail/china-singles-day-2026-trends-ai-livestream-innovation-1239412549/",
-     "time": "2026-11-12 16:04 UTC"
-    }
-   ],
-   "earnings": "2026-11-19"
-  },
-  {
-   "ticker": "3008.TW",
-   "company": "Largan",
-   "sector": "Information Technology",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.05070422535211272,
-   "price": 5055.0,
+   "chg_1d": -0.0535714285714286,
+   "price": 23.32,
    "tags": [],
-   "headlines": [],
-   "earnings": "2027-01-27"
-  },
-  {
-   "ticker": "0020.HK",
-   "company": "SENSETIME - W",
-   "sector": "Information Technology",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.04329004329004338,
-   "price": 1.105,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2026-08-26"
+   "headlines": [
+    {
+     "title": "Nio\u2019s Deliveries Are Up 38.5% This Year. But It Just Hit a Speed Bump.",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/12/nio-s-deliveries-are-up-38-5-this-year-but-it-just-hit-a-speed-bump/",
+     "time": "2026-11-12 15:20 UTC"
+    },
+    {
+     "title": "NIO Inc. (NIO) Stock Dips While Market Gains: Key Facts",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nio-inc-nio-stock-dips-214502006.html",
+     "time": "2026-11-11 21:45 UTC"
+    },
+    {
+     "title": "NIO vs. Ferrari: Which Luxury Car Stock Is a Better Buy for 2027?",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/10/nio-vs-ferrari-which-luxury-car-stock-is-a-better-buy-for-2027/",
+     "time": "2026-11-10 21:01 UTC"
+    },
+    {
+     "title": "Nio Is Now Down 36% in 2026: Is NIO a Toxic Stock or Ready to Rally?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/10/nio-is-now-down-36-in-2026-is-nio-a-toxic-stock-or-ready-to-rally/",
+     "time": "2026-11-10 20:02 UTC"
+    }
+   ],
+   "earnings": "2026-11-24"
   },
   {
    "ticker": "3993.HK",
@@ -356,568 +391,152 @@
    "sector": "Materials",
    "side": "loser",
    "watchlist": "asia",
-   "chg_1d": -0.04268774703557321,
-   "price": 12.11,
+   "chg_1d": -0.052023121387283155,
+   "price": 11.48,
    "tags": [],
    "headlines": [],
    "earnings": "2026-10-23"
   },
   {
-   "ticker": "2308.TW",
-   "company": "Delta",
+   "ticker": "9868.HK",
+   "company": "XPENG - W",
+   "sector": "Consumer Discretionary",
+   "side": "loser",
+   "watchlist": "asia",
+   "chg_1d": -0.051389617199790294,
+   "price": 36.18,
+   "tags": [],
+   "headlines": [
+    {
+     "title": "Nio Is Now Down 36% in 2026: Is NIO a Toxic Stock or Ready to Rally?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/10/nio-is-now-down-36-in-2026-is-nio-a-toxic-stock-or-ready-to-rally/",
+     "time": "2026-11-10 20:02 UTC"
+    }
+   ],
+   "earnings": "2026-11-16"
+  },
+  {
+   "ticker": "0285.HK",
+   "company": "BYD ELECTRONIC",
    "sector": "Information Technology",
    "side": "loser",
    "watchlist": "asia",
-   "chg_1d": -0.0424710424710425,
-   "price": 1240.0,
+   "chg_1d": -0.05077369439071566,
+   "price": 19.63,
    "tags": [],
    "headlines": [],
-   "earnings": "2026-10-28"
+   "earnings": "2026-08-28"
   },
   {
-   "ticker": "AMD",
-   "company": "Advanced Micro Devices",
-   "sector": "Information Technology",
+   "ticker": "CHTR",
+   "company": "Charter Comm Inc Del CL A New",
+   "sector": "Communication Services",
    "side": "gainer",
    "watchlist": "sp500",
-   "chg_1d": 0.05860010851871955,
-   "price": 585.3,
-   "tags": [
-    "M&A / deals",
-    "AI / semis",
-    "Management"
-   ],
-   "headlines": [
-    {
-     "title": "Nvidia Stock Hammered As CEO Resigns In Disgrace",
-     "publisher": "Investor's Business Daily",
-     "url": "https://www.investors.com/news/technology/nvidia-stock-hammered-ceo-jensen-huang-future-in-doubt/?src=A00220&yptr=yahoo",
-     "time": "2026-11-12 22:18 UTC"
-    },
-    {
-     "title": "Dow Jones Futures: Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close",
-     "publisher": "Investor's Business Daily",
-     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-ceo-huang-exit-surging-yields-spacex-tesla-merger-deal/?src=A00220&yptr=yahoo",
-     "time": "2026-11-12 22:10 UTC"
-    },
-    {
-     "title": "S&P 500 Recovered $1 Trillion in 90 Minutes Despite Wider Market Crash",
-     "publisher": "BeInCrypto",
-     "url": "https://beincrypto.com/sp500-rebounds-nvidia-stock-crash-market-outlook/",
-     "time": "2026-11-12 21:14 UTC"
-    },
-    {
-     "title": "Chip Stocks Finish Lower as Industry Digests Jensen Huang Exit",
-     "publisher": "The Wall Street Journal",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026/card/chip-stocks-down-as-industry-digests-jensen-huang-exit-Lq6UDhwOoZUotX38oTUL?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-12 21:11 UTC"
-    }
-   ],
-   "earnings": "2027-02-02"
-  },
-  {
-   "ticker": "AVGO",
-   "company": "Broadcom Inc. Common Stock",
-   "sector": "Information Technology",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.05544290597300261,
-   "price": 364.36,
-   "tags": [
-    "AI / semis",
-    "Management"
-   ],
-   "headlines": [
-    {
-     "title": "Equities close lower as Nvidia drop outweighs energy gains",
-     "publisher": "Reuters",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-fall-nvidia-turmoil-093910045.html",
-     "time": "2026-11-12 21:26 UTC"
-    },
-    {
-     "title": "S&P 500 Recovered $1 Trillion in 90 Minutes Despite Wider Market Crash",
-     "publisher": "BeInCrypto",
-     "url": "https://beincrypto.com/sp500-rebounds-nvidia-stock-crash-market-outlook/",
-     "time": "2026-11-12 21:14 UTC"
-    },
-    {
-     "title": "Chip Stocks Finish Lower as Industry Digests Jensen Huang Exit",
-     "publisher": "The Wall Street Journal",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026/card/chip-stocks-down-as-industry-digests-jensen-huang-exit-Lq6UDhwOoZUotX38oTUL?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-12 21:11 UTC"
-    },
-    {
-     "title": "Nvidia Tumbles as its CEO Jensen Huang Departs Amid Multiplying Scandals",
-     "publisher": "The Wall Street Journal",
-     "url": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-12 21:11 UTC"
-    }
-   ],
-   "earnings": "2026-12-09"
-  },
-  {
-   "ticker": "ANET",
-   "company": "Arista Networks",
-   "sector": "Information Technology",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.050589790522676426,
-   "price": 206.63,
-   "tags": [
-    "Earnings",
-    "M&A / deals",
-    "AI / semis",
-    "Management"
-   ],
-   "headlines": [
-    {
-     "title": "Dow Jones Futures: Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close",
-     "publisher": "Investor's Business Daily",
-     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-ceo-huang-exit-surging-yields-spacex-tesla-merger-deal/?src=A00220&yptr=yahoo",
-     "time": "2026-11-12 22:10 UTC"
-    },
-    {
-     "title": "3 AI Infrastructure Stocks To Watch As Nvidia Chip Curbs Reshape Cloud Spending",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-watch-211309585.html",
-     "time": "2026-11-12 21:13 UTC"
-    },
-    {
-     "title": "Arista Networks (ANET) Guides Higher, Is The Stock Overvalued Following Earnings?",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-anet-guides-higher-201254192.html",
-     "time": "2026-11-12 20:12 UTC"
-    },
-    {
-     "title": "Cisco (CSCO) vs. ANET and HPE: Can AI Networking Turn Strong Orders Into Lasting Earnings Growth?",
-     "publisher": "Insider Monkey",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-vs-anet-hpe-170046904.html",
-     "time": "2026-11-12 17:00 UTC"
-    }
-   ],
-   "earnings": "2026-11-03"
-  },
-  {
-   "ticker": "P",
-   "company": "Everpure, Inc.",
-   "sector": "Information Technology",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.033802816901408406,
-   "price": 110.1,
-   "tags": [
-    "AI / semis"
-   ],
-   "headlines": [
-    {
-     "title": "Everpure (P) Secures Major Cloud Operator Win, Reinforcing Potential Across Top-Tier Hyperscalers",
-     "publisher": "Insider Monkey",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-p-secures-major-cloud-142546141.html",
-     "time": "2026-11-11 14:25 UTC"
-    },
-    {
-     "title": "Nvidia Stock Shock Has Investors Rethinking AI Infrastructure ETFs",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-stock-shock-investors-rethinking-121152946.html",
-     "time": "2026-11-09 12:11 UTC"
-    }
-   ],
-   "earnings": "2026-11-18"
-  },
-  {
-   "ticker": "VLO",
-   "company": "Valero Energy Corporation",
-   "sector": "Energy",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.03090374199224666,
-   "price": 374.95,
-   "tags": [],
-   "headlines": [
-    {
-     "title": "What iShares Global Energy ETF (IXC) Sold: Exxon Mobil Leads on Nov. 10",
-     "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-global-energy-etf-ixc-110558884.html",
-     "time": "2026-11-12 11:05 UTC"
-    },
-    {
-     "title": "Will Wider Heavy Crude Discounts Strengthen Phillips 66's Margins?",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/energy/articles/wider-heavy-crude-discounts-strengthen-171700183.html",
-     "time": "2026-11-11 17:17 UTC"
-    },
-    {
-     "title": "3 Reasons Why Growth Investors Shouldn't Overlook Valero Energy (VLO)",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-why-growth-investors-164502537.html",
-     "time": "2026-11-11 16:45 UTC"
-    },
-    {
-     "title": "PBF Energy Is Now Undervalued: Is This a Strong Entry Point?",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/pbf-energy-now-undervalued-strong-160600490.html",
-     "time": "2026-11-11 16:06 UTC"
-    }
-   ],
-   "earnings": "2027-01-28"
-  },
-  {
-   "ticker": "DVN",
-   "company": "Devon Energy Corporation",
-   "sector": "Energy",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.0284760845383758,
-   "price": 46.23,
-   "tags": [
-    "Earnings",
-    "Guidance",
-    "Analyst call",
-    "AI / semis"
-   ],
-   "headlines": [
-    {
-     "title": "Nvidia downgraded, AMD upgraded: Wall Street's top analyst calls",
-     "publisher": "The Fly",
-     "url": "https://finance.yahoo.com/news/amd-under-armour-downgraded-wall-133533194.html",
-     "time": "2026-11-12 14:44 UTC"
-    },
-    {
-     "title": "Bernstein cuts ConocoPhillips and Diamondback ratings as Iran de-escalation looms",
-     "publisher": "Investing.com",
-     "url": "https://finance.yahoo.com/energy/articles/bernstein-cuts-conocophillips-diamondback-ratings-132928047.html",
-     "time": "2026-11-12 13:29 UTC"
-    },
-    {
-     "title": "Inflation Is Running Above 3%. These 3 Energy Dividend Stocks Can Keep Up.",
-     "publisher": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/11/11/inflation-is-running-above-3-these-3-energy-dividend-stocks-can-keep-up/",
-     "time": "2026-11-11 14:32 UTC"
-    },
-    {
-     "title": "Devon Energy Q3 Earnings Call Highlights Permian Focus and Buybacks",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/energy/articles/devon-energy-q3-earnings-call-194500617.html",
-     "time": "2026-11-10 19:45 UTC"
-    }
-   ],
-   "earnings": "2026-11-05"
-  },
-  {
-   "ticker": "CEG",
-   "company": "Constellation Energy Corporation Common Stock",
-   "sector": "Utilities",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.027918319804899117,
-   "price": 282.4,
-   "tags": [
-    "Earnings",
-    "Guidance",
-    "AI / semis"
-   ],
-   "headlines": [
-    {
-     "title": "Do You Like Cash? Consider Vistra Stock",
-     "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/vst/articles/624534/do-you-like-cash-consider-vistra-stock/2026-11-12",
-     "time": "2026-11-12 21:15 UTC"
-    },
-    {
-     "title": "GE Vernova Sinks 12%, Vertiv Down 12% in a Week as Data Center Backlash Hits AI Power",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/ge-vernova-sinks-13-vertiv-down-18-in-a-week-as-data-center-backlash-hits-ai-power?ref=yahoofinance&tlnk=yf-261112-76q6wcw2",
-     "time": "2026-11-12 20:35 UTC"
-    },
-    {
-     "title": "Will NuScale Power Stock's Jump After Earnings Last?",
-     "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/smr/articles/624576/will-nuscale-power-stocks-jump-after-earnings-last/2026-11-12",
-     "time": "2026-11-12 20:21 UTC"
-    },
-    {
-     "title": "Constellation Energy Soars 13% in a Week on a Guidance Raise: \u201cA Platform Heretofore Unseen\u201d",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/constellation-energy-soars-12-in-a-week-on-a-guidance-raise-a-platform-heretofore-unseen?ref=yahoofinance&tlnk=yf-261112-6375477v",
-     "time": "2026-11-12 16:35 UTC"
-    }
-   ],
-   "earnings": "2026-11-09"
-  },
-  {
-   "ticker": "SWKS",
-   "company": "Skyworks Solutions Inc",
-   "sector": "Information Technology",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.027270652670013718,
-   "price": 90.03,
-   "tags": [
-    "AI / semis",
-    "Macro / market"
-   ],
-   "headlines": [
-    {
-     "title": "Dimensional U.S. Small Cap ETF (DFAS) Sells Skyworks and Elanco on Nov. 9",
-     "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/dimensional-u-small-cap-etf-110324725.html",
-     "time": "2026-11-11 11:03 UTC"
-    },
-    {
-     "title": "Is Wall Street Bullish or Bearish on Skyworks Stock?",
-     "publisher": "Barchart",
-     "url": "https://www.barchart.com/story/news/8751864/is-wall-street-bullish-or-bearish-on-skyworks-stock",
-     "time": "2026-11-10 10:46 UTC"
-    },
-    {
-     "title": "Zacks Investment Ideas feature highlights: Bloom Energy, Skyworks Solutions and Quanta Services",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-091400948.html",
-     "time": "2026-11-09 09:14 UTC"
-    },
-    {
-     "title": "3 US Chip Stocks for AI Exposure With Lower China Risk",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/technology/ai/articles/3-us-chip-stocks-ai-021219756.html",
-     "time": "2026-11-09 02:12 UTC"
-    }
-   ],
-   "earnings": "2027-02-02"
-  },
-  {
-   "ticker": "MPC",
-   "company": "MARATHON PETROLEUM CORPORATION",
-   "sector": "Energy",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.024848575116671823,
-   "price": 412.85,
-   "tags": [
-    "Earnings",
-    "Guidance",
-    "M&A / deals"
-   ],
-   "headlines": [
-    {
-     "title": "Top Research Reports for Home Depot, Gilead & TotalEnergies",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-home-depot-200700776.html",
-     "time": "2026-11-12 20:07 UTC"
-    },
-    {
-     "title": "Patterson-UTI Expects Higher Rig Demand as 2027 Outlook Improves",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/energy/articles/patterson-uti-expects-higher-rig-122400146.html",
-     "time": "2026-11-12 12:24 UTC"
-    },
-    {
-     "title": "Halliburton Expands Geothermal Footprint With Sage Geosystems Deal",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/energy/articles/halliburton-expands-geothermal-footprint-sage-122200542.html",
-     "time": "2026-11-12 12:22 UTC"
-    },
-    {
-     "title": "Learn Why The Bull Case For Marathon Petroleum Stock Could Change Following Earnings Beat",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-marathon-121051253.html",
-     "time": "2026-11-12 12:10 UTC"
-    }
-   ],
-   "earnings": "2027-02-02"
-  },
-  {
-   "ticker": "LYB",
-   "company": "LyondellBasell Industries N.V. Class A",
-   "sector": "Materials",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.020773410035155093,
-   "price": 63.88,
-   "tags": [],
-   "headlines": [
-    {
-     "title": "Before You Buy Linde Stock, Settle This",
-     "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/lin/articles/624358/before-you-buy-linde-stock-settle-this/2026-11-11",
-     "time": "2026-11-12 00:20 UTC"
-    },
-    {
-     "title": "LyondellBasell (LYB) Stock May Still Look Cheap Despite Refinery Sale",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/lyondellbasell-lyb-stock-may-still-161225853.html",
-     "time": "2026-11-11 16:12 UTC"
-    },
-    {
-     "title": "2 Chemical Giants Cut Their Dividends. This Third Stock Kept Raising",
-     "publisher": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/11/09/2-chemical-giants-cut-their-dividends-this-third-stock-kept-raising/",
-     "time": "2026-11-09 13:47 UTC"
-    }
-   ],
-   "earnings": "2027-01-29"
-  },
-  {
-   "ticker": "GPN",
-   "company": "Global Payments, Inc.",
-   "sector": "Financials",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.12012371545445477,
-   "price": 88.19,
-   "tags": [
-    "M&A / deals"
-   ],
-   "headlines": [
-    {
-     "title": "Global Payments Sinks 12% as CD&R and GTCR Walk Away From Buyout Talks",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/global-payments-sinks-12-as-cdr-and-gtcr-walk-away-from-buyout-talks?ref=yahoofinance&tlnk=yf-261112-cg4hg22g",
-     "time": "2026-11-12 21:05 UTC"
-    },
-    {
-     "title": "This Fintech Is Getting Clobbered. Buyouts Are Tough These Days.",
-     "publisher": "Barrons.com",
-     "url": "https://www.barrons.com/articles/global-payments-stock-fintech-take-private-bid-a83a757c?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-12 19:30 UTC"
-    },
-    {
-     "title": "GPN Stock On Track For Its Worst Day In About 19 Months As Private Equity Firms Reportedly Abandon Takeover Talks",
-     "publisher": "Stocktwits",
-     "url": "https://stocktwits.com/news-articles/markets/equity/gpn-stock-on-track-for-its-worst-day-in-about-19-months-as-private-equity-firms-reportedly-abandon-takeover-talks/cNGC3PyR9OR",
-     "time": "2026-11-12 19:18 UTC"
-    },
-    {
-     "title": "Global Payments falls 9% as CD&R, GTCR abandon takeover talks",
-     "publisher": "Investing.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-falls-9-cd-174216727.html",
-     "time": "2026-11-12 17:42 UTC"
-    }
-   ],
-   "earnings": "2026-11-05"
-  },
-  {
-   "ticker": "SMCI",
-   "company": "Super Micro Computer, Inc. Common Stock",
-   "sector": "Information Technology",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.1130463358527769,
-   "price": 26.99,
-   "tags": [
-    "AI / semis",
-    "Management",
-    "Macro / market"
-   ],
-   "headlines": [
-    {
-     "title": "Alleged spy at center of Nvidia CEO affair reportedly being probed over Super Micro smuggling effort",
-     "publisher": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/technology/article/alleged-spy-at-center-of-nvidia-ceo-affair-reportedly-being-probed-over-super-micro-smuggling-effort-214712179.html",
-     "time": "2026-11-12 21:47 UTC"
-    },
-    {
-     "title": "Update: US Equity Indexes Fall as Nvidia CEO Jensen Huang Resigns, Crude Oil Jumps",
-     "publisher": "MT Newswires",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-nvidia-210433353.html",
-     "time": "2026-11-12 21:04 UTC"
-    },
-    {
-     "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-     "publisher": "MT Newswires",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-204544398.html",
-     "time": "2026-11-12 20:45 UTC"
-    },
-    {
-     "title": "Super Micro Stock Falls as DOJ Probes Smuggling Allegations",
-     "publisher": "Barrons.com",
-     "url": "https://www.barrons.com/articles/super-micro-stock-falls-doj-probe-43f8d63d?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-12 20:19 UTC"
-    }
-   ],
-   "earnings": "2027-02-02"
-  },
-  {
-   "ticker": "KDP",
-   "company": "Keurig Dr Pepper Inc.",
-   "sector": "Consumer Staples",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.07398692810457508,
-   "price": 35.42,
-   "tags": [],
-   "headlines": [
-    {
-     "title": "Keurig Dr Pepper Commences $2B Stock Offering To Reduce Debt \u2013 Here\u2019s What Investors Need To Know",
-     "publisher": "Stocktwits",
-     "url": "https://stocktwits.com/news-articles/markets/equity/keurig-dr-pepper-commences-2-b-stock-offering-to-reduce-debt-here-s-what-investors-need-to-know/cNGCc5tR9av",
-     "time": "2026-11-12 17:26 UTC"
-    },
-    {
-     "title": "Can Keurig's New Fountain Distribution Gains Boost Its Reach?",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/keurigs-fountain-distribution-gains-boost-170900834.html",
-     "time": "2026-11-12 17:09 UTC"
-    },
-    {
-     "title": "Coca-Cola Stock Hits 52-Week High: Should You Buy Now or Wait?",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-stock-hits-52-154300742.html",
-     "time": "2026-11-12 15:43 UTC"
-    }
-   ],
-   "earnings": "2026-11-03"
-  },
-  {
-   "ticker": "MRNA",
-   "company": "Moderna, Inc. Common Stock",
-   "sector": "Health Care",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.06972536089106918,
-   "price": 231.35,
+   "chg_1d": 0.04319312528267738,
+   "price": 138.39,
    "tags": [
     "Analyst call"
    ],
    "headlines": [
     {
-     "title": "Moderna Sinks 7% as Analyst Day Cancer Push Brings \u201c$4 Billion in Cash Costs in 2027\u201d",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/moderna-sinks-7-as-analyst-day-cancer-push-brings-4-billion-in-cash-costs-in-2027?ref=yahoofinance&tlnk=yf-261112-4mw7hmp2",
-     "time": "2026-11-12 19:38 UTC"
+     "title": "Why You Should Think About Charter Communications Differently Now?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/chtr/articles/625005/why-you-should-think-about-charter-communications-differently-now/2026-11-13",
+     "time": "2026-11-13 19:16 UTC"
     },
     {
-     "title": "Why Is Moderna (MRNA) Joining A Global Benchmark And Publishing New Vaccine Data?",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/healthcare/articles/why-moderna-mrna-joining-global-191002480.html",
-     "time": "2026-11-12 19:10 UTC"
+     "title": "How Much Could You Lose In AT&T Stock After CPI?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/t/articles/624471/how-much-could-you-lose-in-at-t-stock-after-cpi/2026-11-13",
+     "time": "2026-11-13 14:56 UTC"
     },
     {
-     "title": "Why Moderna Stock Dropped on Thursday",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/12/why-moderna-stock-dropped-on-thursday/",
-     "time": "2026-11-12 17:33 UTC"
+     "title": "Spectrum plans significant changes as more customers leave",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/retail/spectrum-q3-2026-earnings-cost-cutting-plan-customer-losses",
+     "time": "2026-11-12 17:17 UTC"
     },
     {
-     "title": "Health Care Roundup: Market Talk",
-     "publisher": "The Wall Street Journal",
-     "url": "https://www.wsj.com/business/health-care-roundup-market-talk-1f3d97b8?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-12 17:26 UTC"
+     "title": "Comcast (CMCSA) vs. CHTR and VZ: Can the Post-Versant Reset and Broadband Stabilization Drive a Re-Rating?",
+     "publisher": "Insider Monkey",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/comcast-cmcsa-vs-chtr-vz-170751918.html",
+     "time": "2026-11-12 17:07 UTC"
     }
    ],
-   "earnings": "2026-11-06"
+   "earnings": "2027-01-29"
+  },
+  {
+   "ticker": "STE",
+   "company": "STERIS plc",
+   "sector": "Health Care",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.04292929292929282,
+   "price": 264.32,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2027-02-03"
+  },
+  {
+   "ticker": "GPN",
+   "company": "Global Payments, Inc.",
+   "sector": "Financials",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.042068261707676635,
+   "price": 91.9,
+   "tags": [
+    "M&A / deals"
+   ],
+   "headlines": [
+    {
+     "title": "What Could Go Wrong With Mastercard Stock?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/ma/articles/624929/what-could-go-wrong-with-mastercard-stock/2026-11-13",
+     "time": "2026-11-13 12:12 UTC"
+    },
+    {
+     "title": "CD&R, GTCR put Global Payments takeover talks on hold- report",
+     "publisher": "Electronic Payments",
+     "url": "https://www.electronicpaymentsinternational.com/news/cdr-gtcr-put-global-payments-takeover-talks-on-hold-report/",
+     "time": "2026-11-13 08:36 UTC"
+    },
+    {
+     "title": "Global Payments (GPN) Sheds Double Digits. These 2 Firms May Hold the Reason",
+     "publisher": "Insider Monkey",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-gpn-sheds-double-005130571.html",
+     "time": "2026-11-13 00:51 UTC"
+    },
+    {
+     "title": "Global Payments Sinks 12% as CD&R and GTCR Walk Away From Buyout Talks",
+     "publisher": "TIKR",
+     "url": "https://www.tikr.com/blog/global-payments-sinks-12-as-cdr-and-gtcr-walk-away-from-buyout-talks?ref=yahoofinance&tlnk=yf-261112-cg4hg22g",
+     "time": "2026-11-12 21:05 UTC"
+    }
+   ],
+   "earnings": "2026-11-05"
   },
   {
    "ticker": "FIS",
    "company": "Fidelity National Information Services, Inc.",
    "sector": "Financials",
-   "side": "loser",
+   "side": "gainer",
    "watchlist": "sp500",
-   "chg_1d": -0.061238000662032444,
-   "price": 28.36,
+   "chg_1d": 0.04160789844851909,
+   "price": 29.54,
    "tags": [
+    "Management",
     "Capital return"
    ],
    "headlines": [
+    {
+     "title": "Fidelity National Information Services CEO Seeks to Rebuild Trust as Cyber Costs Pressure Margins",
+     "publisher": "MarketBeat",
+     "url": "https://www.marketbeat.com/instant-alerts/event-fidelity-national-information-services-ceo-seeks-to-rebuild-trust-as-cyber-costs-pressure-margins-2026-11-12/?utm_source=yahoofinance&utm_medium=yahoofinance",
+     "time": "2026-11-13 01:14 UTC"
+    },
     {
      "title": "U.S. Bancorp or Fidelity National Information Services: Only One Gets My Dividend Dollars for the Next 10 Years",
      "publisher": "TIKR",
@@ -935,196 +554,652 @@
      "publisher": "Investing.com",
      "url": "https://finance.yahoo.com/markets/stocks/articles/5-highly-undervalued-u-stocks-145939394.html",
      "time": "2026-11-10 14:59 UTC"
-    },
-    {
-     "title": "The Dates That Matter Most For Visa Stock",
-     "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/v/articles/624113/the-dates-that-matter-most-for-visa-stock/2026-11-10",
-     "time": "2026-11-10 13:11 UTC"
     }
    ],
    "earnings": "2026-11-04"
   },
   {
-   "ticker": "UAL",
-   "company": "United Airlines Holdings, Inc. Common Stock",
-   "sector": "Industrials",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.06015037593984962,
-   "price": 111.25,
-   "tags": [
-    "AI / semis",
-    "Management"
-   ],
-   "headlines": [
-    {
-     "title": "United Airlines bets on AI-driven travel alerts and gate-side food delivery",
-     "publisher": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/article/united-airlines-bets-on-ai-driven-travel-alerts-and-gate-side-food-delivery-215428503.html",
-     "time": "2026-11-12 21:54 UTC"
-    },
-    {
-     "title": "AI is completely transforming air travel: United CEO talks gate-side food delivery & more",
-     "publisher": "Yahoo Finance Video",
-     "url": "https://finance.yahoo.com/video/ai-is-completely-transforming-air-travel-united-ceo-talks-gate-side-food-delivery--more-214543307.html",
-     "time": "2026-11-12 21:45 UTC"
-    },
-    {
-     "title": "United Airlines CEO: Starlink is our biggest competitive advantage in 100 years",
-     "publisher": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/article/united-airlines-ceo-starlink-is-our-biggest-competitive-advantage-in-100-years-212741824.html",
-     "time": "2026-11-12 21:27 UTC"
-    },
-    {
-     "title": "United CEO on Starlink Wi-Fi: 'The biggest near-term competitive advantage we've ever had'",
-     "publisher": "Yahoo Finance Video",
-     "url": "https://finance.yahoo.com/video/united-ceo-on-starlink-wi-fi-the-biggest-near-term-competitive-advantage-weve-ever-had-212008182.html",
-     "time": "2026-11-12 21:20 UTC"
-    }
-   ],
-   "earnings": "2027-01-26"
-  },
-  {
-   "ticker": "RDDT",
-   "company": "Reddit, Inc.",
+   "ticker": "FOXA",
+   "company": "Fox Corporation Class A Common Stock",
    "sector": "Communication Services",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.041241820118703476,
+   "price": 68.42,
+   "tags": [
+    "Analyst call",
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "Should You Pick Disney Stock Over Its Media Rivals?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/dis/articles/624960/should-you-pick-disney-stock-over-its-media-rivals/2026-11-13",
+     "time": "2026-11-13 15:36 UTC"
+    },
+    {
+     "title": "Roblox downgraded, Palo Alto upgraded: Wall Street's top analyst calls",
+     "publisher": "The Fly",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-initiated-lululemon-downgraded-wall-133354953.html",
+     "time": "2026-11-13 14:59 UTC"
+    },
+    {
+     "title": "Do Wall Street Analysts Like Fox Corporation Stock?",
+     "publisher": "Barchart",
+     "url": "https://www.barchart.com/story/news/8820514/do-wall-street-analysts-like-fox-corporation-stock",
+     "time": "2026-11-13 13:14 UTC"
+    },
+    {
+     "title": "What Could Lift Fox Stock?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/foxa/articles/624328/what-could-lift-fox-stock/2026-11-12",
+     "time": "2026-11-12 22:09 UTC"
+    }
+   ],
+   "earnings": "2026-11-02"
+  },
+  {
+   "ticker": "FOX",
+   "company": "Fox Corporation Class B Common Stock",
+   "sector": "Communication Services",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.04087889626980079,
+   "price": 61.11,
+   "tags": [
+    "Analyst call",
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "Should You Pick Disney Stock Over Its Media Rivals?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/dis/articles/624960/should-you-pick-disney-stock-over-its-media-rivals/2026-11-13",
+     "time": "2026-11-13 15:36 UTC"
+    },
+    {
+     "title": "Roblox downgraded, Palo Alto upgraded: Wall Street's top analyst calls",
+     "publisher": "The Fly",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-initiated-lululemon-downgraded-wall-133354953.html",
+     "time": "2026-11-13 14:59 UTC"
+    },
+    {
+     "title": "Do Wall Street Analysts Like Fox Corporation Stock?",
+     "publisher": "Barchart",
+     "url": "https://www.barchart.com/story/news/8820514/do-wall-street-analysts-like-fox-corporation-stock",
+     "time": "2026-11-13 13:14 UTC"
+    },
+    {
+     "title": "Is Wall Street Bullish or Bearish on News Corporation Stock?",
+     "publisher": "Barchart",
+     "url": "https://www.barchart.com/story/news/8817793/is-wall-street-bullish-or-bearish-on-news-corporation-stock",
+     "time": "2026-11-13 11:02 UTC"
+    }
+   ],
+   "earnings": "2026-11-02"
+  },
+  {
+   "ticker": "APP",
+   "company": "Applovin Corporation Class A Common Stock",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.039168868116236544,
+   "price": 409.1,
+   "tags": [
+    "M&A / deals",
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "AppLovin vs. The Trade Desk: Which Is the Better Digital Advertising Stock to Buy Going Into 2027?",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/13/applovin-vs-the-trade-desk-which-is-the-better-digital-advertising-stock-to-buy-going-into-2027/",
+     "time": "2026-11-13 17:37 UTC"
+    },
+    {
+     "title": "This AI Advertising Stock Is Having Its Best Day Ever. Analysts Say Price Could Double.",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/liftoff-mobile-earnings-stock-price-1cbec0c9?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-13 17:30 UTC"
+    },
+    {
+     "title": "He Wants Anthropic in His S&P 500 401(k) as Soon as It Goes Public. One Index Rule Could Keep It Out for at Least 12 Months. Even Then, His Fund May Never Own It",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/personal-finance/2026/11/13/he-wants-anthropic-in-his-sp-500-401k-as-soon-as-it-goes-public-one-index-rule-could-keep-it-out-for-at-least-12-months-even-then-his-fund-may-never-own-it/",
+     "time": "2026-11-13 14:34 UTC"
+    },
+    {
+     "title": "State Street Comm Services SPDR (XLC) Adds Meta and Alphabet on Nov. 11",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-comm-services-spdr-110501441.html",
+     "time": "2026-11-13 11:05 UTC"
+    }
+   ],
+   "earnings": "2026-11-04"
+  },
+  {
+   "ticker": "TPL",
+   "company": "Texas Pacific Land Corporation",
+   "sector": "Energy",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.03816060886265027,
+   "price": 291.91,
+   "tags": [
+    "Earnings"
+   ],
+   "headlines": [
+    {
+     "title": "Is Texas Pacific Land (TPL) Undervalued On Stronger Earnings?",
+     "publisher": "Simply Wall St.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/texas-pacific-land-tpl-undervalued-121335233.html",
+     "time": "2026-11-13 12:13 UTC"
+    },
+    {
+     "title": "Texas Pacific Land (TPL) Stock Could Look Rich Despite Record Q3 Results",
+     "publisher": "Simply Wall St.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/texas-pacific-land-tpl-stock-051827383.html",
+     "time": "2026-11-13 05:18 UTC"
+    },
+    {
+     "title": "The Blue Wave Crashed on Texas Pacific Land. That Could Be an Opportunity.",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/the-blue-wave-crashed-on-texas-pacific-land-that-could-be-an-opportunity-1302c677?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-12 23:14 UTC"
+    },
+    {
+     "title": "Is Crescent Energy's Royalty Business Its Next Big Growth Engine?",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/energy/articles/crescent-energys-royalty-business-next-181300051.html",
+     "time": "2026-11-10 18:13 UTC"
+    }
+   ],
+   "earnings": "2026-11-04"
+  },
+  {
+   "ticker": "FISV",
+   "company": "Fiserv, Inc. Common Stock",
+   "sector": "Financials",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.03707317073170735,
+   "price": 63.78,
+   "tags": [
+    "Guidance",
+    "M&A / deals",
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "What Could Go Wrong With Mastercard Stock?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/ma/articles/624929/what-could-go-wrong-with-mastercard-stock/2026-11-13",
+     "time": "2026-11-13 12:12 UTC"
+    },
+    {
+     "title": "GPN Stock On Track For Its Worst Day In About 19 Months As Private Equity Firms Reportedly Abandon Takeover Talks",
+     "publisher": "Stocktwits",
+     "url": "https://stocktwits.com/news-articles/markets/equity/gpn-stock-on-track-for-its-worst-day-in-about-19-months-as-private-equity-firms-reportedly-abandon-takeover-talks/cNGC3PyR9OR",
+     "time": "2026-11-12 19:18 UTC"
+    },
+    {
+     "title": "CSI arms community lenders for commercial banking fight",
+     "publisher": "Banking Dive",
+     "url": "https://www.bankingdive.com/news/csi-core-provider-community-banks-commercial-banking/874508/",
+     "time": "2026-11-12 16:00 UTC"
+    },
+    {
+     "title": "Fiserv Stock Outlook: Is Wall Street Bullish or Bearish?",
+     "publisher": "Barchart",
+     "url": "https://www.barchart.com/story/news/8797933/fiserv-stock-outlook-is-wall-street-bullish-or-bearish",
+     "time": "2026-11-12 12:23 UTC"
+    }
+   ],
+   "earnings": "2026-11-03"
+  },
+  {
+   "ticker": "ABNB",
+   "company": "Airbnb, Inc. Class A Common Stock",
+   "sector": "Consumer Discretionary",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.03119306575387837,
+   "price": 186.78,
+   "tags": [
+    "Earnings"
+   ],
+   "headlines": [
+    {
+     "title": "These 4 Travel Stocks Depend on Holiday Spending",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/13/these-4-travel-stocks-depend-on-holiday-spending/",
+     "time": "2026-11-13 21:41 UTC"
+    },
+    {
+     "title": "EXPE vs. ABNB: Which Stock Is the Better Value Option?",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/expe-vs-abnb-stock-better-154004033.html",
+     "time": "2026-11-13 15:40 UTC"
+    },
+    {
+     "title": "Top 3 Founder Led Stocks With Earnings Growth Up To 38%",
+     "publisher": "Simply Wall St.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-founder-led-stocks-111248584.html",
+     "time": "2026-11-13 11:12 UTC"
+    },
+    {
+     "title": "3 Top Picks With At Least 10% Revenue Growth",
+     "publisher": "Simply Wall St.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/3-top-picks-least-10-031709106.html",
+     "time": "2026-11-13 03:17 UTC"
+    }
+   ],
+   "earnings": "2026-11-05"
+  },
+  {
+   "ticker": "AMD",
+   "company": "Advanced Micro Devices",
+   "sector": "Information Technology",
    "side": "loser",
    "watchlist": "sp500",
-   "chg_1d": -0.057826992239258024,
-   "price": 99.55,
+   "chg_1d": -0.08754484879548952,
+   "price": 534.06,
    "tags": [
+    "M&A / deals",
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Thierry Borgeat Says Chip Stocks Peak Every Two Years. His Chart Points to Another Top",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/13/thierry-borgeat-says-chip-stocks-peak-every-two-years-his-chart-points-to-another-top/",
+     "time": "2026-11-13 22:07 UTC"
+    },
+    {
+     "title": "Better Chip Stock: Nvidia vs. AMD",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/13/better-chip-stock-nvidia-vs-amd/",
+     "time": "2026-11-13 21:43 UTC"
+    },
+    {
+     "title": "U.S. Stocks Mixed on Nvidia Fallout Fears",
+     "publisher": "The Wall Street Journal",
+     "url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-on-nvidia-fallout-fears-f9946e8d?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-13 21:33 UTC"
+    },
+    {
+     "title": "Cerebras stock surges on Microsoft deal: What it means for Nvidia",
+     "publisher": "Yahoo Finance Video",
+     "url": "https://finance.yahoo.com/video/cerebras-stock-surges-on-microsoft-deal-what-it-means-for-nvidia-213123807.html",
+     "time": "2026-11-13 21:31 UTC"
+    }
+   ],
+   "earnings": "2027-02-02"
+  },
+  {
+   "ticker": "DELL",
+   "company": "Dell Technologies Inc.",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.07177304200231716,
+   "price": 344.53,
+   "tags": [
+    "Earnings",
+    "AI / semis",
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "DLLL 2X Dell ETF Plunges 16% as Dell Tumbles 8% in AI Hardware Selloff; Hewlett Packard Enterprise Falls 4%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/13/dlll-2x-dell-etf-plunges-16-as-dell-tumbles-8-in-ai-hardware-selloff-hewlett-packard-enterprise-falls-4/",
+     "time": "2026-11-13 19:03 UTC"
+    },
+    {
+     "title": "Can Dell Stock Fall 40%?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/dell/articles/624937/can-dell-stock-fall-40/2026-11-13",
+     "time": "2026-11-13 17:47 UTC"
+    },
+    {
+     "title": "Dell Stocks Fall 8.16% as AI Server Selloff Deepens Before November 24 Earnings",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/dell-stocks-fall-8-16-174138939.html",
+     "time": "2026-11-13 17:41 UTC"
+    },
+    {
+     "title": "What Could Still Send Apple Stock Higher?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/aapl/articles/624982/what-could-still-send-apple-stock-higher/2026-11-13",
+     "time": "2026-11-13 16:25 UTC"
+    }
+   ],
+   "earnings": "2026-11-24"
+  },
+  {
+   "ticker": "CSCO",
+   "company": "Cisco Systems, Inc. Common Stock (DE)",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.06244485834722091,
+   "price": 95.64,
+   "tags": [
+    "Earnings",
     "AI / semis",
     "Management"
    ],
    "headlines": [
     {
-     "title": "Reddit CEO Steve Huffman explains the 'paradox' of AI for his company",
-     "publisher": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/article/reddit-ceo-steve-huffman-explains-the-paradox-of-ai-for-his-company-162654170.html",
-     "time": "2026-11-12 16:26 UTC"
+     "title": "Stock Market Today: Indexes Trim Losses, Manage To Score Weekly Gains Despite Strong Volatility",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ppi-inflation-data-cerebras-earnings/?src=A00220&yptr=yahoo",
+     "time": "2026-11-13 21:49 UTC"
     },
     {
-     "title": "Reddit Sinks 6% as Traffic Falls 13% on Google\u2019s AI Overviews: \u201cNot Traffic Drivers\u201d",
+     "title": "Earnings week scorecard: beats rewarded selectively as AI-infrastructure names pull back",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-week-scorecard-beats-rewarded-203315112.html",
+     "time": "2026-11-13 20:33 UTC"
+    },
+    {
+     "title": "Cisco earnings analysis: questions answered and next catalysts",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-earnings-analysis-questions-answered-203200917.html",
+     "time": "2026-11-13 20:32 UTC"
+    },
+    {
+     "title": "Cisco CEO on trusting Nvidia chips after Jensen Huang's exit: 'Absolutely'",
+     "publisher": "Yahoo Finance Video",
+     "url": "https://finance.yahoo.com/video/cisco-ceo-on-trusting-nvidia-chips-after-jensen-huangs-exit-absolutely-201049124.html",
+     "time": "2026-11-13 20:10 UTC"
+    }
+   ],
+   "earnings": "2027-02-10"
+  },
+  {
+   "ticker": "COHR",
+   "company": "Coherent Corp.",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.06002240606687348,
+   "price": 218.15,
+   "tags": [
+    "Earnings"
+   ],
+   "headlines": [
+    {
+     "title": "AXTQ 2X Short AXT ETF Surges 15% as AXT Retraces From 147% Year-to-Date Rally; Coherent Drops 8%",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/13/axtq-2x-short-axt-etf-surges-15-as-axt-slides-7-after-a-147-run-this-year-coherent-drops-8/",
+     "time": "2026-11-13 19:03 UTC"
+    },
+    {
+     "title": "Coherent's Margin Expansion Steals the Spotlight in Q1 FY27",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/coherents-margin-expansion-steals-spotlight-175400018.html",
+     "time": "2026-11-13 17:54 UTC"
+    },
+    {
+     "title": "Lumentum Is Up 56% in 2026, but Marvell Now Sets Its Price. Take Profits, or Buy More?",
      "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/reddit-sinks-6-as-traffic-falls-13-on-googles-ai-overviews-not-traffic-drivers?ref=yahoofinance&tlnk=yf-261112-487fvggf",
-     "time": "2026-11-12 15:11 UTC"
+     "url": "https://www.tikr.com/blog/lumentum-is-up-69-in-2026-but-marvell-now-sets-its-price-take-profits-or-buy-more?ref=yahoofinance&tlnk=yf-261113-5495wh63",
+     "time": "2026-11-13 15:35 UTC"
     },
     {
-     "title": "Reddit CEO on being 'quite literally the last' platform to require logins",
-     "publisher": "Yahoo Finance Video",
-     "url": "https://finance.yahoo.com/video/reddit-ceo-on-being-quite-literally-the-last-platform-to-require-logins-152647038.html",
-     "time": "2026-11-12 14:11 UTC"
+     "title": "Coherent (COHR) Stock Looks About Right Despite Its Huge Three Year Run",
+     "publisher": "Simply Wall St.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-stock-looks-despite-150911118.html",
+     "time": "2026-11-13 15:09 UTC"
+    }
+   ],
+   "earnings": "2027-02-03"
+  },
+  {
+   "ticker": "SNDK",
+   "company": "Sandisk Corporation Common Stock",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.05594905382629667,
+   "price": 885.01,
+   "tags": [
+    "M&A / deals",
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "5 Multibagger Stocks to Buy According to Wall Street",
+     "publisher": "Insider Monkey",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/5-multibagger-stocks-buy-according-213206089.html",
+     "time": "2026-11-13 21:32 UTC"
     },
     {
-     "title": "'AI does not exist as we know it without Reddit,' CEO Huffman says",
-     "publisher": "Yahoo Finance Video",
-     "url": "https://finance.yahoo.com/video/ai-does-not-exist-as-we-know-it-without-reddit-ceo-huffman-says-140106972.html",
-     "time": "2026-11-12 14:01 UTC"
+     "title": "5 Stocks With Insane Upside According to Reddit",
+     "publisher": "Insider Monkey",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-insane-upside-according-212948713.html",
+     "time": "2026-11-13 21:29 UTC"
+    },
+    {
+     "title": "Chart of the Day: Sandisk Stock Looks Ready to Bounce Back",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/sandisk-stock-ai-data-centers-3ea38c06?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-13 19:33 UTC"
+    },
+    {
+     "title": "Beat Value Traps: 4 Stocks With Attractive PEG Ratios to Buy Now",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/beat-value-traps-4-stocks-190000039.html",
+     "time": "2026-11-13 19:00 UTC"
     }
    ],
    "earnings": "2026-10-29"
   },
   {
-   "ticker": "DAL",
-   "company": "Delta Air Lines, Inc.",
+   "ticker": "TER",
+   "company": "Teradyne, Inc. Common Stock",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.05383886255924164,
+   "price": 249.55,
+   "tags": [
+    "Earnings",
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Teradyne Benefits From Strong Test Demand: Can It Beat KLAC & COHU?",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/technology/articles/teradyne-benefits-strong-test-demand-152000700.html",
+     "time": "2026-11-13 15:20 UTC"
+    },
+    {
+     "title": "CBRS Q3 Earnings Beat Estimates, Revenues Rise on Strong Cloud Growth",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/technology/ai/articles/cbrs-q3-earnings-beat-estimates-144300977.html",
+     "time": "2026-11-13 14:43 UTC"
+    },
+    {
+     "title": "The Chip Index Has Been Slashed, but These 3 Stocks Have a Path Back",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/13/the-chip-index-has-been-slashed-but-these-3-stocks-have-a-path-back/",
+     "time": "2026-11-13 14:42 UTC"
+    },
+    {
+     "title": "Cisco's Q1 Earnings Beat Estimates, Strong Networking Aids Revenues",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ciscos-q1-earnings-beat-estimates-141200789.html",
+     "time": "2026-11-13 14:12 UTC"
+    }
+   ],
+   "earnings": "2027-01-27"
+  },
+  {
+   "ticker": "WDC",
+   "company": "Western Digital Corp.",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.049998393367822414,
+   "price": 295.65,
+   "tags": [
+    "Earnings",
+    "M&A / deals",
+    "AI / semis",
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "5 Multibagger Stocks to Buy According to Wall Street",
+     "publisher": "Insider Monkey",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/5-multibagger-stocks-buy-according-213206089.html",
+     "time": "2026-11-13 21:32 UTC"
+    },
+    {
+     "title": "Western Digital Stock Gains Fresh Attention After Earnings Beat and AI Storage Demand Strengthens",
+     "publisher": "Simply Wall St.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-stock-gains-fresh-200713438.html",
+     "time": "2026-11-13 20:07 UTC"
+    },
+    {
+     "title": "Chart of the Day: Sandisk Stock Looks Ready to Bounce Back",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/sandisk-stock-ai-data-centers-3ea38c06?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-13 19:33 UTC"
+    },
+    {
+     "title": "Micron Is Down 20% in a Month. What Will It Take to Get MU Stock Back to $1,000?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/13/micron-is-down-20-in-a-month-what-will-it-take-to-get-mu-stock-back-to-1000/",
+     "time": "2026-11-13 17:52 UTC"
+    }
+   ],
+   "earnings": "2027-01-28"
+  },
+  {
+   "ticker": "BE",
+   "company": "Bloom Energy Corporation",
    "sector": "Industrials",
    "side": "loser",
    "watchlist": "sp500",
-   "chg_1d": -0.052233902759526885,
-   "price": 86.55,
-   "tags": [
-    "Management"
-   ],
-   "headlines": [
-    {
-     "title": "United CEO on Starlink Wi-Fi: 'The biggest near-term competitive advantage we've ever had'",
-     "publisher": "Yahoo Finance Video",
-     "url": "https://finance.yahoo.com/video/united-ceo-on-starlink-wi-fi-the-biggest-near-term-competitive-advantage-weve-ever-had-212008182.html",
-     "time": "2026-11-12 21:20 UTC"
-    },
-    {
-     "title": "Best airline credit cards (2026)",
-     "publisher": "Personal Finance Embeddable Content",
-     "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/airline-credit-cards-182914019.html",
-     "time": "2026-11-12 18:29 UTC"
-    },
-    {
-     "title": "2 Airline Stocks Drawing Unusual Options Volume Today",
-     "publisher": "Schaeffer's Investment Research",
-     "url": "https://finance.yahoo.com/markets/options/articles/2-airline-stocks-drawing-unusual-173938522.html",
-     "time": "2026-11-12 17:39 UTC"
-    },
-    {
-     "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
-     "publisher": "MT Newswires",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-204026005.html",
-     "time": "2026-11-11 20:40 UTC"
-    }
-   ],
-   "earnings": "2027-01-13"
-  },
-  {
-   "ticker": "DVA",
-   "company": "DaVita Inc.",
-   "sector": "Health Care",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.051389645776566795,
-   "price": 174.07,
+   "chg_1d": -0.049224978953102516,
+   "price": 191.99,
    "tags": [],
    "headlines": [
     {
-     "title": "What Happened To People Who Bought Quest Stock At A High?",
+     "title": "Can Bloom Energy Stock Jump 50%?",
      "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/dgx/articles/624360/what-happened-to-people-who-bought-quest-stock-at-a-high/2026-11-11",
-     "time": "2026-11-11 17:41 UTC"
+     "url": "https://www.trefis.com/stock/be/articles/624994/can-bloom-energy-stock-jump-50-2/2026-11-13",
+     "time": "2026-11-13 19:26 UTC"
     },
     {
-     "title": "DaVita Sees Growth and Drug Savings Offsetting 2027 Reimbursement Pressure",
-     "publisher": "MarketBeat",
-     "url": "https://www.marketbeat.com/instant-alerts/event-davita-sees-growth-and-drug-savings-offsetting-2027-reimbursement-pressure-2026-11-10/?utm_source=yahoofinance&utm_medium=yahoofinance",
-     "time": "2026-11-10 10:12 UTC"
-    }
-   ],
-   "earnings": "2026-10-29"
-  },
-  {
-   "ticker": "NEM",
-   "company": "Newmont Corporation",
-   "sector": "Materials",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.04921077065923862,
-   "price": 112.64,
-   "tags": [],
-   "headlines": [
-    {
-     "title": "What Could Lift Iamgold Stock?",
-     "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/iag/articles/624600/what-could-lift-iamgold-stock/2026-11-12",
-     "time": "2026-11-12 20:06 UTC"
-    },
-    {
-     "title": "What Does The Market Want From Newmont Stock?",
-     "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/nem/articles/624634/what-does-the-market-want-from-newmont-stock/2026-11-12",
-     "time": "2026-11-12 19:39 UTC"
-    },
-    {
-     "title": "4 Gold Mining Stocks Likely to Tide Industry Headwinds",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/markets/commodities/articles/4-gold-mining-stocks-likely-122900617.html",
-     "time": "2026-11-12 12:29 UTC"
-    },
-    {
-     "title": "What Avantis U.S. Large Cap Value ETF (AVLV) Bought: AT&T Leads on Tuesday",
+     "title": "HSBC Sees Room for a Big Rebound in Bloom Energy Stock",
      "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/avantis-u-large-cap-value-110454905.html",
-     "time": "2026-11-12 11:04 UTC"
+     "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-sees-room-big-rebound-192349658.html",
+     "time": "2026-11-13 19:23 UTC"
+    },
+    {
+     "title": "HSBC Says Buy the Dip in These 11 Stocks -- Alphabet and Oracle Top the List",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-says-buy-dip-11-185515397.html",
+     "time": "2026-11-13 18:55 UTC"
+    },
+    {
+     "title": "Bloom Energy Soars 13%, Vertiv Up 14% in a Week as Data-Center Fears Ease",
+     "publisher": "TIKR",
+     "url": "https://www.tikr.com/blog/bloom-energy-soars-21-vertiv-up-19-in-a-week-as-data-center-fears-ease?ref=yahoofinance&tlnk=yf-261113-vhvqpm7w",
+     "time": "2026-11-13 17:20 UTC"
     }
    ],
    "earnings": "2026-10-22"
+  },
+  {
+   "ticker": "AVGO",
+   "company": "Broadcom Inc. Common Stock",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.04761774069601499,
+   "price": 347.01,
+   "tags": [
+    "Analyst call",
+    "AI / semis",
+    "Legal / regulatory",
+    "Management"
+   ],
+   "headlines": [
+    {
+     "title": "Thierry Borgeat Says Chip Stocks Peak Every Two Years. His Chart Points to Another Top",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/13/thierry-borgeat-says-chip-stocks-peak-every-two-years-his-chart-points-to-another-top/",
+     "time": "2026-11-13 22:07 UTC"
+    },
+    {
+     "title": "Nvidia\u2019s Scandal Is Poking Real Holes in the AI Trade. That Doesn\u2019t Mean It\u2019s Over.",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/stock-market-ai-trade-outlook-41f6aadf?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-13 20:23 UTC"
+    },
+    {
+     "title": "Bank of America resets AMD stock price target as Nvidia CEO exits",
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/investing/stocks/bank-of-america-amd-price-target",
+     "time": "2026-11-13 20:13 UTC"
+    },
+    {
+     "title": "Nvidia Tanks as Altman Joins Dario in AI Chip Export Ban",
+     "publisher": "Moby",
+     "url": "https://app.moby.co/home/news/news-nvidia-tanks-as-altman-joins-dario-in-ai-chip-export-ban?utm_source=yahoo_finance&utm_medium=rss",
+     "time": "2026-11-13 20:07 UTC"
+    }
+   ],
+   "earnings": "2026-12-09"
+  },
+  {
+   "ticker": "MRVL",
+   "company": "Marvell Technology, Inc. Common Stock",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.046761933718455495,
+   "price": 156.76,
+   "tags": [
+    "Analyst call",
+    "M&A / deals",
+    "AI / semis",
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "The Deal Behind TD Cowen\u2019s Downgrade of Marvell (MRVL)",
+     "publisher": "Insider Monkey",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/deal-behind-td-cowen-downgrade-213101784.html",
+     "time": "2026-11-13 21:31 UTC"
+    },
+    {
+     "title": "Marvell Is Still Up 81% This Year. Can MRVL Stock Hit $300 by 2029?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/13/marvell-is-still-up-81-this-year-can-mrvl-stock-hit-300-by-2029/",
+     "time": "2026-11-13 17:54 UTC"
+    },
+    {
+     "title": "NVIDIA Is Now Down 30% in a Month: Bessent Asks Whether NVIDIA Knew Its Clients, Dan Ives Says Huang Was Worth $1 Trillion",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/13/nvidia-is-now-down-30-in-a-month-bessent-asks-whether-nvidia-knew-its-clients-dan-ives-says-huang-was-worth-1-trillion/",
+     "time": "2026-11-13 17:03 UTC"
+    },
+    {
+     "title": "Marvell Stocks Fall 6.6% as Lumentum Deal Spread Widens to 18%",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stocks-fall-6-6-164033741.html",
+     "time": "2026-11-13 16:40 UTC"
+    }
+   ],
+   "earnings": "2026-12-01"
   }
  ]
 }
