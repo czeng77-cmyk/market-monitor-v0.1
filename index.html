@@ -401,7 +401,8 @@ function listChanged(first){
   if(!first)renderAll();
 }
 /* ---------- earnings ---------- */
-const ECOLS=[["ticker","Ticker",,,8],["company","Company",,,17],["sector","Sector",,,13],["next_earnings","Next earnings",,,10],["rev_est_bn","Consensus revenue ($B)","n",,10],["rev_yoy","Rev YoY","n",.25,8],["eps_est","Consensus EPS","n",,9],["eps_yoy","EPS YoY","n",.5,8],["pe","Implied P/E","n",,7]];
+/* [field, title, align, heat range, width %, sort field] */
+const ECOLS=[["ticker","Ticker",,,8],["company","Company",,,17],["sector","Sector",,,12],["next_earnings","Next earnings",,,10],["rev_est_bn","Consensus revenue ($B)","n",,8],["rev_period","Revenue period",,,9,"period_end"],["rev_yoy","Rev YoY","n",.25,7],["eps_est","Consensus EPS","n",,7],["eps_period","EPS period",,,9,"period_end"],["eps_yoy","EPS YoY","n",.5,7],["pe","Implied P/E","n",,6]];
 const med=a=>{a=a.filter(x=>x!=null&&isFinite(x)).sort((x,y)=>x-y);return a.length?(a.length%2?a[(a.length-1)/2]:(a[a.length/2-1]+a[a.length/2])/2):null;};
 function earnRows(){
   const em=S.earn||new Map();
@@ -433,17 +434,18 @@ function renderEarnings(){
   rs.sort((a,b)=>{const x=a[k],y=b[k];if(x==null||x==="")return 1;if(y==null||y==="")return -1;return (x>y?1:x<y?-1:0)*d;});
   $("#ecount").textContent=rs.length+" stocks";
   $("#etable").innerHTML="<colgroup>"+ECOLS.map(c=>`<col style="width:${c[4]}%">`).join("")+"</colgroup><tr>"+
-    ECOLS.map(c=>`<th class="sortable ${c[2]||""}" data-ek="${c[0]}">${c[1]}${S.esort.k===c[0]?(S.esort.dir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr>"+
+    ECOLS.map(c=>`<th class="sortable ${c[2]||""}" data-ek="${c[5]||c[0]}">${c[1]}${S.esort.k===(c[5]||c[0])?(S.esort.dir>0?" ▲":" ▼"):""}</th>`).join("")+"</tr>"+
     rs.map(r=>"<tr>"+ECOLS.map(c=>{
       const v=r[c[0]];
       if(c[3])return `<td class="n heat" style="${hs(v,c[3])}">${pct(v)}</td>`;
       if(c[0]==="next_earnings")return `<td>${v?esc(v)+(r.days!=null&&r.days>=0?` <span class="sub">(${r.days===0?"today":"in "+r.days+"d"})</span>`:""):"–"}</td>`;
       if(c[0]==="rev_est_bn")return `<td class="n">${v==null?"–":num(v,v<1?3:2)}</td>`;
       if(c[0]==="eps_est")return `<td class="n">${v==null?"–":num(v,2)}</td>`;
-      if(c[0]==="pe")return `<td class="n">${v!=null?num(v,1)+"x":(r.epsNeg?"n/m":"–")}</td>`;
+      if(c[0]==="rev_period"||c[0]==="eps_period")return `<td>${v?esc(v):"–"}</td>`;
+      if(c[0]==="pe")return `<td class="n"${r.fy_period?` title="Price ÷ consensus EPS for ${esc(r.fy_period)}"`:""}>${v!=null?num(v,1)+"x":(r.epsNeg?"n/m":"–")}</td>`;
       return `<td>${esc(v)}</td>`;}).join("")+"</tr>").join("");
   const up=[...S.earn.values()].map(e=>e.updated).filter(Boolean).sort().pop();
-  $("#enote").innerHTML="Estimates refreshed weekly"+(up?" (last: "+esc(up)+")":"")+". Consensus revenue and EPS are for the quarter about to be reported; YoY compares with the same quarter a year earlier. Implied P/E = latest price ÷ consensus EPS for the current fiscal year (n/m = negative EPS). Revenue is converted to US$; EPS is in the company’s reporting currency. “–” means no analyst data. Source: Yahoo Finance analyst estimates.";
+  $("#enote").innerHTML="Estimates refreshed weekly"+(up?" (last: "+esc(up)+")":"")+". Consensus revenue and EPS are for the fiscal quarter shown in the period columns (company fiscal calendar, e.g. “Q2 FY27 (Dec-26)” = fiscal Q2 of FY27, quarter ending Dec 2026); YoY compares with the same quarter a year earlier. Implied P/E = latest price ÷ consensus EPS for the current fiscal year (hover a P/E to see which year) (n/m = negative EPS). Revenue is converted to US$; EPS is in the company’s reporting currency. “–” means no analyst data. Source: Yahoo Finance analyst estimates.";
 }
 /* ---------- wiring ---------- */
 function renderAll(){
@@ -463,7 +465,7 @@ document.addEventListener("click",e=>{
     ["overview","trends","news","earnings","detail"].forEach(n=>$("#tab-"+n).classList.toggle("hidden",n!==S.tab));
     if(S.tab==="overview"){renderTree();}if(S.tab==="trends")renderTrends();if(S.tab==="news")renderNews();if(S.tab==="earnings")renderEarnings();}
   const eh=e.target.closest("th[data-ek]");
-  if(eh){const k=eh.dataset.ek;S.esort=S.esort.k===k?{k:k,dir:-S.esort.dir}:{k:k,dir:(k==="ticker"||k==="company"||k==="sector"||k==="next_earnings")?1:-1};renderEarnings();}
+  if(eh){const k=eh.dataset.ek;S.esort=S.esort.k===k?{k:k,dir:-S.esort.dir}:{k:k,dir:(k==="ticker"||k==="company"||k==="sector"||k==="next_earnings"||k==="period_end")?1:-1};renderEarnings();}
   const lb=e.target.closest("#listSegs button");
   if(lb&&lb.dataset.l!==S.list){S.list=lb.dataset.l;try{localStorage.setItem("list",S.list);}catch(_){}
     document.querySelectorAll("#listSegs button").forEach(b=>b.classList.toggle("on",b===lb));listChanged(false);}
