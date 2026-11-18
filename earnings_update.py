@@ -7,7 +7,8 @@ For every stock in tickers.csv it collects (from Yahoo Finance analyst data):
   eps_yoy            ... growth vs the same quarter last year
   eps_fy_px          consensus EPS for the current fiscal year, converted to the share-price currency
                      (the dashboard divides the live price by this to show the implied P/E)
-Runs weekly (weekly_earnings.yml). Missing data stays blank - coverage is thinner for Asian stocks.
+Also records the fiscal period each estimate refers to (e.g. "Q3 FY26 (Sep-26)"), worked out from the
+company's most recent quarter end and fiscal year end. Runs weekly (weekly_earnings.yml). Missing data stays blank - coverage is thinner for Asian stocks.
 """
 import os, sys, time
 from datetime import date
@@ -52,6 +53,24 @@ def next_date(cal):
     fut = [x for x in ds if x >= today]
     return (fut[0] if fut else ds[0]).isoformat() if ds else None
 
+def period_labels(info):
+    """Fiscal labels for the quarter being reported and for the current fiscal year, from Yahoo company data.
+    Returns (quarter_label, quarter_end_iso, fiscal_year_label) or (None, None, None)."""
+    try:
+        mrq, fye = info.get("mostRecentQuarter"), info.get("nextFiscalYearEnd") or info.get("lastFiscalYearEnd")
+        if not mrq or not fye:
+            return None, None, None
+        qend = (pd.to_datetime(mrq, unit="s") + pd.DateOffset(months=3)) + pd.offsets.MonthEnd(0)
+        fy = pd.to_datetime(fye, unit="s")
+        while fy < qend - pd.Timedelta(days=5):
+            fy += pd.DateOffset(years=1)
+        k = (qend.month - fy.month) % 12
+        qn = 4 if k == 0 else max(1, min(4, k // 3))
+        return (f"Q{qn} FY{str(fy.year)[2:]} ({qend.strftime('%b-%y')})", qend.date().isoformat(),
+                f"FY{str(fy.year)[2:]} ({fy.strftime('%b-%y')})")
+    except Exception:
+        return None, None, None
+
 def fetch(t, price_ccy):
     tk = yf.Ticker(t)
     r = {"ticker": t}
@@ -62,10 +81,12 @@ def fetch(t, price_ccy):
     except Exception: ee = None
     try: re_ = tk.revenue_estimate
     except Exception: re_ = None
+    try: info = tk.info or {}
+    except Exception: info = {}
     fin = "USD"
     if price_ccy != "USD":  # reporting currency can differ from the share-price currency (e.g. HK-listed Chinese firms)
-        try: fin = (tk.info or {}).get("financialCurrency") or price_ccy
-        except Exception: fin = price_ccy
+        fin = info.get("financialCurrency") or price_ccy
+    qlabel, qend, fylabel = period_labels(info)
     rev = row_of(re_, "0q", "avg") if re_ is not None else None
     if rev is None and isinstance(cal, dict): rev = num(cal.get("Revenue Average"))
     eps = row_of(ee, "0q", "avg") if ee is not None else None
@@ -73,7 +94,9 @@ def fetch(t, price_ccy):
     r.update({"_rev": rev, "rev_yoy": row_of(re_, "0q", "growth") if re_ is not None else None,
               "eps_est": eps, "eps_yoy": row_of(ee, "0q", "growth") if ee is not None else None,
               "_eps_fy": row_of(ee, "0y", "avg") if ee is not None else None,
-              "_fin": fin,
+              "_fin": fin, "period_end": qend, "fy_period": fylabel,
+              "rev_period": qlabel if rev is not None else None,
+              "eps_period": qlabel if eps is not None else None,
               "analysts": row_of(ee, "0q", "numberOfAnalysts") if ee is not None else None})
     return r
 
@@ -98,7 +121,7 @@ if __name__ == "__main__":
     print(f"Stocks with some estimate data: {have} of {len(meta)}. Errors: {failed[:30]}")
     if have < len(meta) * 0.3:
         sys.exit("Too little data returned - keeping the previous earnings.csv.")
-    cols = ["ticker", "next_earnings", "rev_est_bn", "rev_yoy", "eps_est", "eps_yoy",
-            "eps_fy_px", "fin_currency", "analysts", "updated"]
+    cols = ["ticker", "next_earnings", "rev_est_bn", "rev_period", "rev_yoy", "eps_est", "eps_period",
+            "eps_yoy", "eps_fy_px", "fy_period", "period_end", "fin_currency", "analysts", "updated"]
     df[cols].to_csv("data/earnings.csv", index=False)
     print("OK: data/earnings.csv written")
