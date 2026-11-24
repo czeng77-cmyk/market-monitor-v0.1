@@ -1,27 +1,109 @@
 {
- "generated_utc": "2026-11-23 22:24",
- "data_date": "2026-11-23",
+ "generated_utc": "2026-11-24 22:30",
+ "data_date": "2026-11-24",
  "items": [
   {
-   "ticker": "2308.TW",
-   "company": "Delta",
+   "ticker": "005380.KS",
+   "company": "Hyundai",
+   "sector": "Consumer Discretionary",
+   "side": "gainer",
+   "watchlist": "asia",
+   "chg_1d": 0.11111111111111116,
+   "price": 275000.0,
+   "tags": [],
+   "headlines": [
+    {
+     "title": "Hyundai Mobis signs KRW1trn overseas braking, steering deals",
+     "publisher": "Just Auto",
+     "url": "https://www.just-auto.com/news/hyundai-mobis-signs-krw1trn-overseas-braking-steering-deals/",
+     "time": "2026-11-23 09:53 UTC"
+    },
+    {
+     "title": "\u2018It\u2019s too late\u2019: Ford, BMW, Hyundai issue same fresh warning as China takes over major markets. Is America next?",
+     "publisher": "Moneywise",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/too-ford-bmw-hyundai-issue-123000604.html",
+     "time": "2026-11-21 12:30 UTC"
+    }
+   ],
+   "earnings": "2027-01-28"
+  },
+  {
+   "ticker": "000270.KS",
+   "company": "Kia",
+   "sector": "Consumer Discretionary",
+   "side": "gainer",
+   "watchlist": "asia",
+   "chg_1d": 0.1064814814814814,
+   "price": 95600.0,
+   "tags": [],
+   "headlines": [
+    {
+     "title": "Hyundai Mobis signs KRW1trn overseas braking, steering deals",
+     "publisher": "Just Auto",
+     "url": "https://www.just-auto.com/news/hyundai-mobis-signs-krw1trn-overseas-braking-steering-deals/",
+     "time": "2026-11-23 09:53 UTC"
+    }
+   ],
+   "earnings": "2027-01-27"
+  },
+  {
+   "ticker": "009150.KS",
+   "company": "SEMCO",
    "sector": "Information Technology",
    "side": "gainer",
    "watchlist": "asia",
-   "chg_1d": 0.10000000000000009,
-   "price": 990.0,
+   "chg_1d": 0.10282776349614386,
+   "price": 858000.0,
+   "tags": [],
+   "headlines": [
+    {
+     "title": "Hyulim Robot shares surge 30% on Samsung Electro-Mechanics supply agreement",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/hyulim-robot-shares-surge-30-052936556.html",
+     "time": "2026-11-23 05:29 UTC"
+    }
+   ],
+   "earnings": "2027-01-21"
+  },
+  {
+   "ticker": "2317.TW",
+   "company": "Hon Hai",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "watchlist": "asia",
+   "chg_1d": 0.09951456310679618,
+   "price": 226.5,
    "tags": [
-    "AI / semis"
+    "AI / semis",
+    "Management"
    ],
    "headlines": [
     {
-     "title": "Taiwan Stock Market Falls 6.2% to Cap Its Worst Week Since 1991 as KOSPI Closes Down 5.2% and Nikkei 225 Drops 5.1% in AI Chip Selloff",
-     "publisher": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/",
-     "time": "2026-11-20 07:33 UTC"
+     "title": "Hon Hai Stocks Jump 9.95% to Taipei's Limit as AI Server Maker Rides Huang Rebound",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/hon-hai-stocks-jump-9-172644530.html",
+     "time": "2026-11-24 17:26 UTC"
+    },
+    {
+     "title": "TSMC gains $158 billion in value in one day as Jensen Huang returns as Nvidia CEO",
+     "publisher": "Fortune",
+     "url": "https://finance.yahoo.com/news/tsmc-gains-158-billion-value-070556999.html",
+     "time": "2026-11-24 07:05 UTC"
     }
    ],
-   "earnings": "2026-10-28"
+   "earnings": "2026-11-12"
+  },
+  {
+   "ticker": "3008.TW",
+   "company": "Largan",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "watchlist": "asia",
+   "chg_1d": 0.09944751381215466,
+   "price": 3980.0,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2027-01-27"
   },
   {
    "ticker": "2454.TW",
@@ -29,8 +111,8 @@
    "sector": "Information Technology",
    "side": "gainer",
    "watchlist": "asia",
-   "chg_1d": 0.10000000000000009,
-   "price": 3685.0,
+   "chg_1d": 0.09905020352781557,
+   "price": 4050.0,
    "tags": [
     "Guidance",
     "AI / semis"
@@ -47,666 +129,595 @@
      "publisher": "TIKR",
      "url": "https://www.tikr.com/blog/not-good-broadcom-loses-200-billion-as-chips-crash-and-google-reportedly-cuts-ai-chip-plans?ref=yahoofinance&tlnk=yf-261123-ccmmcf34",
      "time": "2026-11-23 13:25 UTC"
-    },
-    {
-     "title": "Nasdaq turns negative: Why Anthropic & other tech stocks are getting crushed",
-     "publisher": "Yahoo Finance Video",
-     "url": "https://finance.yahoo.com/video/nasdaq-turns-negative-why-anthropic--other-tech-stocks-are-getting-crushed-213846825.html",
-     "time": "2026-11-20 21:38 UTC"
-    },
-    {
-     "title": "Broadcom Stock Falls on Report Google is Cutting AI Chip Shipments",
-     "publisher": "Barrons.com",
-     "url": "https://www.barrons.com/articles/broadcom-stock-google-ai-chips-e75d888d?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-20 17:42 UTC"
     }
    ],
-   "earnings": "2026-10-30"
+   "earnings": "2027-02-11"
   },
   {
-   "ticker": "0992.HK",
-   "company": "LENOVO GROUP",
+   "ticker": "3037.TW",
+   "company": "Unimicron",
    "sector": "Information Technology",
    "side": "gainer",
    "watchlist": "asia",
-   "chg_1d": 0.0758409785932721,
-   "price": 17.59,
+   "chg_1d": 0.09856630824372759,
+   "price": 613.0,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2027-02-23"
+  },
+  {
+   "ticker": "2330.TW",
+   "company": "TSMC",
+   "sector": "Information Technology",
+   "side": "gainer",
+   "watchlist": "asia",
+   "chg_1d": 0.09852216748768483,
+   "price": 2230.0,
    "tags": [
-    "AI / semis",
-    "Product / contract"
+    "Earnings",
+    "AI / semis"
    ],
    "headlines": [
     {
-     "title": "Dell Wants Up to 45% More on Signed AI Deals. IREN Has a Big Problem",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/dell-wants-up-to-45-more-on-signed-ai-deals-iren-has-a-big-problem?ref=yahoofinance&tlnk=yf-261123-6945q259",
-     "time": "2026-11-23 19:38 UTC"
+     "title": "5 High-Conviction Stocks Billionaire Philippe Laffont Is Betting On for 2027",
+     "publisher": "Insider Monkey",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/5-high-conviction-stocks-billionaire-212307906.html",
+     "time": "2026-11-24 21:23 UTC"
     },
     {
-     "title": "Lenovo Named Leader in IDC MarketScape 2026 Digital Workplace Services Assessment",
-     "publisher": "InvestorsHub",
-     "url": "https://investorshub.advfn.com/market-news/article/40563/lenovo-named-leader-in-idc-marketscape-2026-digital-workplace-services-assessment",
-     "time": "2026-11-23 15:38 UTC"
+     "title": "Trump\u2019s Southeast Asia Chip Rule Has Cost Nvidia $44 Billion+ of Revenue, per Jefferies. Huang Can\u2019t Undo It",
+     "publisher": "TIKR",
+     "url": "https://www.tikr.com/blog/trumps-southeast-asia-chip-rule-has-cost-nvidia-44-billion-of-revenue-per-jefferies-huang-cant-undo-it?ref=yahoofinance&tlnk=yf-261124-8mwmqrw2",
+     "time": "2026-11-24 20:10 UTC"
     },
     {
-     "title": "Super Micro Soars 20% on Report It\u2019s Seeking Up to 45% More for AI Servers Already Sold",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/super-micro-soars-20-on-report-its-seeking-up-to-45-more-for-ai-servers-already-sold?ref=yahoofinance&tlnk=yf-261123-vcfj7qh7",
-     "time": "2026-11-23 15:18 UTC"
+     "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock May Be Reasonable After New Export Curbs",
+     "publisher": "Simply Wall St.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-nyse-tsm-200904328.html",
+     "time": "2026-11-24 20:09 UTC"
     },
     {
-     "title": "Dell and Super Micro Want Up to 45% More for AI Servers Already Under Contract. Dell Reports Tuesday",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/dell-and-super-micro-want-up-to-45-more-for-ai-servers-already-under-contract-dell-reports-tuesday?ref=yahoofinance&tlnk=yf-261123-2hwh29jj",
-     "time": "2026-11-23 12:05 UTC"
+     "title": "TSMC's $22.6 Billion Texas Chip Plant Hinges on Two Tax Breaks",
+     "publisher": "Benzinga Prediction Markets",
+     "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63603822/tsmc-texas-chip-tax-breaks?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
+     "time": "2026-11-24 20:00 UTC"
     }
    ],
-   "earnings": "2027-02-10"
+   "earnings": "2027-01-14"
   },
   {
-   "ticker": "2382.HK",
-   "company": "SUNNY OPTICAL",
+   "ticker": "6669.TW",
+   "company": "Wiwynn",
    "sector": "Information Technology",
    "side": "gainer",
    "watchlist": "asia",
-   "chg_1d": 0.0675213675213675,
-   "price": 62.45,
+   "chg_1d": 0.09818181818181815,
+   "price": 1510.0,
    "tags": [],
    "headlines": [],
-   "earnings": "2026-08-26"
+   "earnings": "2026-11-06"
   },
   {
-   "ticker": "6181.HK",
-   "company": "LAOPU GOLD",
-   "sector": "Consumer Discretionary",
-   "side": "gainer",
-   "watchlist": "asia",
-   "chg_1d": 0.050393700787401574,
-   "price": 266.8,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2026-08-25"
-  },
-  {
-   "ticker": "3308.HK",
-   "company": "Zhongji Innolight",
+   "ticker": "2308.TW",
+   "company": "Delta",
    "sector": "Information Technology",
    "side": "gainer",
    "watchlist": "asia",
-   "chg_1d": 0.04795918367346941,
-   "price": 513.5,
+   "chg_1d": 0.09595959595959602,
+   "price": 1085.0,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2027-02-24"
+  },
+  {
+   "ticker": "2513.HK",
+   "company": "Z.AI",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "asia",
+   "chg_1d": -0.06231628453850668,
+   "price": 319.0,
    "tags": [],
    "headlines": [],
    "earnings": null
   },
   {
-   "ticker": "2269.HK",
-   "company": "WUXI BIO",
-   "sector": "Health Care",
-   "side": "gainer",
+   "ticker": "1378.HK",
+   "company": "CHINAHONGQIAO",
+   "sector": "Materials",
+   "side": "loser",
    "watchlist": "asia",
-   "chg_1d": 0.0458984375,
-   "price": 42.84,
+   "chg_1d": -0.048752176436448025,
+   "price": 16.39,
    "tags": [],
    "headlines": [],
-   "earnings": "2026-08-25"
+   "earnings": null
   },
   {
-   "ticker": "2359.HK",
-   "company": "WUXI APPTEC",
-   "sector": "Health Care",
-   "side": "gainer",
+   "ticker": "2600.HK",
+   "company": "CHALCO",
+   "sector": "Materials",
+   "side": "loser",
    "watchlist": "asia",
-   "chg_1d": 0.04573002754820954,
-   "price": 189.8,
+   "chg_1d": -0.04337152209492645,
+   "price": 5.845,
    "tags": [],
    "headlines": [],
-   "earnings": "2026-10-26"
+   "earnings": "2026-10-29"
+  },
+  {
+   "ticker": "0968.HK",
+   "company": "XINYI SOLAR",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "asia",
+   "chg_1d": -0.04310344827586199,
+   "price": 1.665,
+   "tags": [],
+   "headlines": [],
+   "earnings": null
+  },
+  {
+   "ticker": "1088.HK",
+   "company": "CHINA SHENHUA",
+   "sector": "Energy",
+   "side": "loser",
+   "watchlist": "asia",
+   "chg_1d": -0.03910348116356699,
+   "price": 40.3,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2026-10-23"
   },
   {
    "ticker": "3993.HK",
    "company": "CMOC",
    "sector": "Materials",
-   "side": "gainer",
-   "watchlist": "asia",
-   "chg_1d": 0.041910331384015675,
-   "price": 10.69,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2026-10-23"
-  },
-  {
-   "ticker": "2899.HK",
-   "company": "ZIJIN MINING",
-   "sector": "Materials",
-   "side": "gainer",
-   "watchlist": "asia",
-   "chg_1d": 0.04163052905464015,
-   "price": 24.02,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2026-10-23"
-  },
-  {
-   "ticker": "9863.HK",
-   "company": "LEAPMOTOR",
-   "sector": "Consumer Discretionary",
    "side": "loser",
    "watchlist": "asia",
-   "chg_1d": -0.12992125984251968,
-   "price": 26.52,
+   "chg_1d": -0.03835360149672595,
+   "price": 10.28,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2026-10-23"
+  },
+  {
+   "ticker": "0857.HK",
+   "company": "PETROCHINA",
+   "sector": "Energy",
+   "side": "loser",
+   "watchlist": "asia",
+   "chg_1d": -0.038190954773869246,
+   "price": 9.57,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2026-10-28"
+  },
+  {
+   "ticker": "1093.HK",
+   "company": "CSPC PHARMA",
+   "sector": "Health Care",
+   "side": "loser",
+   "watchlist": "asia",
+   "chg_1d": -0.037247474747474696,
+   "price": 7.625,
+   "tags": [],
+   "headlines": [],
+   "earnings": "2026-11-18"
+  },
+  {
+   "ticker": "1810.HK",
+   "company": "XIAOMI - W",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "asia",
+   "chg_1d": -0.0370639534883721,
+   "price": 26.5,
    "tags": [
     "Earnings"
    ],
    "headlines": [
     {
-     "title": "Stellantis-Backed EV Maker Fuels Slide in Chinese Auto Stocks",
+     "title": "Xiaomi\u2019s Profit Continues to Fall Amid Weaker Revenue Across Businesses",
      "publisher": "The Wall Street Journal",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/stellantis-backed-ev-maker-fuels-slide-in-chinese-auto-stocks-RkqND7TQwe5JQW9DWkic?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-23 11:32 UTC"
+     "url": "https://www.wsj.com/business/earnings/xiaomis-profit-continues-to-fall-amid-weaker-revenue-across-businesses-791bebb0?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-24 12:06 UTC"
     },
     {
-     "title": "Zhejiang Leapmotor Technology Co Ltd (ZJLMF) (Q3 2026) Earnings Call Highlights: Record ...",
-     "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/zhejiang-leapmotor-technology-co-ltd-190051045.html",
-     "time": "2026-11-20 19:00 UTC"
-    }
-   ],
-   "earnings": null
-  },
-  {
-   "ticker": "9868.HK",
-   "company": "XPENG - W",
-   "sector": "Consumer Discretionary",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.06280720917531402,
-   "price": 34.32,
-   "tags": [
-    "Product / contract"
-   ],
-   "headlines": [
-    {
-     "title": "HSBC Issues Strong Warning on XPeng Stock Despite Rally",
-     "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-issues-strong-warning-xpeng-152348300.html",
-     "time": "2026-11-23 15:23 UTC"
-    },
-    {
-     "title": "Stellantis-Backed EV Maker Fuels Slide in Chinese Auto Stocks",
-     "publisher": "The Wall Street Journal",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/stellantis-backed-ev-maker-fuels-slide-in-chinese-auto-stocks-RkqND7TQwe5JQW9DWkic?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-23 11:32 UTC"
-    },
-    {
-     "title": "Xpeng Introduces Advanced Driver-Assistance Test Rides in Paris Ahead of Planned 2027 International Launch",
-     "publisher": "InvestorsHub",
-     "url": "https://investorshub.advfn.com/market-news/article/40500/xpeng-introduces-advanced-driver-assistance-test-rides-in-paris-ahead-of-planned-2027-international-launch",
-     "time": "2026-11-23 11:29 UTC"
-    },
-    {
-     "title": "Musk Admits Robot Demos Fail if You \u201cMove the Table.\u201d Tesla\u2019s Optimus Bet Rides on Fixing That",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/musk-admits-robot-demos-fail-if-you-move-the-table-teslas-optimus-bet-rides-on-fixing-that?ref=yahoofinance&tlnk=yf-261123-wg2hxfh2",
-     "time": "2026-11-23 11:20 UTC"
-    }
-   ],
-   "earnings": "2026-11-16"
-  },
-  {
-   "ticker": "2015.HK",
-   "company": "LI AUTO - W",
-   "sector": "Consumer Discretionary",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.04585052728106376,
-   "price": 41.62,
-   "tags": [
-    "AI / semis",
-    "Legal / regulatory",
-    "Macro / market"
-   ],
-   "headlines": [
-    {
-     "title": "Week ahead: Wall Street looks for Thanksgiving lift as Nvidia rebound puts AI trade back in focus",
-     "publisher": "Proactive",
-     "url": "https://www.proactiveinvestors.com/companies/news/1102277/week-ahead-wall-street-looks-for-thanksgiving-lift-as-nvidia-rebound-puts-ai-trade-back-in-focus-1102277.html",
-     "time": "2026-11-23 16:30 UTC"
-    },
-    {
-     "title": "AI Jitters Roil Asian Stock Markets",
-     "publisher": "MT Newswires",
-     "url": "https://finance.yahoo.com/markets/world-indices/articles/ai-jitters-roil-asian-stock-103847073.html",
-     "time": "2026-11-23 10:38 UTC"
-    },
-    {
-     "title": "NIO And 2 More EV Stocks To Watch",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/energy/articles/nio-2-more-ev-stocks-130958750.html",
-     "time": "2026-11-21 13:09 UTC"
-    },
-    {
-     "title": "Congress Finalizing Bill To Officially Ban Chinese Cars In U.S.",
-     "publisher": "Investor's Business Daily",
-     "url": "https://www.investors.com/news/byd-congress-chinese-ev-ban-tesla-li-auto-xpeng-geely/?src=A00220&yptr=yahoo",
-     "time": "2026-11-20 13:48 UTC"
-    }
-   ],
-   "earnings": "2026-11-25"
-  },
-  {
-   "ticker": "9866.HK",
-   "company": "NIO - SW",
-   "sector": "Consumer Discretionary",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.03904761904761911,
-   "price": 20.18,
-   "tags": [
-    "Earnings",
-    "Analyst call",
-    "Legal / regulatory"
-   ],
-   "headlines": [
-    {
-     "title": "Nio Sees Revenue Topping $15B This Year\u2014 But Analyst Warns Onvo Could Derail Tesla Roadster-Inspired Luxury Bet",
-     "publisher": "Stocktwits",
-     "url": "https://stocktwits.com/news-articles/markets/equity/nio-revenue-15b-this-year-analyst-onvo-derail-tesla-roadster-luxury-bet/cNbYrWER9Sh",
-     "time": "2026-11-23 06:37 UTC"
-    },
-    {
-     "title": "NIO And 2 More EV Stocks To Watch",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/energy/articles/nio-2-more-ev-stocks-130958750.html",
-     "time": "2026-11-21 13:09 UTC"
-    },
-    {
-     "title": "Ford Sold 34,000 China-Built Lincolns in 2025. Congress Is Closing In on a Chinese Car Ban",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/ford-sold-34000-china-built-lincolns-in-2025-congress-is-closing-in-on-a-chinese-car-ban?ref=yahoofinance&tlnk=yf-261121-cwq86587",
-     "time": "2026-11-21 10:29 UTC"
-    },
-    {
-     "title": "Cold Weather Battery Swaps Could Be A Game Changer For NIO (NIO)",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/cold-weather-battery-swaps-could-141123115.html",
-     "time": "2026-11-20 14:11 UTC"
-    }
-   ],
-   "earnings": "2026-12-01"
-  },
-  {
-   "ticker": "2618.HK",
-   "company": "JD LOGISTICS",
-   "sector": "Industrials",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.03776683087027921,
-   "price": 8.79,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2026-11-17"
-  },
-  {
-   "ticker": "005930.KS",
-   "company": "Samsung",
-   "sector": "Information Technology",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.030584380120152965,
-   "price": 177500.0,
-   "tags": [
-    "AI / semis",
-    "Management",
-    "Macro / market"
-   ],
-   "headlines": [
-    {
-     "title": "Samsung Electronics Stocks Fall 3.06% as Kospi Sinks Before Nvidia's CEO Reversal",
-     "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-stocks-fall-3-170806611.html",
-     "time": "2026-11-23 17:08 UTC"
-    },
-    {
-     "title": "AI Chips Update - Global Semiconductor ETF Expands International Investment Horizons",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/technology/ai/articles/ai-chips-global-semiconductor-etf-113725192.html",
-     "time": "2026-11-23 11:37 UTC"
-    },
-    {
-     "title": "Korean Semiconductor Stocks After The Selloff With Samsung Electronics In Focus",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/korean-semiconductor-stocks-selloff-samsung-080741244.html",
-     "time": "2026-11-23 08:07 UTC"
-    },
-    {
-     "title": "Tech back in the firing line as traders track Wall Street rout",
-     "publisher": "Euronews",
-     "url": "https://www.euronews.com/2026/11/23/tech-back-in-the-firing-line-as-traders-track-wall-street-rout",
-     "time": "2026-11-23 05:20 UTC"
-    }
-   ],
-   "earnings": "2027-01-27"
-  },
-  {
-   "ticker": "005380.KS",
-   "company": "Hyundai",
-   "sector": "Consumer Discretionary",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.02941176470588236,
-   "price": 247500.0,
-   "tags": [],
-   "headlines": [
-    {
-     "title": "Hyundai Mobis signs KRW1trn overseas braking, steering deals",
-     "publisher": "Just Auto",
-     "url": "https://www.just-auto.com/news/hyundai-mobis-signs-krw1trn-overseas-braking-steering-deals/",
-     "time": "2026-11-23 09:53 UTC"
-    },
-    {
-     "title": "\u2018It\u2019s too late\u2019: Ford, BMW, Hyundai issue same fresh warning as China takes over major markets. Is America next?",
-     "publisher": "Moneywise",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/too-ford-bmw-hyundai-issue-123000604.html",
-     "time": "2026-11-21 12:30 UTC"
-    },
-    {
-     "title": "Rivian's R2 Test Drives Offer a First Look at Its Lower-Cost Bet",
-     "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/technology/articles/rivians-r2-test-drives-offer-120805372.html",
-     "time": "2026-11-20 12:08 UTC"
-    },
-    {
-     "title": "Randy Parker of Hyundai weighs in at LA Auto Show on new Elantra",
-     "publisher": "USA TODAY",
-     "url": "https://finance.yahoo.com/video/randy-parker-hyundai-weighs-la-120049041.html",
-     "time": "2026-11-20 12:00 UTC"
-    }
-   ],
-   "earnings": "2027-01-28"
-  },
-  {
-   "ticker": "9660.HK",
-   "company": "HORIZONROBOT - W",
-   "sector": "Information Technology",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.028846153846153966,
-   "price": 3.03,
-   "tags": [],
-   "headlines": [],
-   "earnings": null
-  },
-  {
-   "ticker": "373220.KS",
-   "company": "LGES",
-   "sector": "Industrials",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.026711185308848084,
-   "price": 291500.0,
-   "tags": [],
-   "headlines": [],
-   "earnings": "2027-01-28"
-  },
-  {
-   "ticker": "034020.KS",
-   "company": "Doosan Enerbility",
-   "sector": "Industrials",
-   "side": "loser",
-   "watchlist": "asia",
-   "chg_1d": -0.025766871165644134,
-   "price": 39700.0,
-   "tags": [],
-   "headlines": [],
-   "earnings": null
-  },
-  {
-   "ticker": "NVDA",
-   "company": "Nvidia Corp",
-   "sector": "Information Technology",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.31482514140046214,
-   "price": 165.05,
-   "tags": [
-    "AI / semis",
-    "Management"
-   ],
-   "headlines": [
-    {
-     "title": "Ex-Nvidia employee: 'Stability and accountability can coexist'",
-     "publisher": "Yahoo Finance Video",
-     "url": "https://finance.yahoo.com/video/ex-nvidia-employee-stability-and-accountability-can-coexist-221105947.html",
-     "time": "2026-11-23 22:11 UTC"
-    },
-    {
-     "title": "Nvidia's stability is a systemic issue for the US now, this AI CEO says",
-     "publisher": "Yahoo Finance Video",
-     "url": "https://finance.yahoo.com/video/nvidias-stability-is-a-systemic-issue-for-the-us-now-this-ai-ceo-says-220035003.html",
-     "time": "2026-11-23 22:00 UTC"
-    },
-    {
-     "title": "It's not over for Jensen Huang",
-     "publisher": "Yahoo Finance Video",
-     "url": "https://finance.yahoo.com/video/its-not-over-for-jensen-huang-215809126.html",
-     "time": "2026-11-23 21:58 UTC"
-    },
-    {
-     "title": "3 truths that Jensen Huang's return to Nvidia made clear",
-     "publisher": "Yahoo Finance Video",
-     "url": "https://finance.yahoo.com/video/3-truths-that-jensen-huangs-return-to-nvidia-made-clear-213610744.html",
-     "time": "2026-11-23 21:36 UTC"
-    }
-   ],
-   "earnings": "2026-11-17"
-  },
-  {
-   "ticker": "DELL",
-   "company": "Dell Technologies Inc.",
-   "sector": "Information Technology",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.20462556650600683,
-   "price": 334.91,
-   "tags": [
-    "AI / semis",
-    "Management"
-   ],
-   "headlines": [
-    {
-     "title": "Stock Market Today: Dow, Nasdaq Surge As Jensen Huang Makes This Nvidia Promise; Anthropic Falls (Live Coverage)",
-     "publisher": "Investor's Business Daily",
-     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-crowdstrike-zscaler/?src=A00220&yptr=yahoo",
-     "time": "2026-11-23 21:56 UTC"
-    },
-    {
-     "title": "Why Walmart and Other Defensive Stocks Are Losing Their Luster",
-     "publisher": "Barrons.com",
-     "url": "https://www.barrons.com/articles/defensive-stocks-ai-tyson-walmart-55bd8545?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-23 20:37 UTC"
-    },
-    {
-     "title": "5 Stocks Up 20% Or More on Monday Following NVIDIA CEO Jensen Huang\u2019s Return",
-     "publisher": "24/7 Wall St.",
-     "url": "https://247wallst.com/videos/5-stocks-up-20-or-more-on-monday-following-nvidia-ceo-jensen-huangs-return/",
-     "time": "2026-11-23 20:21 UTC"
-    },
-    {
-     "title": "Jensen Huang\u2019s Return Just Added About $500 Billion to Micron, Dell, TSMC and the AI Stocks That Depend on Nvidia",
-     "publisher": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/11/23/jensen-huangs-return-just-added-about-500-billion-to-micron-dell-tsmc-and-the-ai-stocks-that-depend-on-nvidia/",
-     "time": "2026-11-23 20:13 UTC"
+     "title": "Xiaomi's Sales Slip After Memory Shortages Weigh on Smartphones",
+     "publisher": "Bloomberg",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/xiaomi-sales-slip-memory-shortages-093524782.html",
+     "time": "2026-11-24 09:35 UTC"
     }
    ],
    "earnings": "2026-11-24"
   },
   {
-   "ticker": "MU",
-   "company": "Micron Technology, Inc.",
-   "sector": "Information Technology",
+   "ticker": "9901.HK",
+   "company": "NEW ORIENTAL - S",
+   "sector": "Consumer Discretionary",
+   "side": "loser",
+   "watchlist": "asia",
+   "chg_1d": -0.03324937027707808,
+   "price": 38.38,
+   "tags": [],
+   "headlines": [],
+   "earnings": null
+  },
+  {
+   "ticker": "DLTR",
+   "company": "Dollar Tree Inc.",
+   "sector": "Consumer Staples",
    "side": "gainer",
    "watchlist": "sp500",
-   "chg_1d": 0.19039208760155435,
-   "price": 707.7,
+   "chg_1d": 0.11179007907979877,
+   "price": 154.65,
    "tags": [
+    "Earnings"
+   ],
+   "headlines": [
+    {
+     "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/",
+     "time": "2026-11-24 22:11 UTC"
+    },
+    {
+     "title": "Morning Movers: Dick\u2019s Sporting and Dollar Tree gain following quarterly reports",
+     "publisher": "TipRanks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/morning-movers-dick-sporting-dollar-220046732.html",
+     "time": "2026-11-24 22:00 UTC"
+    },
+    {
+     "title": "Why Is Target (TGT) Stock Up Today? Dollar Tree's Strong Q3 Lifts Discount Retailers",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-target-tgt-stock-today-210033160.html",
+     "time": "2026-11-24 21:00 UTC"
+    },
+    {
+     "title": "Why Five Below (FIVE) Stock Is Up Today: Strong Retail Earnings Lift Peers",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-five-below-five-stock-210032168.html",
+     "time": "2026-11-24 21:00 UTC"
+    }
+   ],
+   "earnings": "2026-11-24"
+  },
+  {
+   "ticker": "CSGP",
+   "company": "CoStar Group Inc",
+   "sector": "Real Estate",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.08079470198675498,
+   "price": 32.64,
+   "tags": [
+    "Guidance"
+   ],
+   "headlines": [
+    {
+     "title": "CoStar (CSGP) Stock Is Up 7.8% Today Without Company News",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/costar-csgp-stock-7-8-204533055.html",
+     "time": "2026-11-24 20:45 UTC"
+    },
+    {
+     "title": "Investors still balking at hotel purchases despite strong Chicago performance",
+     "publisher": "The Real Deal",
+     "url": "https://finance.yahoo.com/real-estate/articles/investors-still-balking-hotel-purchases-164306828.html",
+     "time": "2026-11-24 16:43 UTC"
+    },
+    {
+     "title": "CoStar, Tourism Economics \u2018significantly\u2019 raise US hotel performance outlook",
+     "publisher": "Hotel Dive",
+     "url": "https://www.hoteldive.com/news/costar-tourism-economics-upgrade-2026-hotel-performance-outlook/875559/",
+     "time": "2026-11-24 14:17 UTC"
+    }
+   ],
+   "earnings": "2027-02-23"
+  },
+  {
+   "ticker": "MRNA",
+   "company": "Moderna, Inc. Common Stock",
+   "sector": "Health Care",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.0721425877027535,
+   "price": 227.38,
+   "tags": [
+    "Product / contract"
+   ],
+   "headlines": [
+    {
+     "title": "Will 'Anti-Pharma' Democrats Chop Away At Biotech Stocks' Big Wins?",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/news/technology/biotech-stocks-election-2026-presidential-election-2028-drug-prices/?src=A00220&yptr=yahoo",
+     "time": "2026-11-24 21:16 UTC"
+    },
+    {
+     "title": "Immunome (IMNM) Stock Is Up 13.8% Today Without Company News",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/immunome-imnm-stock-13-8-210119724.html",
+     "time": "2026-11-24 21:01 UTC"
+    },
+    {
+     "title": "Alto Neuroscience (ANRO) Stock Is Up 10.3% Today Without Company News",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/alto-neuroscience-anro-stock-10-210058486.html",
+     "time": "2026-11-24 21:00 UTC"
+    },
+    {
+     "title": "Nuvation Bio (NUVB) Stock Is Up 9.1% Today Without Company News",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nuvation-bio-nuvb-stock-9-210058542.html",
+     "time": "2026-11-24 21:00 UTC"
+    }
+   ],
+   "earnings": "2027-02-12"
+  },
+  {
+   "ticker": "CHTR",
+   "company": "Charter Comm Inc Del CL A New",
+   "sector": "Communication Services",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.06214821763602263,
+   "price": 135.87,
+   "tags": [
+    "Analyst call"
+   ],
+   "headlines": [
+    {
+     "title": "What Could Send T-Mobile Stock Higher?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/tmus/articles/628381/what-could-send-t-mobile-stock-higher/2026-11-24",
+     "time": "2026-11-24 20:06 UTC"
+    },
+    {
+     "title": "Did Comcast's Dividends Make Up For Its Stock Drop?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/cmcsa/articles/628589/did-comcast-s-dividends-make-up-for-its-stock-drop/2026-11-24",
+     "time": "2026-11-24 17:20 UTC"
+    },
+    {
+     "title": "Charter Communications Stock: Analyst Estimates & Ratings",
+     "publisher": "Barchart",
+     "url": "https://www.barchart.com/story/news/8980707/charter-communications-stock-analyst-estimates-ratings",
+     "time": "2026-11-24 11:41 UTC"
+    },
+    {
+     "title": "The Dates That Matter Most For Verizon Shareholders",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/vz/articles/627590/the-dates-that-matter-most-for-verizon-shareholders/2026-11-23",
+     "time": "2026-11-24 05:06 UTC"
+    }
+   ],
+   "earnings": "2027-01-29"
+  },
+  {
+   "ticker": "NKE",
+   "company": "Nike, Inc.",
+   "sector": "Consumer Discretionary",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.058945497630331856,
+   "price": 35.75,
+   "tags": [
+    "Earnings",
     "AI / semis"
    ],
    "headlines": [
     {
-     "title": "Stock Market Today, Nov. 23: Markets Rebound From Correction on AI Relief Rally",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/",
-     "time": "2026-11-23 22:16 UTC"
+     "title": "Stock Market Today: Nasdaq Dives As Jensen Huang Tells Nvidia Staff This; Walmart Tests Entry",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amd-anthropic-nvidia/?src=A00220&yptr=yahoo",
+     "time": "2026-11-24 21:51 UTC"
     },
     {
-     "title": "Jensen Huang\u2019s Return Just Added About $500 Billion to Micron, Dell, TSMC and the AI Stocks That Depend on Nvidia",
-     "publisher": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/11/23/jensen-huangs-return-just-added-about-500-billion-to-micron-dell-tsmc-and-the-ai-stocks-that-depend-on-nvidia/",
-     "time": "2026-11-23 20:13 UTC"
+     "title": "Dick\u2019s Chairman Says Nike \u2018Made the Right Decision\u2019 on Jordan Even Though It Will Be \u2018Painful\u2019 in the Near-term",
+     "publisher": "Footwear News",
+     "url": "https://wwd.com/footwear-news/shoe-industry-news/dicks-foot-locker-jordan-brand-nike-earnings-takeaways-q3-1239464926/",
+     "time": "2026-11-24 21:00 UTC"
     },
     {
-     "title": "Why Anthropic\u2019s Stock Is Sitting Out Nvidia\u2019s Big Rally",
+     "title": "Why Is Nike (NKE) Stock Up Today? Dick's Strong Earnings Lift Retailers",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-nike-nke-stock-today-204540602.html",
+     "time": "2026-11-24 20:45 UTC"
+    },
+    {
+     "title": "Foot Locker Turnaround Sparks 17% Surge in Dick\u2019s Sporting Goods Stock",
      "publisher": "Barrons.com",
-     "url": "https://www.barrons.com/articles/anthropic-stock-nvidia-big-rally-6782b633?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-23 19:58 UTC"
-    },
-    {
-     "title": "\u201cSmoke and Mirrors\u201d: Micron\u2019s President Slammed Rival DRAM Designs. We\u2019ll Know Soon if He\u2019s Right",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/smoke-and-mirrors-microns-president-slammed-rival-dram-designs-well-know-soon-if-hes-right?ref=yahoofinance&tlnk=yf-261123-78qhh9qx",
-     "time": "2026-11-23 19:43 UTC"
+     "url": "https://www.barrons.com/articles/dicks-sporting-goods-earnings-stock-price-899cbda2?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-24 19:32 UTC"
     }
    ],
    "earnings": "2026-12-17"
   },
   {
-   "ticker": "MRVL",
-   "company": "Marvell Technology, Inc. Common Stock",
-   "sector": "Information Technology",
+   "ticker": "IP",
+   "company": "International Paper Co.",
+   "sector": "Materials",
    "side": "gainer",
    "watchlist": "sp500",
-   "chg_1d": 0.1836768073274453,
-   "price": 144.74,
+   "chg_1d": 0.05659075224292609,
+   "price": 30.62,
    "tags": [
+    "Product / contract"
+   ],
+   "headlines": [
+    {
+     "title": "O-I Glass (OI) Stock Is Up 7.3% Today Without Company News",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/o-glass-oi-stock-7-204549465.html",
+     "time": "2026-11-24 20:45 UTC"
+    },
+    {
+     "title": "IP Advances EMEA Packaging Business Spin-Off With Board Approval",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ip-advances-emea-packaging-business-171000284.html",
+     "time": "2026-11-24 17:10 UTC"
+    },
+    {
+     "title": "Company News for Nov 24, 2026",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-nov-24-2026-081300001.html",
+     "time": "2026-11-24 08:13 UTC"
+    },
+    {
+     "title": "Graphic Packaging adds Jean-Michel Ribi\u00e9ras to board",
+     "publisher": "Packaging Gateway",
+     "url": "https://www.packaging-gateway.com/news/graphic-packaging-board-jean-michel-ribieras/",
+     "time": "2026-11-24 08:06 UTC"
+    }
+   ],
+   "earnings": "2027-01-28"
+  },
+  {
+   "ticker": "AMGN",
+   "company": "Amgen Inc",
+   "sector": "Health Care",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.055440495278817004,
+   "price": 473.935,
+   "tags": [
+    "Analyst call",
     "AI / semis"
    ],
    "headlines": [
     {
-     "title": "Why Marvell Technology Stock Crushed it Today",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/23/why-marvell-technology-stock-crushed-it-today/",
-     "time": "2026-11-23 22:06 UTC"
+     "title": "Stock Market Today: Nasdaq Dives As Jensen Huang Tells Nvidia Staff This; Walmart Tests Entry",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amd-anthropic-nvidia/?src=A00220&yptr=yahoo",
+     "time": "2026-11-24 21:51 UTC"
     },
     {
-     "title": "Coherent Is the Real Winner of Huang\u2019s Return. Nvidia Paid $2 Billion for Its Stock",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/coherent-is-the-real-winner-of-huangs-return-nvidia-paid-2-billion-for-its-stock?ref=yahoofinance&tlnk=yf-261123-h5c2xv48",
-     "time": "2026-11-23 21:34 UTC"
+     "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+     "publisher": "Yahoo Finance Video",
+     "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html",
+     "time": "2026-11-24 21:45 UTC"
     },
     {
-     "title": "Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100",
-     "publisher": "Proactive",
-     "url": "https://www.proactiveinvestors.com/companies/news/1102286/tech-stocks-surge-as-nvidia-rally-adds-2-trillion-to-nasdaq-100-1102286.html",
-     "time": "2026-11-23 19:20 UTC"
+     "title": "Why Is AbbVie (ABBV) Stock Up Today? Health Care Rally as Tech Slides",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/healthcare/articles/why-abbvie-abbv-stock-today-210038489.html",
+     "time": "2026-11-24 21:00 UTC"
     },
     {
-     "title": "Why Did Broadcom Stock Drop On Friday?",
-     "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/avgo/articles/627781/why-did-broadcom-stock-drop-on-friday/2026-11-23",
-     "time": "2026-11-23 19:05 UTC"
-    }
-   ],
-   "earnings": "2026-12-01"
-  },
-  {
-   "ticker": "LITE",
-   "company": "Lumentum Holdings Inc. Common Stock",
-   "sector": "Information Technology",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.18204716202718552,
-   "price": 544.38,
-   "tags": [
-    "AI / semis",
-    "Management"
-   ],
-   "headlines": [
-    {
-     "title": "Why Lumentum Holdings Stock Trounced the Market Today",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/23/why-lumentum-holdings-stock-trounced-the-market-today/",
-     "time": "2026-11-23 21:42 UTC"
-    },
-    {
-     "title": "Coherent Is the Real Winner of Huang\u2019s Return. Nvidia Paid $2 Billion for Its Stock",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/coherent-is-the-real-winner-of-huangs-return-nvidia-paid-2-billion-for-its-stock?ref=yahoofinance&tlnk=yf-261123-h5c2xv48",
-     "time": "2026-11-23 21:34 UTC"
-    },
-    {
-     "title": "5 Stocks Up 20% Or More on Monday Following NVIDIA CEO Jensen Huang\u2019s Return",
-     "publisher": "24/7 Wall St.",
-     "url": "https://247wallst.com/videos/5-stocks-up-20-or-more-on-monday-following-nvidia-ceo-jensen-huangs-return/",
-     "time": "2026-11-23 20:21 UTC"
-    },
-    {
-     "title": "Should You Buy Marvell Technology Stock Before Dec. 1?",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/23/should-you-buy-marvell-technology-stock-before-dec-1/",
-     "time": "2026-11-23 17:54 UTC"
+     "title": "Why Gilead (GILD) Stock Is Up Today: Health Care Rally and New Rating",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/healthcare/articles/why-gilead-gild-stock-today-204551335.html",
+     "time": "2026-11-24 20:45 UTC"
     }
    ],
    "earnings": "2027-02-02"
   },
   {
-   "ticker": "BE",
-   "company": "Bloom Energy Corporation",
-   "sector": "Industrials",
+   "ticker": "NVR",
+   "company": "NVR, Inc.",
+   "sector": "Consumer Discretionary",
    "side": "gainer",
    "watchlist": "sp500",
-   "chg_1d": 0.18091158086944326,
-   "price": 168.15,
+   "chg_1d": 0.054991145699606836,
+   "price": 5868.7998,
+   "tags": [],
+   "headlines": [
+    {
+     "title": "Invesco S&P 500 Equal Weight (RSP) Sells PTC and Moderna on Friday",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110326725.html",
+     "time": "2026-11-24 11:03 UTC"
+    }
+   ],
+   "earnings": "2027-01-27"
+  },
+  {
+   "ticker": "INCY",
+   "company": "Incyte Genomics Inc",
+   "sector": "Health Care",
+   "side": "gainer",
+   "watchlist": "sp500",
+   "chg_1d": 0.053344695355773464,
+   "price": 123.61,
    "tags": [
-    "AI / semis",
-    "Management"
+    "Macro / market"
    ],
    "headlines": [
     {
-     "title": "AI Energy Stocks, From Fuel Cells To Uranium, Rebound As Nvidia Soars",
-     "publisher": "Investor's Business Daily",
-     "url": "https://www.investors.com/news/ai-energy-stocks-bloom-vernova-oklo-rally-nvidia-rebound-trade/?src=A00220&yptr=yahoo",
-     "time": "2026-11-23 21:19 UTC"
-    },
-    {
-     "title": "Why Bloom Energy Is Up Today",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/23/why-bloom-energy-is-up-today/",
-     "time": "2026-11-23 18:40 UTC"
-    },
-    {
-     "title": "Why Is nVent (NVT) Stock Up Today? Peers Rally on Nvidia CEO News",
+     "title": "Incyte (INCY) Stock Is Up 5.1% Today as Health Care Stocks Rally",
      "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/why-nvent-nvt-stock-today-183049742.html",
-     "time": "2026-11-23 18:30 UTC"
+     "url": "https://finance.yahoo.com/markets/stocks/articles/incyte-incy-stock-5-1-203038075.html",
+     "time": "2026-11-24 20:30 UTC"
     },
     {
-     "title": "Advanced Energy (AEIS) Stock Is Up 11.8% Today Without Company News",
-     "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-energy-aeis-stock-11-183032783.html",
-     "time": "2026-11-23 18:30 UTC"
+     "title": "4 Biotech Stocks With Solid Balance Sheets and Financial Strength",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/healthcare/articles/4-biotech-stocks-solid-balance-154600893.html",
+     "time": "2026-11-23 15:46 UTC"
+    },
+    {
+     "title": "What Could Natera (NTRA) Gain From Its New Colorectal Cancer Trial Collaboration?",
+     "publisher": "Simply Wall St.",
+     "url": "https://finance.yahoo.com/healthcare/articles/could-natera-ntra-gain-colorectal-110723276.html",
+     "time": "2026-11-21 11:07 UTC"
+    },
+    {
+     "title": "Incyte Bets on Drug Pipeline and Deals for Growth After Jakafi Exclusivity Ends",
+     "publisher": "MarketBeat",
+     "url": "https://www.marketbeat.com/instant-alerts/event-incyte-bets-on-drug-pipeline-and-deals-for-growth-after-jakafi-exclusivity-ends-2026-11-20/?utm_source=yahoofinance&utm_medium=yahoofinance",
+     "time": "2026-11-21 04:12 UTC"
     }
    ],
-   "earnings": "2026-10-22"
+   "earnings": "2027-02-09"
   },
   {
-   "ticker": "HPE",
-   "company": "Hewlett Packard Enterprise Company",
-   "sector": "Information Technology",
+   "ticker": "TTWO",
+   "company": "Take-Two Interactive Software Inc",
+   "sector": "Communication Services",
    "side": "gainer",
    "watchlist": "sp500",
-   "chg_1d": 0.17379613786360326,
-   "price": 48.02,
+   "chg_1d": 0.05277990064959859,
+   "price": 220.41,
+   "tags": [
+    "Product / contract"
+   ],
+   "headlines": [
+    {
+     "title": "GameStop Stock (GME) Has 4 Reasons to Rally Beyond Its Meme-Stock Fame",
+     "publisher": "TipRanks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-stock-gme-4-reasons-212400878.html",
+     "time": "2026-11-24 21:24 UTC"
+    },
+    {
+     "title": "BMO highlights top interactive entertainment pick",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bmo-highlights-top-interactive-entertainment-201103806.html",
+     "time": "2026-11-24 20:11 UTC"
+    },
+    {
+     "title": "Anthropic and 'Grand Theft Auto VI' launched on the same day. The video game trade is winning for now.",
+     "publisher": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/article/anthropic-and-grand-theft-auto-vi-launched-on-the-same-day-the-video-game-trade-is-winning-for-now-171431006.html",
+     "time": "2026-11-24 17:14 UTC"
+    },
+    {
+     "title": "Wedbush kept this gaming stock on its Best Ideas List after its most recent launch",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-kept-gaming-stock-best-170420639.html",
+     "time": "2026-11-24 17:04 UTC"
+    }
+   ],
+   "earnings": "2027-02-09"
+  },
+  {
+   "ticker": "ADI",
+   "company": "Analog Devices, Inc.",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.17372937293729374,
+   "price": 312.95,
    "tags": [
     "Earnings",
     "Guidance",
@@ -714,16 +725,377 @@
    ],
    "headlines": [
     {
-     "title": "HPE delivers quarterly results beat, raises guidance; stocks slips after big rally",
-     "publisher": "Investing.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-delivers-quarterly-results-beat-213236911.html",
-     "time": "2026-11-23 21:32 UTC"
+     "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/",
+     "time": "2026-11-24 22:11 UTC"
     },
     {
-     "title": "Dell Wants Up to 45% More on Signed AI Deals. IREN Has a Big Problem",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/dell-wants-up-to-45-more-on-signed-ai-deals-iren-has-a-big-problem?ref=yahoofinance&tlnk=yf-261123-6945q259",
-     "time": "2026-11-23 19:38 UTC"
+     "title": "Morning Movers: Dick\u2019s Sporting and Dollar Tree gain following quarterly reports",
+     "publisher": "TipRanks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/morning-movers-dick-sporting-dollar-220046732.html",
+     "time": "2026-11-24 22:00 UTC"
+    },
+    {
+     "title": "Stock Market Today: Nasdaq Dives As Jensen Huang Tells Nvidia Staff This; Walmart Tests Entry",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amd-anthropic-nvidia/?src=A00220&yptr=yahoo",
+     "time": "2026-11-24 21:51 UTC"
+    },
+    {
+     "title": "Analog Devices Tops Fiscal Q4 Views, Gives Mixed Outlook",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/news/technology/adi-stock-analog-devices-fiscal-q4-2026-report/?src=A00220&yptr=yahoo",
+     "time": "2026-11-24 21:49 UTC"
+    }
+   ],
+   "earnings": "2026-11-24"
+  },
+  {
+   "ticker": "HPE",
+   "company": "Hewlett Packard Enterprise Company",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.16305705955851735,
+   "price": 40.19,
+   "tags": [
+    "Earnings",
+    "Guidance",
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Dell Just Reported Earnings and Raised Its Forecast by $10 Billion. Is the Stock a Buy After Tuesday's Selloff?",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/24/dell-just-reported-earnings-and-raised-its-forecast-by-usd10-billion-is-the-stock-a-buy-after-tuesday-s-selloff/",
+     "time": "2026-11-24 22:14 UTC"
+    },
+    {
+     "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/",
+     "time": "2026-11-24 22:11 UTC"
+    },
+    {
+     "title": "Dell Technologies Smashes Q3 Estimates, Guides Above Views",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/news/technology/dell-stock-fiscal-q3-2027-earnings/?src=A00220&yptr=yahoo",
+     "time": "2026-11-24 22:02 UTC"
+    },
+    {
+     "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+     "publisher": "Yahoo Finance Video",
+     "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html",
+     "time": "2026-11-24 21:45 UTC"
+    }
+   ],
+   "earnings": "2026-11-23"
+  },
+  {
+   "ticker": "DELL",
+   "company": "Dell Technologies Inc.",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.11833029769191739,
+   "price": 295.28,
+   "tags": [
+    "Earnings",
+    "Guidance",
+    "AI / semis",
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-anthropic-ai-retreat-fed-inflation-data/?src=A00220&yptr=yahoo",
+     "time": "2026-11-24 22:25 UTC"
+    },
+    {
+     "title": "Dell Just Reported Earnings and Raised Its Forecast by $10 Billion. Is the Stock a Buy After Tuesday's Selloff?",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/24/dell-just-reported-earnings-and-raised-its-forecast-by-usd10-billion-is-the-stock-a-buy-after-tuesday-s-selloff/",
+     "time": "2026-11-24 22:14 UTC"
+    },
+    {
+     "title": "Dell Technologies Smashes Q3 Estimates, Guides Above Views",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/news/technology/dell-stock-fiscal-q3-2027-earnings/?src=A00220&yptr=yahoo",
+     "time": "2026-11-24 22:02 UTC"
+    },
+    {
+     "title": "Dell raises annual revenue forecast as AI server demand surges, shares rally",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/technology/ai/articles/dell-raises-annual-revenue-forecast-214621448.html",
+     "time": "2026-11-24 21:46 UTC"
+    }
+   ],
+   "earnings": "2026-11-24"
+  },
+  {
+   "ticker": "TXN",
+   "company": "Texas Instruments Incorporated",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.11246952161818746,
+   "price": 258.44,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "What Is The True Hidden Price Of Texas Instruments Stock?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/txn/articles/628309/what-is-the-true-hidden-price-of-texas-instruments-stock/2026-11-24",
+     "time": "2026-11-24 21:03 UTC"
+    },
+    {
+     "title": "Why Is CEVA (CEVA) Stock Down Today? AI Chip Selloff Drags Shares",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-ceva-ceva-stock-down-204653822.html",
+     "time": "2026-11-24 20:46 UTC"
+    },
+    {
+     "title": "Why SiTime (SITM) Stock Is Plunging Today: Chip Sector Selloff",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-sitime-sitm-stock-plunging-204642408.html",
+     "time": "2026-11-24 20:46 UTC"
+    },
+    {
+     "title": "Why Is Vishay (VSH) Stock Down Today? Chip Selloff Drags Semiconductors",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-vishay-vsh-stock-down-203140382.html",
+     "time": "2026-11-24 20:31 UTC"
+    }
+   ],
+   "earnings": "2027-01-26"
+  },
+  {
+   "ticker": "SNDK",
+   "company": "Sandisk Corporation Common Stock",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.11127579523429476,
+   "price": 77.95,
+   "tags": [
+    "Earnings",
+    "AI / semis",
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-anthropic-ai-retreat-fed-inflation-data/?src=A00220&yptr=yahoo",
+     "time": "2026-11-24 22:25 UTC"
+    },
+    {
+     "title": "The Biggest Earnings Winners Grind Dell And Sandisk Into The Dust",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/news/large-cap-stocks-biggest-earnings-winners-q3/?src=A00220&yptr=yahoo",
+     "time": "2026-11-24 21:03 UTC"
+    },
+    {
+     "title": "Why Is Everpure (P) Stock Down Today? AI Chip, Storage Selloff Weighs",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-everpure-p-stock-down-203130134.html",
+     "time": "2026-11-24 20:31 UTC"
+    },
+    {
+     "title": "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?",
+     "publisher": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/24/micron-vs-sandisk-which-ai-memory-stock-is-the-better-buy/",
+     "time": "2026-11-24 20:25 UTC"
+    }
+   ],
+   "earnings": "2027-02-15"
+  },
+  {
+   "ticker": "MU",
+   "company": "Micron Technology, Inc.",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.1100890207715135,
+   "price": 629.79,
+   "tags": [
+    "AI / semis",
+    "Macro / market"
+   ],
+   "headlines": [
+    {
+     "title": "Morning Movers: Dick\u2019s Sporting and Dollar Tree gain following quarterly reports",
+     "publisher": "TipRanks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/morning-movers-dick-sporting-dollar-220046732.html",
+     "time": "2026-11-24 22:00 UTC"
+    },
+    {
+     "title": "Nvidia, Chip Stocks Fall As Data Center Spending Fears Return",
+     "publisher": "Investor's Business Daily",
+     "url": "https://www.investors.com/news/technology/chip-stocks-fall-data-center-spending-fears/?src=A00220&yptr=yahoo",
+     "time": "2026-11-24 21:58 UTC"
+    },
+    {
+     "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+     "publisher": "Yahoo Finance Video",
+     "url": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html",
+     "time": "2026-11-24 21:45 UTC"
+    },
+    {
+     "title": "5 High-Conviction Stocks Billionaire Philippe Laffont Is Betting On for 2027",
+     "publisher": "Insider Monkey",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/5-high-conviction-stocks-billionaire-212307906.html",
+     "time": "2026-11-24 21:23 UTC"
+    }
+   ],
+   "earnings": "2026-12-17"
+  },
+  {
+   "ticker": "MPWR",
+   "company": "Monolithic Power Systems, Inc.",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.10774582421207302,
+   "price": 1190.16,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Could Monolithic Power Stock Drop 30% Again?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/mpwr/articles/628411/could-monolithic-power-stock-drop-30-again/2026-11-24",
+     "time": "2026-11-24 17:20 UTC"
+    },
+    {
+     "title": "Here Are the Tech Stocks Falling the Most",
+     "publisher": "The Wall Street Journal",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026/card/here-are-the-tech-stocks-falling-the-most-IX4KUEcubOeBCrqAJAxF?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-24 14:54 UTC"
+    },
+    {
+     "title": "Can Vicor Capitalize on the Shift to 800VDC AI Power Systems?",
+     "publisher": "Zacks",
+     "url": "https://finance.yahoo.com/technology/ai/articles/vicor-capitalize-shift-800vdc-ai-115900937.html",
+     "time": "2026-11-24 11:59 UTC"
+    },
+    {
+     "title": "Monolithic Power Stock Jumps 14.6% as Chip Rally Follows Nvidia News on Nov. 23",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/monolithic-power-stock-jumps-14-170208141.html",
+     "time": "2026-11-23 17:02 UTC"
+    }
+   ],
+   "earnings": "2027-02-04"
+  },
+  {
+   "ticker": "LITE",
+   "company": "Lumentum Holdings Inc. Common Stock",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.10518387890811565,
+   "price": 487.12,
+   "tags": [
+    "M&A / deals",
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Stephanie Link Says Marvell Could Earn $30 a Share by 2031. Is She Right?",
+     "publisher": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/24/stephanie-link-says-marvell-could-earn-30-a-share-by-2031-is-she-right/",
+     "time": "2026-11-24 22:07 UTC"
+    },
+    {
+     "title": "CrowdStrike\u2019s all-stock bid for Zscaler: deal structure shifts risk to target holders",
+     "publisher": "Investing.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stock-bid-zscaler-deal-202415003.html",
+     "time": "2026-11-24 20:24 UTC"
+    },
+    {
+     "title": "Megadeals Are Back. Why More Takeovers Could Be Coming.",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/mega-mergers-ma-outlook-crowdstrike-sanofi-68c9621d?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-24 19:33 UTC"
+    },
+    {
+     "title": "Nvidia, Anthropic, Micron, HPE, Analog Devices, Insmed, Dollar Tree, and More Stocks That Explain Today\u2019s Market",
+     "publisher": "Barrons.com",
+     "url": "https://www.barrons.com/articles/stock-movers-0853c431?siteid=yhoof2&yptr=yahoo",
+     "time": "2026-11-24 17:37 UTC"
+    }
+   ],
+   "earnings": "2027-02-02"
+  },
+  {
+   "ticker": "FLEX",
+   "company": "Flex Ltd. Ordinary Shares",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.10143359480659997,
+   "price": 66.44,
+   "tags": [
+    "AI / semis",
+    "Management"
+   ],
+   "headlines": [
+    {
+     "title": "Can Sanmina Stock Compound Your Money?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/sanm/articles/628389/can-sanmina-stock-compound-your-money/2026-11-24",
+     "time": "2026-11-24 20:48 UTC"
+    },
+    {
+     "title": "Flex is a Buy, UBS says on cloud and power growth",
+     "publisher": "Proactive",
+     "url": "https://www.proactiveinvestors.com/companies/news/1102381/flex-is-a-buy-ubs-says-on-cloud-and-power-growth-1102381.html",
+     "time": "2026-11-24 20:37 UTC"
+    },
+    {
+     "title": "Why Flex (FLEX) Stock Is Down Today: AI Chip Selloff Hits Peers",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-flex-flex-stock-down-203125271.html",
+     "time": "2026-11-24 20:31 UTC"
+    },
+    {
+     "title": "Flex (FLEX) Stock Is Up 14.2% Today: AI Hardware Rally After Nvidia CEO News",
+     "publisher": "GuruFocus.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/flex-flex-stock-14-2-173105907.html",
+     "time": "2026-11-23 17:31 UTC"
+    }
+   ],
+   "earnings": "2027-01-27"
+  },
+  {
+   "ticker": "CIEN",
+   "company": "Ciena Corporation",
+   "sector": "Information Technology",
+   "side": "loser",
+   "watchlist": "sp500",
+   "chg_1d": -0.09617345975144487,
+   "price": 239.27,
+   "tags": [
+    "AI / semis"
+   ],
+   "headlines": [
+    {
+     "title": "Can Ciena Stock Hit $400?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/cien/articles/628392/can-ciena-stock-hit-400/2026-11-24",
+     "time": "2026-11-24 17:37 UTC"
+    },
+    {
+     "title": "Can Arista Networks Stock Hit $270?",
+     "publisher": "Trefis",
+     "url": "https://www.trefis.com/stock/anet/articles/628275/can-arista-networks-stock-hit-270/2026-11-24",
+     "time": "2026-11-24 17:17 UTC"
     },
     {
      "title": "Belden (BDC) Stock Is Up 9.4% Today: Nvidia Rally Lifts AI Hardware Stocks",
@@ -732,500 +1104,13 @@
      "time": "2026-11-23 19:00 UTC"
     },
     {
-     "title": "Stocks to Watch: Anthropic, Nvidia, Zscaler",
-     "publisher": "The Wall Street Journal",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/stocks-to-watch-anthropic-nvidia-zscaler-tFg1nwvkPDrDSc6XKra7?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-23 18:45 UTC"
-    }
-   ],
-   "earnings": "2026-11-23"
-  },
-  {
-   "ticker": "MPWR",
-   "company": "Monolithic Power Systems, Inc.",
-   "sector": "Information Technology",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.16796987872685087,
-   "price": 1333.88,
-   "tags": [
-    "AI / semis"
-   ],
-   "headlines": [
-    {
-     "title": "Monolithic Power Stock Jumps 14.6% as Chip Rally Follows Nvidia News on Nov. 23",
-     "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/monolithic-power-stock-jumps-14-170208141.html",
-     "time": "2026-11-23 17:02 UTC"
-    },
-    {
-     "title": "Vicor Stock Drops 36% in a Month: Should You Still Buy it on the Dip?",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/vicor-stock-drops-36-month-143400133.html",
-     "time": "2026-11-23 14:34 UTC"
-    },
-    {
-     "title": "Could You Have Spotted Monolithic Power Stock's 52% Run?",
+     "title": "Who's Buying And Who's Selling AI? The Full List, Next To 2000",
      "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/mpwr/articles/627264/could-you-have-spotted-monolithic-power-stocks-52-run/2026-11-20",
-     "time": "2026-11-21 06:32 UTC"
+     "url": "https://www.trefis.com/stock/nvda/articles/627430/who-s-buying-and-who-s-selling-ai-the-full-list-next-to-2000/2026-11-23",
+     "time": "2026-11-23 18:36 UTC"
     }
    ],
-   "earnings": "2026-10-29"
-  },
-  {
-   "ticker": "INTC",
-   "company": "Intel Corp",
-   "sector": "Information Technology",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.16341653666146638,
-   "price": 59.66,
-   "tags": [
-    "Earnings",
-    "Guidance",
-    "AI / semis",
-    "Management"
-   ],
-   "headlines": [
-    {
-     "title": "Stock Market Today, Nov. 23: Advanced Micro Devices Climbs on AI-Chip Rebound After Nvidia Reinstates Jensen Huang as CEO",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-advanced-micro-devices-climbs-on-ai-chip-rebound-after-nvidia-reinstates-jensen-huang-as-ceo/",
-     "time": "2026-11-23 22:10 UTC"
-    },
-    {
-     "title": "It's not over for Jensen Huang",
-     "publisher": "Yahoo Finance Video",
-     "url": "https://finance.yahoo.com/video/its-not-over-for-jensen-huang-215809126.html",
-     "time": "2026-11-23 21:58 UTC"
-    },
-    {
-     "title": "ASML Stock\u2019s Sell-Off Looks Excessive Against Its Growth Outlook",
-     "publisher": "TipRanks",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stock-sell-off-looks-212500722.html",
-     "time": "2026-11-23 21:25 UTC"
-    },
-    {
-     "title": "Why Does AMD Trade at 30x When Nvidia Is at 10x Forward Earnings? AMD\u2019s China Exposure Is Bigger",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/why-does-amd-trade-at-30x-when-nvidia-is-at-10x-forward-earnings-amds-china-exposure-is-bigger?ref=yahoofinance&tlnk=yf-261123-7hvpgqh6",
-     "time": "2026-11-23 19:51 UTC"
-    }
-   ],
-   "earnings": "2027-01-28"
-  },
-  {
-   "ticker": "COHR",
-   "company": "Coherent Corp.",
-   "sector": "Information Technology",
-   "side": "gainer",
-   "watchlist": "sp500",
-   "chg_1d": 0.1527080440123918,
-   "price": 215.81,
-   "tags": [
-    "AI / semis"
-   ],
-   "headlines": [
-    {
-     "title": "Coherent Is the Real Winner of Huang\u2019s Return. Nvidia Paid $2 Billion for Its Stock",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/coherent-is-the-real-winner-of-huangs-return-nvidia-paid-2-billion-for-its-stock?ref=yahoofinance&tlnk=yf-261123-h5c2xv48",
-     "time": "2026-11-23 21:34 UTC"
-    },
-    {
-     "title": "Keysight Surges 10.4% in Tech Rally Led by Nvidia on Monday",
-     "publisher": "GuruFocus.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/keysight-surges-10-4-tech-170248921.html",
-     "time": "2026-11-23 17:02 UTC"
-    },
-    {
-     "title": "Applied Optoelectronics and Lumentum Soar 22% as Jensen Huang\u2019s Return to NVIDIA Sparks AI Optics Rebound; Coherent Jumps 19%",
-     "publisher": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/11/23/applied-optoelectronics-and-lumentum-soar-22-as-jensen-huangs-return-to-nvidia-sparks-ai-optics-rebound-coherent-jumps-19/",
-     "time": "2026-11-23 15:57 UTC"
-    },
-    {
-     "title": "CoreWeave, Nebius lead neocloud stocks higher as Jensen Huang's Nvidia return lifts AI trade",
-     "publisher": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/article/coreweave-nebius-lead-neocloud-stocks-higher-as-jensen-huang-is-reinstated-as-ceo-of-nvidia-151417634.html",
-     "time": "2026-11-23 15:14 UTC"
-    }
-   ],
-   "earnings": "2027-02-03"
-  },
-  {
-   "ticker": "CRWD",
-   "company": "CrowdStrike Holdings, Inc. Class A Common Stock",
-   "sector": "Information Technology",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.08921722454672243,
-   "price": 208.97,
-   "tags": [
-    "M&A / deals",
-    "AI / semis",
-    "Management"
-   ],
-   "headlines": [
-    {
-     "title": "Stock Market Today, Nov. 23: Markets Rebound From Correction on AI Relief Rally",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/",
-     "time": "2026-11-23 22:16 UTC"
-    },
-    {
-     "title": "Stock Market Today: Dow, Nasdaq Surge As Jensen Huang Makes This Nvidia Promise; Anthropic Falls (Live Coverage)",
-     "publisher": "Investor's Business Daily",
-     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-crowdstrike-zscaler/?src=A00220&yptr=yahoo",
-     "time": "2026-11-23 21:56 UTC"
-    },
-    {
-     "title": "US Equity Markets Rise After Nvidia Reinstates Jensen Huang as CEO",
-     "publisher": "MT Newswires",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-rise-nvidia-212021213.html",
-     "time": "2026-11-23 21:20 UTC"
-    },
-    {
-     "title": "Zscaler Stock Surged on CrowdStrike's $43.9 Billion Buyout. Here's How Much Shareholders Will Actually Get",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/23/zscaler-stock-surged-on-crowdstrike-s-usd43-9-billion-buyout-here-s-how-much-shareholders-will-actually-get/",
-     "time": "2026-11-23 21:18 UTC"
-    }
-   ],
-   "earnings": "2026-11-23"
-  },
-  {
-   "ticker": "IP",
-   "company": "International Paper Co.",
-   "sector": "Materials",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.045454545454545414,
-   "price": 28.98,
-   "tags": [
-    "Capital return"
-   ],
-   "headlines": [
-    {
-     "title": "International Paper Approves DS Smith Spin-Off, Targets $2 Billion Debt Reduction",
-     "publisher": "MarketBeat",
-     "url": "https://www.marketbeat.com/instant-alerts/event-international-paper-approves-ds-smith-spin-off-targets-2-billion-debt-reduction-2026-11-23/?utm_source=yahoofinance&utm_medium=yahoofinance",
-     "time": "2026-11-23 22:12 UTC"
-    },
-    {
-     "title": "Can International Paper's 6% Dividend Offset Its 38% Drop?",
-     "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/ip/articles/627693/can-international-papers-6-dividend-offset-its-38-drop/2026-11-23",
-     "time": "2026-11-23 19:38 UTC"
-    },
-    {
-     "title": "International Paper opts to split off, not sell, DS Smith",
-     "publisher": "Packaging Dive",
-     "url": "https://www.packagingdive.com/news/international-paper-split-not-sell-ds-smith/875452/",
-     "time": "2026-11-23 18:09 UTC"
-    },
-    {
-     "title": "Sector Update: Consumer Stocks Mixed Premarket Monday",
-     "publisher": "MT Newswires",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-premarket-141547621.html",
-     "time": "2026-11-23 14:15 UTC"
-    }
-   ],
-   "earnings": "2027-01-28"
-  },
-  {
-   "ticker": "ELV",
-   "company": "Elevance Health, Inc.",
-   "sector": "Health Care",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.037847292638410024,
-   "price": 379.55,
-   "tags": [
-    "Guidance",
-    "Analyst call"
-   ],
-   "headlines": [
-    {
-     "title": "Not Good: Medicare Proposes $107 Billion in Bonus Cuts. That\u2019s a Big Risk for UnitedHealth and Humana",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/not-good-medicare-proposes-107-billion-in-bonus-cuts-thats-a-big-risk-for-unitedhealth-and-humana?ref=yahoofinance&tlnk=yf-261123-2phpfq43",
-     "time": "2026-11-23 21:35 UTC"
-    },
-    {
-     "title": "UnitedHealth and Humana Stocks Keep Sliding. Why They\u2019re Not Taking Part in Today\u2019s Rally.",
-     "publisher": "Barrons.com",
-     "url": "https://www.barrons.com/articles/unitedhealth-humana-stocks-medicare-trump-fde1da3e?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-23 18:42 UTC"
-    },
-    {
-     "title": "UnitedHealth, Humana and CVS Shares Fall as Medicare Advantage Rating Changes Threaten $107 Billion in Payments",
-     "publisher": "InvestorsHub",
-     "url": "https://investorshub.advfn.com/market-news/article/40536/unitedhealth-humana-and-cvs-shares-fall-as-medicare-advantage-rating-changes-threaten-107-billion-in-payments",
-     "time": "2026-11-23 13:55 UTC"
-    },
-    {
-     "title": "Health insurer stocks slide as Medicare Advantage proposal threatens payments",
-     "publisher": "Investing.com",
-     "url": "https://finance.yahoo.com/healthcare/articles/health-insurer-stocks-slide-medicare-133027672.html",
-     "time": "2026-11-23 13:30 UTC"
-    }
-   ],
-   "earnings": "2027-01-28"
-  },
-  {
-   "ticker": "BF-B",
-   "company": "Brown-Forman Corporation Class B",
-   "sector": "Consumer Staples",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.03643048128342252,
-   "price": 28.83,
-   "tags": [
-    "Capital return",
-    "Macro / market"
-   ],
-   "headlines": [
-    {
-     "title": "Why Walmart and Other Defensive Stocks Are Losing Their Luster",
-     "publisher": "Barrons.com",
-     "url": "https://www.barrons.com/articles/defensive-stocks-ai-tyson-walmart-55bd8545?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-23 20:37 UTC"
-    },
-    {
-     "title": "Why Brown Forman Stock And Other Defensive Dividend Names Matter Now",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/why-brown-forman-stock-other-061322649.html",
-     "time": "2026-11-23 06:13 UTC"
-    },
-    {
-     "title": "What These 6 Snack and Beverage Stocks Have in Common",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/22/what-these-6-snack-and-beverage-stocks-have-in-common/",
-     "time": "2026-11-22 19:37 UTC"
-    },
-    {
-     "title": "Do Wall Street Analysts Like Brown-Forman Stock?",
-     "publisher": "Barchart",
-     "url": "https://www.barchart.com/story/news/8932467/do-wall-street-analysts-like-brown-forman-stock",
-     "time": "2026-11-20 11:07 UTC"
-    }
-   ],
-   "earnings": "2026-12-03"
-  },
-  {
-   "ticker": "TPL",
-   "company": "Texas Pacific Land Corporation",
-   "sector": "Energy",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.035035895901884606,
-   "price": 258.07,
-   "tags": [],
-   "headlines": [
-    {
-     "title": "Sector Update: Energy Stocks Decline Monday",
-     "publisher": "MT Newswires",
-     "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-monday-210811263.html",
-     "time": "2026-11-23 21:08 UTC"
-    },
-    {
-     "title": "Why Texas Pacific Land Stock Was Slumping While the Market Surged Today",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/23/why-texas-pacific-land-stock-was-slumping-while-the-market-surged-today/",
-     "time": "2026-11-23 20:21 UTC"
-    },
-    {
-     "title": "Vinson & Elkins Represents EagleRock in $3 Billion Sale to Texas Pacific",
-     "publisher": "Exec Edge",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/vinson-elkins-represents-eaglerock-3-193309157.html",
-     "time": "2026-11-23 19:33 UTC"
-    },
-    {
-     "title": "Sector Update: Energy Stocks Softer Monday Afternoon",
-     "publisher": "MT Newswires",
-     "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-softer-monday-183223532.html",
-     "time": "2026-11-23 18:32 UTC"
-    }
-   ],
-   "earnings": "2026-11-04"
-  },
-  {
-   "ticker": "TSN",
-   "company": "Tyson Foods, Inc.",
-   "sector": "Consumer Staples",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.033323095823095894,
-   "price": 62.95,
-   "tags": [
-    "AI / semis"
-   ],
-   "headlines": [
-    {
-     "title": "Why Walmart and Other Defensive Stocks Are Losing Their Luster",
-     "publisher": "Barrons.com",
-     "url": "https://www.barrons.com/articles/defensive-stocks-ai-tyson-walmart-55bd8545?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-23 20:37 UTC"
-    },
-    {
-     "title": "3 AgTech & Food Innovation Stocks to Watch for Long-Term Growth",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/3-agtech-food-innovation-stocks-151800178.html",
-     "time": "2026-11-23 15:18 UTC"
-    },
-    {
-     "title": "Consumer Stocks Snap Winning Streaks As AI Selloff Rocks Markets \u2014 TSN, PDD, TJX Buck Trend",
-     "publisher": "Stocktwits",
-     "url": "https://stocktwits.com/news-articles/markets/equity/consumer-stocks-snap-winning-streaks-as-ai-selloff-rocks-markets-tsn-pdd-tjx-buck-trend/cNbYwv1R9SF",
-     "time": "2026-11-23 09:24 UTC"
-    },
-    {
-     "title": "Tyson Foods (TSN) Just Geared Up for a Key Event That Investors Can\u2019t Ignore",
-     "publisher": "Insider Monkey",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/tyson-foods-tsn-just-geared-043712416.html",
-     "time": "2026-11-23 04:37 UTC"
-    }
-   ],
-   "earnings": "2027-02-08"
-  },
-  {
-   "ticker": "COP",
-   "company": "ConocoPhillips",
-   "sector": "Energy",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.02887158389656186,
-   "price": 132.19,
-   "tags": [
-    "Earnings",
-    "AI / semis"
-   ],
-   "headlines": [
-    {
-     "title": "Sector Update: Energy Stocks Decline Monday",
-     "publisher": "MT Newswires",
-     "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-monday-210811263.html",
-     "time": "2026-11-23 21:08 UTC"
-    },
-    {
-     "title": "Stocks to Watch: Anthropic, Nvidia, Zscaler",
-     "publisher": "The Wall Street Journal",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/stocks-to-watch-anthropic-nvidia-zscaler-tFg1nwvkPDrDSc6XKra7?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-23 18:45 UTC"
-    },
-    {
-     "title": "Sector Update: Energy Stocks Softer Monday Afternoon",
-     "publisher": "MT Newswires",
-     "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-softer-monday-183223532.html",
-     "time": "2026-11-23 18:32 UTC"
-    },
-    {
-     "title": "ExxonMobil's $4B Kizomba Redevelopment: Can It Drive Earnings Growth?",
-     "publisher": "Zacks",
-     "url": "https://finance.yahoo.com/energy/articles/exxonmobils-4b-kizomba-redevelopment-drive-162400004.html",
-     "time": "2026-11-23 16:24 UTC"
-    }
-   ],
-   "earnings": "2027-02-04"
-  },
-  {
-   "ticker": "MNST",
-   "company": "Monster Beverage Corporation",
-   "sector": "Consumer Staples",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.028839551384756246,
-   "price": 42.43,
-   "tags": [],
-   "headlines": [
-    {
-     "title": "Coca-Cola vs. PepsiCo: Which Consumer Goods Stock Is a Better Buy for 2027?",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/coverage/better-buy/2026/11/23/coca-cola-vs-pepsico-which-consumer-goods-stock-is-a-better-buy-for-2027/",
-     "time": "2026-11-23 17:50 UTC"
-    },
-    {
-     "title": "Coca-Cola Stock Returned 40%. How Much Is Left?",
-     "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/ko/articles/627637/coca-cola-stock-returned-40-how-much-is-left/2026-11-23",
-     "time": "2026-11-23 13:53 UTC"
-    },
-    {
-     "title": "e.l.f. Beauty vs. Monster Beverage: Which Consumer Goods Stock Is a Better Buy for 2027?",
-     "publisher": "Motley Fool",
-     "url": "https://www.fool.com/coverage/better-buy/2026/11/22/elf-beauty-vs-monster-beverage-which-consumer-goods-stock-is-a-better-buy-for-2027/",
-     "time": "2026-11-22 19:43 UTC"
-    },
-    {
-     "title": "Arista Networks And 2 More Defensive Stocks To Own",
-     "publisher": "Simply Wall St.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-2-more-defensive-161004526.html",
-     "time": "2026-11-21 16:10 UTC"
-    }
-   ],
-   "earnings": "2026-11-05"
-  },
-  {
-   "ticker": "STZ",
-   "company": "Constellation Brands, Inc.",
-   "sector": "Consumer Staples",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.02854726157750065,
-   "price": 137.82,
-   "tags": [
-    "Capital return"
-   ],
-   "headlines": [
-    {
-     "title": "Why Walmart and Other Defensive Stocks Are Losing Their Luster",
-     "publisher": "Barrons.com",
-     "url": "https://www.barrons.com/articles/defensive-stocks-ai-tyson-walmart-55bd8545?siteid=yhoof2&yptr=yahoo",
-     "time": "2026-11-23 20:37 UTC"
-    },
-    {
-     "title": "Kimberly-Clark or Constellation Brands: The One Dividend Stock I\u2019d Hold for the Next 10 Years",
-     "publisher": "TIKR",
-     "url": "https://www.tikr.com/blog/kimberly-clark-or-constellation-brands-the-one-dividend-stock-id-hold-for-the-next-10-years?ref=yahoofinancedividend&tlnk=yf-261123-cw95c5w6",
-     "time": "2026-11-23 04:37 UTC"
-    },
-    {
-     "title": "What Is Constellation Brands No Longer Telling Shareholders?",
-     "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/stz/articles/627278/what-is-constellation-brands-no-longer-telling-shareholders/2026-11-20",
-     "time": "2026-11-20 11:22 UTC"
-    }
-   ],
-   "earnings": "2027-01-07"
-  },
-  {
-   "ticker": "AMT",
-   "company": "American Tower Corporation",
-   "sector": "Real Estate",
-   "side": "loser",
-   "watchlist": "sp500",
-   "chg_1d": -0.026600076000217188,
-   "price": 179.31,
-   "tags": [
-    "Capital return"
-   ],
-   "headlines": [
-    {
-     "title": "Why Did Digital Realty Stock Move?",
-     "publisher": "Trefis",
-     "url": "https://www.trefis.com/stock/dlr/articles/627809/why-did-digital-realty-stock-move/2026-11-23",
-     "time": "2026-11-23 11:52 UTC"
-    },
-    {
-     "title": "Crown Castle vs. American Tower: Higher Yield or Better Dividend Growth",
-     "publisher": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/11/20/crown-castle-vs-american-tower-higher-yield-or-better-dividend-growth/",
-     "time": "2026-11-20 12:47 UTC"
-    }
-   ],
-   "earnings": "2026-10-27"
+   "earnings": "2026-12-10"
   }
  ]
 }
